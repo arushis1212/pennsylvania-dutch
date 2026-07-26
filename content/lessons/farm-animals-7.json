@@ -47,7 +47,7 @@
       "prompt": "True or False?",
       "statement": "\"melke\" is what you do to a Kuh to get milk.",
       "answer": true,
-      "explanation": "Ya — mir melke die Kuh (we milk the cow) every Mariye and Owed.",
+      "explanation": "Ya — melke (to milk) the Kuh every Mariye and Owed.",
       "vocab": ["fa-melke", "fa-kuh"],
       "needsReview": true
     },

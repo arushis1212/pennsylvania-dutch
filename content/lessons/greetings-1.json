@@ -10,49 +10,56 @@
       "word": "Hallo",
       "meaning": "Hello",
       "phonetic": "HAH-loh",
-      "vocab": ["hallo"]
+      "vocab": ["hallo"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
       "prompt": "Select the word for \"Hello\"",
       "options": ["Hallo", "Danki", "Nee", "Ya"],
       "answer": "Hallo",
-      "vocab": ["hallo"]
+      "vocab": ["hallo"],
+      "needsReview": true
     },
     {
       "type": "introduce",
       "word": "Ya",
       "meaning": "Yes",
       "phonetic": "yah",
-      "vocab": ["ya"]
+      "vocab": ["ya"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
       "prompt": "Which word means \"Yes\"?",
       "options": ["Nee", "Ya", "Ade", "Hallo"],
       "answer": "Ya",
-      "vocab": ["ya"]
+      "vocab": ["ya"],
+      "needsReview": true
     },
     {
       "type": "introduce",
       "word": "Nee",
       "meaning": "No",
       "phonetic": "nay",
-      "vocab": ["nee"]
+      "vocab": ["nee"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
       "prompt": "Which word means \"No\"?",
       "options": ["Ya", "Danki", "Nee", "Hallo"],
       "answer": "Nee",
-      "vocab": ["nee"]
+      "vocab": ["nee"],
+      "needsReview": true
     },
     {
       "type": "translate",
       "prompt": "Translate to English: \"Nee\"",
       "answer": "No",
       "acceptedAnswers": ["nope"],
-      "vocab": ["nee"]
+      "vocab": ["nee"],
+      "needsReview": true
     },
     {
       "type": "introduce",
@@ -75,7 +82,8 @@
       "prompt": "Translate to English: \"Hallo\"",
       "answer": "Hello",
       "acceptedAnswers": ["hi"],
-      "vocab": ["hallo"]
+      "vocab": ["hallo"],
+      "needsReview": true
     },
     {
       "type": "word_bank",
@@ -90,7 +98,8 @@
       "prompt": "Translate to Pennsylvania Dutch: \"Yes\"",
       "answer": "Ya",
       "acceptedAnswers": ["Ja"],
-      "vocab": ["ya"]
+      "vocab": ["ya"],
+      "needsReview": true
     }
   ]
 }

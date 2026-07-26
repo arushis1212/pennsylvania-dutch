@@ -58,7 +58,8 @@
       "prompt": "Translate to English: \"Danki\"",
       "answer": "Thank you",
       "acceptedAnswers": ["thanks"],
-      "vocab": ["danki"]
+      "vocab": ["danki"],
+      "needsReview": true
     },
     {
       "type": "introduce",

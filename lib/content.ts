@@ -193,10 +193,27 @@ const VOCAB: VocabEntry[] = [
   ...(weatherSeasonsVocab.entries as VocabEntry[]),
   ...(marketDayVocab.entries as VocabEntry[]),
   ...(faithCommunityVocab.entries as VocabEntry[]),
+  ...(barnRaisingVocab.entries as VocabEntry[]),
 ];
 
 const lessonById = new Map(LESSONS.map((l) => [l.lesson_id, l]));
 const vocabById = new Map(VOCAB.map((v) => [v.id, v]));
+
+// Each unit's OWN vocab ids (from its vocab file), keyed by unit id. Used to
+// scope unlock-gate mastery to a unit's own content - see vocabIdsForUnit.
+const OWN_VOCAB_IDS_BY_UNIT: Record<string, Set<string>> = Object.fromEntries(
+  [
+    greetingsVocab,
+    familyHomeVocab,
+    farmAnimalsVocab,
+    numbersTimeVocab,
+    foodVocab,
+    weatherSeasonsVocab,
+    marketDayVocab,
+    faithCommunityVocab,
+    barnRaisingVocab,
+  ].map((v) => [v.unit, new Set((v.entries as VocabEntry[]).map((e) => e.id))]),
+);
 
 // Lookup phonetic respellings by the displayed Deitsh text (normalized), so any
 // UI showing a known vocab word can append its pronunciation guide.
@@ -223,15 +240,17 @@ export function getVocab(id: string): VocabEntry | undefined {
   return vocabById.get(id);
 }
 
-/** All vocab ids taught in a unit (drives unlock-accuracy gating). */
+/**
+ * A unit's OWN vocab ids, from its vocab file (drives unlock-accuracy gating).
+ * Deliberately scoped to the unit's own content only - milestone lessons often
+ * tag earlier units' vocab ids too (for narrative recombination), but those
+ * must NOT count toward this unit's mastery gate, or a learner could clear a
+ * unit's gate on already-mastered legacy words without hitting the threshold
+ * on the unit's own new content. (Not used for Daily Hex sourcing, which pulls
+ * from the learner's full SRS card set regardless of unit - see lib/progress.ts.)
+ */
 export function vocabIdsForUnit(unitId: string): string[] {
-  const ids = new Set<string>();
-  for (const lesson of getLessonsForUnit(unitId)) {
-    for (const ex of lesson.exercises) {
-      for (const v of ex.vocab ?? []) ids.add(v);
-    }
-  }
-  return [...ids];
+  return [...(OWN_VOCAB_IDS_BY_UNIT[unitId] ?? [])];
 }
 
 export { LESSONS, VOCAB };

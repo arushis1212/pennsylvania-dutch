@@ -46,7 +46,7 @@
     {
       "type": "true_false",
       "prompt": "True or False?",
-      "statement": "Im Frühyaahr blanze mir Blumme in der Erd.",
+      "statement": "In Frühyaahr, you blanze Blumme in der Erd.",
       "answer": true,
       "explanation": "Ya — in spring (Frühyaahr) we plant (blanze) flowers (Blumme) in the ground (Erd).",
       "vocab": ["ws-fruehyaahr", "ws-blanze", "ws-blumme", "ws-erd"],

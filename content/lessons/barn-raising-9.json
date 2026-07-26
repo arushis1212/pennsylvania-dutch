@@ -42,10 +42,10 @@
     },
     {
       "type": "multiple_choice",
-      "prompt": "\"Es is acht Uhr, un zwanzich Nochbere schaffe zamme.\" How many neighbors are working?",
-      "options": ["zwanzich", "acht", "zwee", "hunnert"],
-      "answer": "zwanzich",
-      "vocab": ["nt-zwanzich", "nt-acht", "nt-uhr", "fa-schaffe"],
+      "prompt": "\"Es is acht Uhr, un zwansich Nochbere schaffe zamme.\" How many neighbors are working?",
+      "options": ["zwansich", "acht", "zwee", "hunnert"],
+      "answer": "zwansich",
+      "vocab": ["nt-zwansich", "nt-acht", "nt-uhr", "fa-schaffe"],
       "needsReview": true
     },
     {

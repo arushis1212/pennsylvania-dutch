@@ -30,7 +30,7 @@
       "prompt": "True or False?",
       "statement": "\"Ich kaaf Brot\" means \"I buy bread.\"",
       "answer": true,
-      "explanation": "Ya — kaafe is \"to buy\": Ich kaaf (I buy), mir kaafe (we buy).",
+      "explanation": "Ya — kaafe is \"to buy\": Ich kaaf (I buy).",
       "vocab": ["md-kaafe", "fd-brot"],
       "needsReview": true
     },

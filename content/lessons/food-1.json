@@ -38,7 +38,7 @@
       "prompt": "True or False?",
       "statement": "\"esse\" means \"to eat.\"",
       "answer": true,
-      "explanation": "Ya! esse is \"to eat\": Ich ess (I eat), mir esse (we eat).",
+      "explanation": "Ya! esse is \"to eat\": Ich ess (I eat).",
       "vocab": ["fd-esse"],
       "needsReview": true
     },

@@ -12,7 +12,7 @@
       "prompt": "True or False?",
       "statement": "\"Ich hab\" means \"I have.\"",
       "answer": true,
-      "explanation": "Ya — hawwe is \"to have\": Ich hab (I have), mir hen (we have).",
+      "explanation": "Ya — hawwe is \"to have\": Ich hab (I have).",
       "vocab": ["fa-hawwe"],
       "needsReview": true
     },

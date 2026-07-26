@@ -10,76 +10,87 @@
       "word": "Wie bischt du?",
       "meaning": "How are you?",
       "phonetic": "vee BISHT doo",
-      "vocab": ["wie-bischt"]
+      "vocab": ["wie-bischt"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
       "prompt": "Select \"How are you?\"",
       "options": ["Wie bischt du?", "Wie heescht du?", "Guder Mariye", "Danki"],
       "answer": "Wie bischt du?",
-      "vocab": ["wie-bischt"]
+      "vocab": ["wie-bischt"],
+      "needsReview": true
     },
     {
       "type": "introduce",
       "word": "Wie geht's?",
       "meaning": "How's it going?",
       "phonetic": "vee gayts",
-      "vocab": ["wie-gehts"]
+      "vocab": ["wie-gehts"],
+      "needsReview": true
     },
     {
       "type": "translate",
       "prompt": "Translate to English: \"Wie geht's?\"",
       "answer": "How's it going?",
       "acceptedAnswers": ["how is it going", "how are you", "how goes it"],
-      "vocab": ["wie-gehts"]
+      "vocab": ["wie-gehts"],
+      "needsReview": true
     },
     {
       "type": "introduce",
       "word": "Gut, danki",
       "meaning": "Good, thank you",
       "phonetic": "goot DAHN-kee",
-      "vocab": ["gut-danki"]
+      "vocab": ["gut-danki"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
       "prompt": "Someone asks \"Wie bischt du?\" A good reply is:",
       "options": ["Gut, danki", "Ade", "Nee", "Hallo"],
       "answer": "Gut, danki",
-      "vocab": ["gut-danki"]
+      "vocab": ["gut-danki"],
+      "needsReview": true
     },
     {
       "type": "word_bank",
       "prompt": "Build: \"How are you?\"",
       "answer": ["Wie", "bischt", "du"],
       "bank": ["Wie", "bischt", "du", "heescht", "geht's"],
-      "vocab": ["wie-bischt"]
+      "vocab": ["wie-bischt"],
+      "needsReview": true
     },
     {
       "type": "introduce",
       "word": "Danki",
       "meaning": "Thank you",
       "phonetic": "DAHN-kee",
-      "vocab": ["danki"]
+      "vocab": ["danki"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
       "prompt": "Which means \"Thank you\"?",
       "options": ["Danki", "Wilkumm", "Nee", "Ya"],
       "answer": "Danki",
-      "vocab": ["danki"]
+      "vocab": ["danki"],
+      "needsReview": true
     },
     {
       "type": "word_bank",
       "prompt": "Build the reply: \"Good, thank you\"",
       "answer": ["Gut", "danki"],
       "bank": ["Gut", "danki", "Nee", "Ya"],
-      "vocab": ["gut-danki"]
+      "vocab": ["gut-danki"],
+      "needsReview": true
     },
     {
       "type": "translate",
       "prompt": "Translate to Pennsylvania Dutch: \"Thank you\"",
       "answer": "Danki",
-      "vocab": ["danki"]
+      "vocab": ["danki"],
+      "needsReview": true
     },
     {
       "type": "matching",
@@ -90,7 +101,8 @@
         { "deitsh": "Gut, danki", "english": "Good, thank you" },
         { "deitsh": "Danki", "english": "Thank you" }
       ],
-      "vocab": ["wie-bischt", "wie-gehts", "gut-danki", "danki"]
+      "vocab": ["wie-bischt", "wie-gehts", "gut-danki", "danki"],
+      "needsReview": true
     },
     {
       "type": "true_false",
@@ -98,7 +110,8 @@
       "statement": "\"Danki\" means \"thank you.\"",
       "answer": true,
       "explanation": "Ya! Danki is how you say thank you.",
-      "vocab": ["danki"]
+      "vocab": ["danki"],
+      "needsReview": true
     }
   ]
 }

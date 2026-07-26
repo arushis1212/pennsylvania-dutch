@@ -12,21 +12,24 @@
       "prompt": "Two neighbors meet in the morning. The first says:",
       "options": ["Guder Mariye!", "Gut Nacht!", "Bis schpeeder!", "Es dutt mer leed"],
       "answer": "Guder Mariye!",
-      "vocab": ["guder-mariye"]
+      "vocab": ["guder-mariye"],
+      "needsReview": true
     },
     {
       "type": "translate",
       "prompt": "Translate the reply to English: \"Guder Mariye! Wie bischt du?\"",
       "answer": "Good morning! How are you?",
       "acceptedAnswers": ["good morning how are you"],
-      "vocab": ["guder-mariye", "wie-bischt"]
+      "vocab": ["guder-mariye", "wie-bischt"],
+      "needsReview": true
     },
     {
       "type": "word_bank",
       "prompt": "Build the answer: \"Good, thank you.\"",
       "answer": ["Gut", "danki"],
       "bank": ["Gut", "danki", "Nee", "Ade", "Hallo"],
-      "vocab": ["gut-danki"]
+      "vocab": ["gut-danki"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
@@ -65,14 +68,16 @@
       "prompt": "Translate the evening farewell to Pennsylvania Dutch: \"Good night\"",
       "answer": "Gut Nacht",
       "acceptedAnswers": ["Guder Nacht"],
-      "vocab": ["gut-nacht"]
+      "vocab": ["gut-nacht"],
+      "needsReview": true
     },
     {
       "type": "word_bank",
       "prompt": "Build the whole exchange: \"Hello! How are you?\"",
       "answer": ["Hallo", "Wie", "bischt", "du"],
       "bank": ["Hallo", "Wie", "bischt", "du", "heescht", "Ade"],
-      "vocab": ["hallo", "wie-bischt"]
+      "vocab": ["hallo", "wie-bischt"],
+      "needsReview": true
     },
     {
       "type": "multiple_choice",
