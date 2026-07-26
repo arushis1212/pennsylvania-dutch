@@ -1,0 +1,75 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-3",
+  "title": "How Much Does It Cost?",
+  "subUnit": "Money & Prices",
+  "subtitle": "Cost, dollars, cents, asking the price",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "koschte", "meaning": "to cost", "phonetic": "KOSH-teh", "vocab": ["md-koschte"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to cost\"",
+      "options": ["koschte", "kaafe", "koche", "trinke"],
+      "answer": "koschte",
+      "vocab": ["md-koschte"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Wie viel koscht sell?\" means \"How much does that cost?\"",
+      "answer": true,
+      "explanation": "Ya — reusing \"wie viel\" (how many/much) with \"koscht\" (costs) and \"sell\" (that): the shopper's key question.",
+      "vocab": ["md-koschte", "nt-wieviel", "fh-sell"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Daaler", "meaning": "dollar", "phonetic": "DAH-ler", "vocab": ["md-daaler"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Sell koscht zwee Daaler\" means:",
+      "options": ["That costs two dollars", "That is two o'clock", "I buy two apples", "The market is closed"],
+      "answer": "That costs two dollars",
+      "vocab": ["md-koschte", "md-daaler", "nt-zwee"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Sent", "meaning": "cent", "phonetic": "sent", "vocab": ["md-sent"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A hunnert Sent make one Daaler.",
+      "answer": true,
+      "explanation": "Ya — a hundred (hunnert) cents (Sent) make one dollar (Daaler).",
+      "vocab": ["md-sent", "nt-hunnert", "md-daaler"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the question: \"How much does that cost?\"",
+      "answer": ["Wie", "viel", "koscht", "sell"],
+      "bank": ["Wie", "viel", "koscht", "sell", "Daaler", "kaafe"],
+      "vocab": ["nt-wieviel", "md-koschte", "fh-sell"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the answer: \"That costs three dollars.\"",
+      "answer": ["Sell", "koscht", "drei", "Daaler"],
+      "bank": ["Sell", "koscht", "drei", "Daaler", "Sent", "zwee"],
+      "vocab": ["fh-sell", "md-koschte", "nt-drei", "md-daaler"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "koschte", "english": "to cost" },
+        { "deitsh": "Daaler", "english": "dollar" },
+        { "deitsh": "Sent", "english": "cent" },
+        { "deitsh": "Geld", "english": "money" }
+      ],
+      "vocab": ["md-koschte", "md-daaler", "md-sent", "md-geld"],
+      "needsReview": true
+    }
+  ]
+}

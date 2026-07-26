@@ -1,0 +1,74 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-1",
+  "title": "Off to Market",
+  "subUnit": "At the Market",
+  "subtitle": "Market, stand, buying, money",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Maarik", "meaning": "market", "phonetic": "MAH-rik", "vocab": ["md-maarik"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"market\"",
+      "options": ["Maarik", "Scheier", "Kich", "Wedder"],
+      "answer": "Maarik",
+      "vocab": ["md-maarik"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Schtand", "meaning": "stand", "phonetic": "shtahnt", "vocab": ["md-schtand"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Where at the Maarik do you set out your goods to sell?",
+      "options": ["Schtand", "Maarik", "Haus", "Feld"],
+      "answer": "Schtand",
+      "vocab": ["md-schtand", "md-maarik"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "kaafe", "meaning": "to buy", "phonetic": "KAH-feh", "vocab": ["md-kaafe"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Ich kaaf Brot\" means \"I buy bread.\"",
+      "answer": true,
+      "explanation": "Ya — kaafe is \"to buy\": Ich kaaf (I buy), mir kaafe (we buy).",
+      "vocab": ["md-kaafe", "fd-brot"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Geld", "meaning": "money", "phonetic": "gelt", "vocab": ["md-geld"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "What do you need to kaafe something?",
+      "options": ["Geld", "Wedder", "Schnee", "Uhr"],
+      "answer": "Geld",
+      "vocab": ["md-geld", "md-kaafe"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Maarik\"",
+      "answer": "market",
+      "vocab": ["md-maarik"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"I buy bread.\"",
+      "answer": ["Ich", "kaaf", "Brot"],
+      "bank": ["Ich", "kaaf", "Brot", "Geld", "ess"],
+      "vocab": ["md-kaafe", "fd-brot"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Maarik", "english": "market" },
+        { "deitsh": "Schtand", "english": "stand" },
+        { "deitsh": "kaafe", "english": "to buy" },
+        { "deitsh": "Geld", "english": "money" }
+      ],
+      "vocab": ["md-maarik", "md-schtand", "md-kaafe", "md-geld"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-2",
+  "title": "At the Stand",
+  "subUnit": "At the Market",
+  "subtitle": "Selling, customers, baskets, bags",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "verkaafe", "meaning": "to sell", "phonetic": "fer-KAH-feh", "vocab": ["md-verkaafe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to sell\"",
+      "options": ["verkaafe", "kaafe", "esse", "koche"],
+      "answer": "verkaafe",
+      "vocab": ["md-verkaafe"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"kaafe\" is to buy, and \"verkaafe\" is to sell.",
+      "answer": true,
+      "explanation": "Ya — the Kaafer (customer) will kaafe (buy) what you verkaafe (sell).",
+      "vocab": ["md-kaafe", "md-verkaafe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kaafer", "meaning": "customer", "phonetic": "KAH-fer", "vocab": ["md-kaafer"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Who comes to your Schtand to buy things?",
+      "options": ["der Kaafer", "der Gaul", "die Sunn", "es Wedder"],
+      "answer": "der Kaafer",
+      "vocab": ["md-kaafer", "md-schtand"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Karreb", "meaning": "basket", "phonetic": "KAH-reb", "vocab": ["md-karreb"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"basket\"?",
+      "options": ["Karreb", "Sack", "Deller", "Geld"],
+      "answer": "Karreb",
+      "vocab": ["md-karreb"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Sack", "meaning": "bag", "phonetic": "zahk", "vocab": ["md-sack"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "You can carry your goods home in a Karreb or a Sack.",
+      "answer": true,
+      "explanation": "Ya — a basket (Karreb) or a bag (Sack) both hold what you buy.",
+      "vocab": ["md-karreb", "md-sack"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my basket\"",
+      "answer": ["mei", "Karreb"],
+      "bank": ["mei", "Karreb", "Sack", "Geld"],
+      "vocab": ["fh-mei", "md-karreb"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "verkaafe", "english": "to sell" },
+        { "deitsh": "Kaafer", "english": "customer" },
+        { "deitsh": "Karreb", "english": "basket" },
+        { "deitsh": "Sack", "english": "bag" }
+      ],
+      "vocab": ["md-verkaafe", "md-kaafer", "md-karreb", "md-sack"],
+      "needsReview": true
+    }
+  ]
+}

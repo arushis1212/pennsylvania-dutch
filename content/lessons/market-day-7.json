@@ -1,0 +1,68 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-7",
+  "title": "Anything Else?",
+  "subUnit": "Making a Sale",
+  "subtitle": "Asking, something, more, bargaining",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "froge", "meaning": "to ask", "phonetic": "FROH-geh", "vocab": ["md-froge"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "To learn the Preis, you froge:",
+      "options": ["Wie viel koscht sell?", "Guder Mariye", "Es regert", "Ich bin hungrich"],
+      "answer": "Wie viel koscht sell?",
+      "vocab": ["md-froge", "md-koschte"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "eppes", "meaning": "something", "phonetic": "EP-pes", "vocab": ["md-eppes"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"something\"?",
+      "options": ["eppes", "froge", "Geld", "Sack"],
+      "answer": "eppes",
+      "vocab": ["md-eppes"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "noch", "meaning": "more", "phonetic": "nokh", "vocab": ["md-noch"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "The seller asks \"Noch eppes?\" to mean \"Anything else?\"",
+      "answer": true,
+      "explanation": "Ya — \"Noch eppes?\" (more something?) is how you ask \"Anything else?\"",
+      "vocab": ["md-noch", "md-eppes"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "handle", "meaning": "to bargain", "phonetic": "HAHND-leh", "vocab": ["md-handle"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "If the Preis is too deier, you might handle for a better one.",
+      "answer": true,
+      "explanation": "Ya — to handle is to bargain, hoping the deier (expensive) price gets billicher (cheaper).",
+      "vocab": ["md-handle", "md-deier", "md-billich"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the question: \"Anything else?\"",
+      "answer": ["Noch", "eppes"],
+      "bank": ["Noch", "eppes", "froge", "Geld"],
+      "vocab": ["md-noch", "md-eppes"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "froge", "english": "to ask" },
+        { "deitsh": "eppes", "english": "something" },
+        { "deitsh": "noch", "english": "more" },
+        { "deitsh": "handle", "english": "to bargain" }
+      ],
+      "vocab": ["md-froge", "md-eppes", "md-noch", "md-handle"],
+      "needsReview": true
+    }
+  ]
+}

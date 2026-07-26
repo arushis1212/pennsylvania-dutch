@@ -1,0 +1,67 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-8",
+  "title": "That Comes To...",
+  "subUnit": "Making a Sale",
+  "subtitle": "Together, enough, and how much in all",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "zamme", "meaning": "together", "phonetic": "TSAH-meh", "vocab": ["md-zamme"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Wie viel macht sell zamme?\" asks the total, \"How much is that all together?\"",
+      "answer": true,
+      "explanation": "Ya — zamme means \"together\"; you froge it to get the total Preis.",
+      "vocab": ["md-zamme", "nt-wieviel"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "genunk", "meaning": "enough", "phonetic": "geh-NOONK", "vocab": ["md-genunk"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "You have bought all you need. You say you have:",
+      "options": ["genunk", "zamme", "billich", "deier"],
+      "answer": "genunk",
+      "vocab": ["md-genunk"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "viel", "meaning": "much", "phonetic": "feel", "vocab": ["md-viel"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"viel\" means \"much\" or \"a lot,\" the same viel as in \"wie viel.\"",
+      "answer": true,
+      "explanation": "Ya — \"wie viel\" is literally \"how much\"; on its own, viel means \"much / a lot.\"",
+      "vocab": ["md-viel", "nt-wieviel"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Sell koscht viel Geld\" means:",
+      "options": ["That costs a lot of money", "That is enough money", "I sell the money", "The money is cheap"],
+      "answer": "That costs a lot of money",
+      "vocab": ["md-viel", "md-koschte", "md-geld"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the question: \"How much is that all together?\"",
+      "answer": ["Wie", "viel", "macht", "sell", "zamme"],
+      "bank": ["Wie", "viel", "macht", "sell", "zamme", "genunk"],
+      "vocab": ["nt-wieviel", "fh-sell", "md-zamme"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "zamme", "english": "together" },
+        { "deitsh": "genunk", "english": "enough" },
+        { "deitsh": "viel", "english": "much" },
+        { "deitsh": "bezaahle", "english": "to pay" }
+      ],
+      "vocab": ["md-zamme", "md-genunk", "md-viel", "md-bezaahle"],
+      "needsReview": true
+    }
+  ]
+}

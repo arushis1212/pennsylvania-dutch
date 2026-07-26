@@ -70,6 +70,17 @@ import weatherSeasons8 from "@/content/lessons/weather-seasons-8.json";
 import weatherSeasons9 from "@/content/lessons/weather-seasons-9.json";
 import weatherSeasonsVocab from "@/content/vocab/weather-seasons.json";
 
+import marketDay1 from "@/content/lessons/market-day-1.json";
+import marketDay2 from "@/content/lessons/market-day-2.json";
+import marketDay3 from "@/content/lessons/market-day-3.json";
+import marketDay4 from "@/content/lessons/market-day-4.json";
+import marketDay5 from "@/content/lessons/market-day-5.json";
+import marketDay6 from "@/content/lessons/market-day-6.json";
+import marketDay7 from "@/content/lessons/market-day-7.json";
+import marketDay8 from "@/content/lessons/market-day-8.json";
+import marketDay9 from "@/content/lessons/market-day-9.json";
+import marketDayVocab from "@/content/vocab/market-day.json";
+
 const LESSONS: Lesson[] = [
   greetings1,
   greetings2,
@@ -122,6 +133,15 @@ const LESSONS: Lesson[] = [
   weatherSeasons7,
   weatherSeasons8,
   weatherSeasons9,
+  marketDay1,
+  marketDay2,
+  marketDay3,
+  marketDay4,
+  marketDay5,
+  marketDay6,
+  marketDay7,
+  marketDay8,
+  marketDay9,
 ] as Lesson[];
 
 const VOCAB: VocabEntry[] = [
@@ -131,6 +151,7 @@ const VOCAB: VocabEntry[] = [
   ...(numbersTimeVocab.entries as VocabEntry[]),
   ...(foodVocab.entries as VocabEntry[]),
   ...(weatherSeasonsVocab.entries as VocabEntry[]),
+  ...(marketDayVocab.entries as VocabEntry[]),
 ];
 
 const lessonById = new Map(LESSONS.map((l) => [l.lesson_id, l]));

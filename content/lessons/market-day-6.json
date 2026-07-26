@@ -1,0 +1,66 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-6",
+  "title": "Handmade Goods",
+  "subUnit": "Market Goods",
+  "subtitle": "Quilts, soap, candles, cabbage",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Deppich", "meaning": "quilt", "phonetic": "DEP-pikh", "vocab": ["md-deppich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"quilt\"",
+      "options": ["Deppich", "Sack", "Karreb", "Bett"],
+      "answer": "Deppich",
+      "vocab": ["md-deppich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Seef", "meaning": "soap", "phonetic": "zayf", "vocab": ["md-seef"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"soap\"?",
+      "options": ["Seef", "Deppich", "Wasser", "Kaerz"],
+      "answer": "Seef",
+      "vocab": ["md-seef"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kaerz", "meaning": "candle", "phonetic": "kairts", "vocab": ["md-kaerz"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "What gives light on the table at night?",
+      "options": ["en Kaerz", "en Deppich", "en Sack", "en Seef"],
+      "answer": "en Kaerz",
+      "vocab": ["md-kaerz"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kraut", "meaning": "cabbage", "phonetic": "krowt", "vocab": ["md-kraut"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Kraut (cabbage) is a kind of Gemies (vegetable).",
+      "answer": true,
+      "explanation": "Ya — cabbage (Kraut) is a Gemies, sold fresh or made into sauerkraut.",
+      "vocab": ["md-kraut", "md-gemies"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Deppich\"",
+      "answer": "quilt",
+      "vocab": ["md-deppich"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Deppich", "english": "quilt" },
+        { "deitsh": "Seef", "english": "soap" },
+        { "deitsh": "Kaerz", "english": "candle" },
+        { "deitsh": "Kraut", "english": "cabbage" }
+      ],
+      "vocab": ["md-deppich", "md-seef", "md-kaerz", "md-kraut"],
+      "needsReview": true
+    }
+  ]
+}

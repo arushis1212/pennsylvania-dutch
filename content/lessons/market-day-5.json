@@ -1,0 +1,67 @@
+{
+  "unit": "market-day",
+  "lesson_id": "market-day-5",
+  "title": "Fruits and Vegetables",
+  "subUnit": "Market Goods",
+  "subtitle": "Vegetables, fruit, apples, berries",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Gemies", "meaning": "vegetables", "phonetic": "geh-MEESS", "vocab": ["md-gemies"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Grumbiere and Bohne are kinds of:",
+      "options": ["Gemies", "Frucht", "Geld", "Sack"],
+      "answer": "Gemies",
+      "vocab": ["md-gemies", "fd-grumbiere", "fd-bohne"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Frucht", "meaning": "fruit", "phonetic": "frookht", "vocab": ["md-frucht"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"fruit\"",
+      "options": ["Frucht", "Gemies", "Fleesch", "Kees"],
+      "answer": "Frucht",
+      "vocab": ["md-frucht"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Eppel", "meaning": "apples", "phonetic": "EP-pel", "vocab": ["md-eppel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which is a kind of Frucht?",
+      "options": ["Eppel", "Gemies", "Seef", "Geld"],
+      "answer": "Eppel",
+      "vocab": ["md-eppel", "md-frucht"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Beere", "meaning": "berries", "phonetic": "BAY-reh", "vocab": ["md-beere"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Eppel and Beere are both kinds of Frucht.",
+      "answer": true,
+      "explanation": "Ya — apples (Eppel) and berries (Beere) are fruit (Frucht); potatoes (Grumbiere) are Gemies.",
+      "vocab": ["md-eppel", "md-beere", "md-frucht"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"three apples\"",
+      "answer": ["drei", "Eppel"],
+      "bank": ["drei", "Eppel", "Beere", "zwee"],
+      "vocab": ["nt-drei", "md-eppel"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Gemies", "english": "vegetables" },
+        { "deitsh": "Frucht", "english": "fruit" },
+        { "deitsh": "Eppel", "english": "apples" },
+        { "deitsh": "Beere", "english": "berries" }
+      ],
+      "vocab": ["md-gemies", "md-frucht", "md-eppel", "md-beere"],
+      "needsReview": true
+    }
+  ]
+}
