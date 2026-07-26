@@ -1,0 +1,99 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-9",
+  "title": "Milestone: Uff der Bauerei (On the farm)",
+  "subUnit": "Milestone",
+  "subtitle": "A farm-day review, tying the barnyard together",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "At sunrise a neighbor passes the Scheier. The farmer greets them with:",
+      "options": ["Guder Mariye", "Guder Owed", "Gut Nacht", "Danki"],
+      "answer": "Guder Mariye",
+      "vocab": ["guder-mariye"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "In der Scheier, the farmer forks Hoi to the animals. Which word means \"barn\"?",
+      "options": ["Scheier", "Schtall", "Silo", "Feld"],
+      "answer": "Scheier",
+      "vocab": ["fa-scheier", "fa-hoi"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Der Gaul is groß.\"",
+      "answer": "the horse is big",
+      "acceptedAnswers": ["the horse is large", "the horse's big"],
+      "vocab": ["fa-der", "fa-gaul", "fa-gross"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"The horse is small.\"",
+      "answer": ["Der", "Gaul", "is", "glee"],
+      "bank": ["Der", "Gaul", "is", "glee", "groß", "Kuh"],
+      "vocab": ["fa-der", "fa-gaul", "fa-glee"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each animal to its meaning",
+      "pairs": [
+        { "deitsh": "Gaul", "english": "horse" },
+        { "deitsh": "Kuh", "english": "cow" },
+        { "deitsh": "Sau", "english": "pig" },
+        { "deitsh": "Hinkel", "english": "chicken" }
+      ],
+      "vocab": ["fa-gaul", "fa-kuh", "fa-sau", "fa-hinkel"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Gäul\" is the plural of \"Gaul.\"",
+      "answer": true,
+      "explanation": "Ya — one Gaul, many Gäul, just as one Kuh becomes many Kieh.",
+      "vocab": ["fa-gaeul", "fa-gaul", "fa-kieh", "fa-kuh"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"mei Scheier\"",
+      "answer": "my barn",
+      "vocab": ["fh-mei", "fa-scheier"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Everyone helps (helfe) with the Arwet. Which word means \"to work\"?",
+      "options": ["schaffe", "reide", "melke", "fiddere"],
+      "answer": "schaffe",
+      "vocab": ["fa-schaffe", "fh-helfe", "fh-arwet"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Scheier", "english": "barn" },
+        { "deitsh": "Feld", "english": "field" },
+        { "deitsh": "Hoi", "english": "hay" },
+        { "deitsh": "Waage", "english": "wagon" }
+      ],
+      "vocab": ["fa-scheier", "fa-feld", "fa-hoi", "fa-waage"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Ich hab en Gaul.\"",
+      "answer": "i have a horse",
+      "acceptedAnswers": ["i have a horse.", "i have one horse"],
+      "vocab": ["fa-hawwe", "fa-gaul"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-5",
+  "title": "What Time Is It?",
+  "subUnit": "Telling Time",
+  "subtitle": "O'clock, time, and asking the hour",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Uhr", "meaning": "o'clock", "phonetic": "oor", "vocab": ["nt-uhr"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Es is drei Uhr\" means:",
+      "options": ["It is three o'clock", "It is thirty", "There are three cows", "Good day"],
+      "answer": "It is three o'clock",
+      "vocab": ["nt-uhr", "nt-drei"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Zeit", "meaning": "time", "phonetic": "tsyte", "vocab": ["nt-zeit"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"time\"",
+      "options": ["Zeit", "Uhr", "Daag", "Zeh"],
+      "answer": "Zeit",
+      "vocab": ["nt-zeit"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Wie viel Uhr is es?\" asks what time it is.",
+      "answer": true,
+      "explanation": "Ya! Literally \"how much o'clock is it?\" — reusing \"wie viel\" (how many) with \"Uhr\" (o'clock).",
+      "vocab": ["nt-wieviel", "nt-uhr"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the question: \"What time is it?\"",
+      "answer": ["Wie", "viel", "Uhr", "is", "es"],
+      "bank": ["Wie", "viel", "Uhr", "is", "es", "Zeit"],
+      "vocab": ["nt-wieviel", "nt-uhr"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the answer: \"It is two o'clock.\"",
+      "answer": ["Es", "is", "zwee", "Uhr"],
+      "bank": ["Es", "is", "zwee", "Uhr", "Zeit", "zeh"],
+      "vocab": ["nt-zwee", "nt-uhr"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Es is zeh Uhr.\"",
+      "answer": "it is ten o'clock",
+      "acceptedAnswers": ["it's ten o'clock", "it is 10 o'clock"],
+      "vocab": ["nt-zeh", "nt-uhr"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Uhr", "english": "o'clock" },
+        { "deitsh": "Zeit", "english": "time" },
+        { "deitsh": "wie viel", "english": "how many" },
+        { "deitsh": "zwelf", "english": "twelve" }
+      ],
+      "vocab": ["nt-uhr", "nt-zeit", "nt-wieviel", "nt-zwelf"],
+      "needsReview": true
+    }
+  ]
+}

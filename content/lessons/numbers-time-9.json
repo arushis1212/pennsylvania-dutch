@@ -1,0 +1,99 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-9",
+  "title": "Milestone: Der Daag Nummere (The day in numbers)",
+  "subUnit": "Milestone",
+  "subtitle": "A review of counting, clock, and calendar",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Es is siwwe Uhr.\" means:",
+      "options": ["It is seven o'clock.", "It is seven days.", "There are seven cows.", "It is Sunday."],
+      "answer": "It is seven o'clock.",
+      "vocab": ["nt-siwwe", "nt-uhr"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"drei Gäul\"",
+      "answer": "three horses",
+      "vocab": ["nt-drei", "fa-gaeul"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the question: \"What time is it?\"",
+      "answer": ["Wie", "viel", "Uhr", "is", "es"],
+      "bank": ["Wie", "viel", "Uhr", "is", "es", "Zeit"],
+      "vocab": ["nt-wieviel", "nt-uhr"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each number to its meaning",
+      "pairs": [
+        { "deitsh": "eens", "english": "one" },
+        { "deitsh": "fimf", "english": "five" },
+        { "deitsh": "zeh", "english": "ten" },
+        { "deitsh": "zwansich", "english": "twenty" }
+      ],
+      "vocab": ["nt-eens", "nt-fimf", "nt-zeh", "nt-zwansich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A Woch has siwwe Daag.",
+      "answer": true,
+      "explanation": "Ya — a week (Woch) is seven (siwwe) days (Daag).",
+      "vocab": ["nt-woch", "nt-siwwe", "nt-daag"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which day comes right after Dinschdaag?",
+      "options": ["Mittwoch", "Muundaag", "Freidaag", "Sunndaag"],
+      "answer": "Mittwoch",
+      "vocab": ["nt-mittwoch", "nt-dinschdaag"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Heit is Freidaag.\"",
+      "answer": "today is friday",
+      "acceptedAnswers": ["today is friday.", "it is friday today"],
+      "vocab": ["nt-heit", "nt-freidaag"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"twenty chickens\"",
+      "answer": ["zwansich", "Hinkel"],
+      "bank": ["zwansich", "Hinkel", "dreissich", "Gäul"],
+      "vocab": ["nt-zwansich", "fa-hinkel"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each day to its meaning",
+      "pairs": [
+        { "deitsh": "Sunndaag", "english": "Sunday" },
+        { "deitsh": "Mittwoch", "english": "Wednesday" },
+        { "deitsh": "Freidaag", "english": "Friday" },
+        { "deitsh": "Samschdaag", "english": "Saturday" }
+      ],
+      "vocab": ["nt-sunndaag", "nt-mittwoch", "nt-freidaag", "nt-samschdaag"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Early on a Sunndaag, you greet a neighbor with:",
+      "options": ["Guder Mariye", "Gut Nacht", "Ade", "Danki"],
+      "answer": "Guder Mariye",
+      "vocab": ["guder-mariye", "nt-sunndaag"],
+      "needsReview": true
+    }
+  ]
+}

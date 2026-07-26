@@ -1,0 +1,84 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-8",
+  "title": "Talking About Animals",
+  "subUnit": "Farm Life & Chores",
+  "subtitle": "To have, \"the\", big and small — building sentences",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "hawwe", "meaning": "to have", "phonetic": "HAH-weh", "vocab": ["fa-hawwe"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Ich hab\" means \"I have.\"",
+      "answer": true,
+      "explanation": "Ya — hawwe is \"to have\": Ich hab (I have), mir hen (we have).",
+      "vocab": ["fa-hawwe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "der", "meaning": "the (masculine)", "phonetic": "dair", "vocab": ["fa-der"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"der Gaul\" means:",
+      "options": ["the horse", "a horse", "my horse", "horses"],
+      "answer": "the horse",
+      "vocab": ["fa-der", "fa-gaul"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "groß", "meaning": "big", "phonetic": "grohss", "vocab": ["fa-gross"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"big\"",
+      "options": ["groß", "Waage", "Hoi", "Feld"],
+      "answer": "groß",
+      "vocab": ["fa-gross"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "glee", "meaning": "small", "phonetic": "glay", "vocab": ["fa-glee"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"small\"?",
+      "options": ["glee", "groß", "Silo", "Katz"],
+      "answer": "glee",
+      "vocab": ["fa-glee"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A Gaul is groß and a Katz is glee.",
+      "answer": true,
+      "explanation": "Ya — a horse is big (groß) and a cat is small (glee).",
+      "vocab": ["fa-gaul", "fa-gross", "fa-katz", "fa-glee"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"The horse is big.\"",
+      "answer": ["Der", "Gaul", "is", "groß"],
+      "bank": ["Der", "Gaul", "is", "groß", "glee", "Kuh"],
+      "vocab": ["fa-der", "fa-gaul", "fa-gross"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"I have a horse.\"",
+      "answer": ["Ich", "hab", "en", "Gaul"],
+      "bank": ["Ich", "hab", "en", "Gaul", "groß", "Kuh"],
+      "vocab": ["fa-hawwe", "fa-gaul"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "hawwe", "english": "to have" },
+        { "deitsh": "der", "english": "the" },
+        { "deitsh": "groß", "english": "big" },
+        { "deitsh": "glee", "english": "small" }
+      ],
+      "vocab": ["fa-hawwe", "fa-der", "fa-gross", "fa-glee"],
+      "needsReview": true
+    }
+  ]
+}

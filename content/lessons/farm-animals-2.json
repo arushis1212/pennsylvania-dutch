@@ -1,0 +1,74 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-2",
+  "title": "The Henhouse",
+  "subUnit": "Barnyard Animals",
+  "subtitle": "Pig, chicken, rooster",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Sau", "meaning": "pig", "phonetic": "zow", "vocab": ["fa-sau"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"pig\"",
+      "options": ["Sau", "Katz", "Hund", "Gaul"],
+      "answer": "Sau",
+      "vocab": ["fa-sau"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Hinkel", "meaning": "chicken", "phonetic": "HINK-el", "vocab": ["fa-hinkel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"chicken\"",
+      "options": ["Hinkel", "Sau", "Kuh", "Katz"],
+      "answer": "Hinkel",
+      "vocab": ["fa-hinkel"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Haahne", "meaning": "rooster", "phonetic": "HAH-neh", "vocab": ["fa-haahne"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"rooster\"?",
+      "options": ["Haahne", "Hinkel", "Sau", "Hund"],
+      "answer": "Haahne",
+      "vocab": ["fa-haahne"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Hinkel\" means \"chicken.\"",
+      "answer": true,
+      "explanation": "Ya! A Hinkel is a hen; the Haahne is the rooster who crows at Mariye (morning).",
+      "vocab": ["fa-hinkel", "fa-haahne"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Sau\"",
+      "answer": "pig",
+      "acceptedAnswers": ["hog", "sow"],
+      "vocab": ["fa-sau"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Hinkel\"",
+      "answer": "chicken",
+      "acceptedAnswers": ["hen"],
+      "vocab": ["fa-hinkel"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Sau", "english": "pig" },
+        { "deitsh": "Hinkel", "english": "chicken" },
+        { "deitsh": "Haahne", "english": "rooster" },
+        { "deitsh": "Katz", "english": "cat" }
+      ],
+      "vocab": ["fa-sau", "fa-hinkel", "fa-haahne", "fa-katz"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-5",
+  "title": "Around the Farm",
+  "subUnit": "Around the Farm",
+  "subtitle": "Barn, field, fence, garden",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Scheier", "meaning": "barn", "phonetic": "SHY-er", "vocab": ["fa-scheier"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"barn\"",
+      "options": ["Scheier", "Haus", "Kich", "Gaul"],
+      "answer": "Scheier",
+      "vocab": ["fa-scheier"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Feld", "meaning": "field", "phonetic": "felt", "vocab": ["fa-feld"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"field\"",
+      "options": ["Feld", "Scheier", "Haus", "Kuh"],
+      "answer": "Feld",
+      "vocab": ["fa-feld"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Zau", "meaning": "fence", "phonetic": "tsow", "vocab": ["fa-zau"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"fence\"?",
+      "options": ["Zau", "Feld", "Scheier", "Dier"],
+      "answer": "Zau",
+      "vocab": ["fa-zau"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Scheier\"",
+      "answer": "barn",
+      "vocab": ["fa-scheier"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Gaarde", "meaning": "garden", "phonetic": "GAHR-deh", "vocab": ["fa-gaarde"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"garden\"",
+      "options": ["Gaarde", "Zau", "Feld", "Scheier"],
+      "answer": "Gaarde",
+      "vocab": ["fa-gaarde"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my garden\"",
+      "answer": ["mei", "Gaarde"],
+      "bank": ["mei", "Gaarde", "Feld", "Haus"],
+      "vocab": ["fh-mei", "fa-gaarde"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Scheier", "english": "barn" },
+        { "deitsh": "Feld", "english": "field" },
+        { "deitsh": "Zau", "english": "fence" },
+        { "deitsh": "Gaarde", "english": "garden" }
+      ],
+      "vocab": ["fa-scheier", "fa-feld", "fa-zau", "fa-gaarde"],
+      "needsReview": true
+    }
+  ]
+}

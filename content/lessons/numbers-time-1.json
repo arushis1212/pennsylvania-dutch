@@ -1,0 +1,92 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-1",
+  "title": "Eens, Zwee, Drei",
+  "subUnit": "Counting",
+  "subtitle": "Numbers one through five",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "eens", "meaning": "one", "phonetic": "ayns", "vocab": ["nt-eens"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"one\"",
+      "options": ["eens", "Gaul", "Hallo", "Mudder"],
+      "answer": "eens",
+      "vocab": ["nt-eens"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "zwee", "meaning": "two", "phonetic": "tsvay", "vocab": ["nt-zwee"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"two\"",
+      "options": ["zwee", "eens", "Kuh", "Danki"],
+      "answer": "zwee",
+      "vocab": ["nt-zwee"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "drei", "meaning": "three", "phonetic": "dry", "vocab": ["nt-drei"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"three\"?",
+      "options": ["drei", "zwee", "eens", "Hund"],
+      "answer": "drei",
+      "vocab": ["nt-drei"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"zwee\"",
+      "answer": "two",
+      "acceptedAnswers": ["2"],
+      "vocab": ["nt-zwee"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "vier", "meaning": "four", "phonetic": "feer", "vocab": ["nt-vier"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"four\"",
+      "options": ["vier", "drei", "zwee", "eens"],
+      "answer": "vier",
+      "vocab": ["nt-vier"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "fimf", "meaning": "five", "phonetic": "fimf", "vocab": ["nt-fimf"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"five\"?",
+      "options": ["fimf", "vier", "drei", "zwee"],
+      "answer": "fimf",
+      "vocab": ["nt-fimf"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"drei\" comes right after \"zwee\" when counting.",
+      "answer": true,
+      "explanation": "Ya! eens, zwee, drei — one, two, three.",
+      "vocab": ["nt-drei", "nt-zwee"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Put these in counting order: one, two, three",
+      "answer": ["eens", "zwee", "drei"],
+      "bank": ["eens", "zwee", "drei", "vier"],
+      "vocab": ["nt-eens", "nt-zwee", "nt-drei"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each number to its meaning",
+      "pairs": [
+        { "deitsh": "eens", "english": "one" },
+        { "deitsh": "zwee", "english": "two" },
+        { "deitsh": "drei", "english": "three" },
+        { "deitsh": "vier", "english": "four" }
+      ],
+      "vocab": ["nt-eens", "nt-zwee", "nt-drei", "nt-vier"],
+      "needsReview": true
+    }
+  ]
+}

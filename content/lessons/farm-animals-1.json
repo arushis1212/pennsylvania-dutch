@@ -1,0 +1,81 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-1",
+  "title": "Down at the Barnyard",
+  "subUnit": "Barnyard Animals",
+  "subtitle": "Horse, cow, dog, cat",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Gaul", "meaning": "horse", "phonetic": "gowl", "vocab": ["fa-gaul"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"horse\"",
+      "options": ["Gaul", "Mudder", "Hallo", "Danki"],
+      "answer": "Gaul",
+      "vocab": ["fa-gaul"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kuh", "meaning": "cow", "phonetic": "koo", "vocab": ["fa-kuh"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"cow\"",
+      "options": ["Kuh", "Gaul", "Haus", "Ya"],
+      "answer": "Kuh",
+      "vocab": ["fa-kuh"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Hund", "meaning": "dog", "phonetic": "hoont", "vocab": ["fa-hund"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"dog\"?",
+      "options": ["Hund", "Kuh", "Gaul", "Danki"],
+      "answer": "Hund",
+      "vocab": ["fa-hund"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Gaul\"",
+      "answer": "horse",
+      "vocab": ["fa-gaul"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Katz", "meaning": "cat", "phonetic": "kahts", "vocab": ["fa-katz"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"cat\"",
+      "options": ["Katz", "Hund", "Kuh", "Gaul"],
+      "answer": "Katz",
+      "vocab": ["fa-katz"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Kuh\"",
+      "answer": "cow",
+      "vocab": ["fa-kuh"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Hund\" means \"dog.\"",
+      "answer": true,
+      "explanation": "Ya! Der Hund is the farm dog, keeping watch over the Haus.",
+      "vocab": ["fa-hund"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Gaul", "english": "horse" },
+        { "deitsh": "Kuh", "english": "cow" },
+        { "deitsh": "Hund", "english": "dog" },
+        { "deitsh": "Katz", "english": "cat" }
+      ],
+      "vocab": ["fa-gaul", "fa-kuh", "fa-hund", "fa-katz"],
+      "needsReview": true
+    }
+  ]
+}

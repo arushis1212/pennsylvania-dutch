@@ -1,0 +1,82 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-3",
+  "title": "How Many?",
+  "subUnit": "Bigger Numbers",
+  "subtitle": "Eleven, twelve, thirteen, and counting things",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "elf", "meaning": "eleven", "phonetic": "elf", "vocab": ["nt-elf"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"eleven\"",
+      "options": ["elf", "zeh", "nein", "fimf"],
+      "answer": "elf",
+      "vocab": ["nt-elf"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "zwelf", "meaning": "twelve", "phonetic": "tsvelf", "vocab": ["nt-zwelf"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"twelve\"?",
+      "options": ["zwelf", "elf", "zeh", "zwee"],
+      "answer": "zwelf",
+      "vocab": ["nt-zwelf"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "dreizeh", "meaning": "thirteen", "phonetic": "DRY-tsay", "vocab": ["nt-dreizeh"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"dreizeh\" (13) is built from \"drei\" (3) plus \"zeh\" (10).",
+      "answer": true,
+      "explanation": "Ya! From 13 up, many numbers end in -zeh (ten): drei + zeh = dreizeh, just like English thir-teen.",
+      "vocab": ["nt-dreizeh", "nt-drei", "nt-zeh"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "wie viel", "meaning": "how many", "phonetic": "vee FEEL", "vocab": ["nt-wieviel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "You want to ask \"how many?\" You say:",
+      "options": ["wie viel", "wie bischt", "was is sell", "guder Daag"],
+      "answer": "wie viel",
+      "vocab": ["nt-wieviel"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"two horses\" (number + plural noun)",
+      "answer": ["zwee", "Gäul"],
+      "bank": ["zwee", "Gäul", "Gaul", "drei"],
+      "vocab": ["nt-zwee", "fa-gaeul"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"drei Kieh\"",
+      "answer": "three cows",
+      "vocab": ["nt-drei", "fa-kieh"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the question: \"How many chickens?\"",
+      "answer": ["wie", "viel", "Hinkel"],
+      "bank": ["wie", "viel", "Hinkel", "Gaul"],
+      "vocab": ["nt-wieviel", "fa-hinkel"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "elf", "english": "eleven" },
+        { "deitsh": "zwelf", "english": "twelve" },
+        { "deitsh": "dreizeh", "english": "thirteen" },
+        { "deitsh": "wie viel", "english": "how many" }
+      ],
+      "vocab": ["nt-elf", "nt-zwelf", "nt-dreizeh", "nt-wieviel"],
+      "needsReview": true
+    }
+  ]
+}

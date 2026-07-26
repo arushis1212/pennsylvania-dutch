@@ -1,0 +1,76 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-4",
+  "title": "Young Ones & Many",
+  "subUnit": "More Critters",
+  "subtitle": "Calf, lamb, and making plurals (Gaul → Gäul)",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Kalb", "meaning": "calf", "phonetic": "kahlp", "vocab": ["fa-kalb"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"calf\"",
+      "options": ["Kalb", "Kuh", "Sau", "Hund"],
+      "answer": "Kalb",
+      "vocab": ["fa-kalb"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Lamm", "meaning": "lamb", "phonetic": "lahm", "vocab": ["fa-lamm"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"lamb\"?",
+      "options": ["Lamm", "Schof", "Kalb", "Gees"],
+      "answer": "Lamm",
+      "vocab": ["fa-lamm"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A Kalb is a young Kuh, and a Lamm is a young Schof.",
+      "answer": true,
+      "explanation": "Ya! A Kalb (calf) is a baby cow, and a Lamm (lamb) is a baby sheep.",
+      "vocab": ["fa-kalb", "fa-lamm", "fa-kuh", "fa-schof"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Gäul", "meaning": "horses", "phonetic": "goil", "vocab": ["fa-gaeul"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Gäul\" is the plural of \"Gaul\" (horse).",
+      "answer": true,
+      "explanation": "Ya — one Gaul, but many Gäul. The vowel shifts, just like Kind → Kinner.",
+      "vocab": ["fa-gaeul", "fa-gaul"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kieh", "meaning": "cows", "phonetic": "kee", "vocab": ["fa-kieh"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "One is a Kuh. More than one are:",
+      "options": ["Kieh", "Gäul", "Kalb", "Kuh"],
+      "answer": "Kieh",
+      "vocab": ["fa-kieh", "fa-kuh"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my horses\"",
+      "answer": ["mei", "Gäul"],
+      "bank": ["mei", "Gäul", "Gaul", "Kieh"],
+      "vocab": ["fh-mei", "fa-gaeul"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Kalb", "english": "calf" },
+        { "deitsh": "Lamm", "english": "lamb" },
+        { "deitsh": "Gäul", "english": "horses" },
+        { "deitsh": "Kieh", "english": "cows" }
+      ],
+      "vocab": ["fa-kalb", "fa-lamm", "fa-gaeul", "fa-kieh"],
+      "needsReview": true
+    }
+  ]
+}

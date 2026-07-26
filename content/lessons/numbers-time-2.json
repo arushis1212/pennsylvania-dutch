@@ -1,0 +1,92 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-2",
+  "title": "Up to Ten",
+  "subUnit": "Counting",
+  "subtitle": "Numbers six through ten",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "sex", "meaning": "six", "phonetic": "seks", "vocab": ["nt-sex"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"six\"",
+      "options": ["sex", "fimf", "vier", "zwee"],
+      "answer": "sex",
+      "vocab": ["nt-sex"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "siwwe", "meaning": "seven", "phonetic": "SIV-veh", "vocab": ["nt-siwwe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"seven\"",
+      "options": ["siwwe", "sex", "fimf", "eens"],
+      "answer": "siwwe",
+      "vocab": ["nt-siwwe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "acht", "meaning": "eight", "phonetic": "ahkht", "vocab": ["nt-acht"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"eight\"?",
+      "options": ["acht", "siwwe", "sex", "drei"],
+      "answer": "acht",
+      "vocab": ["nt-acht"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"siwwe\"",
+      "answer": "seven",
+      "acceptedAnswers": ["7"],
+      "vocab": ["nt-siwwe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "nein", "meaning": "nine", "phonetic": "nine", "vocab": ["nt-nein"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"nine\"",
+      "options": ["nein", "acht", "siwwe", "sex"],
+      "answer": "nein",
+      "vocab": ["nt-nein"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "zeh", "meaning": "ten", "phonetic": "tsay", "vocab": ["nt-zeh"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"ten\"?",
+      "options": ["zeh", "nein", "acht", "vier"],
+      "answer": "zeh",
+      "vocab": ["nt-zeh"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"nein\" is the number nine, not the word for \"no.\"",
+      "answer": true,
+      "explanation": "Careful! \"nein\" (nine) sounds like English \"nine.\" The Deitsh word for \"no\" is \"Nee.\"",
+      "vocab": ["nt-nein"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Put these in counting order: eight, nine, ten",
+      "answer": ["acht", "nein", "zeh"],
+      "bank": ["acht", "nein", "zeh", "siwwe"],
+      "vocab": ["nt-acht", "nt-nein", "nt-zeh"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each number to its meaning",
+      "pairs": [
+        { "deitsh": "sex", "english": "six" },
+        { "deitsh": "siwwe", "english": "seven" },
+        { "deitsh": "acht", "english": "eight" },
+        { "deitsh": "zeh", "english": "ten" }
+      ],
+      "vocab": ["nt-sex", "nt-siwwe", "nt-acht", "nt-zeh"],
+      "needsReview": true
+    }
+  ]
+}

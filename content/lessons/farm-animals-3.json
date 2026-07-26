@@ -1,0 +1,73 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-3",
+  "title": "Out in the Pasture",
+  "subUnit": "More Critters",
+  "subtitle": "Sheep, goat, duck",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Schof", "meaning": "sheep", "phonetic": "shohf", "vocab": ["fa-schof"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"sheep\"",
+      "options": ["Schof", "Sau", "Hinkel", "Gaul"],
+      "answer": "Schof",
+      "vocab": ["fa-schof"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Gees", "meaning": "goat", "phonetic": "gayss", "vocab": ["fa-gees"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"goat\"",
+      "options": ["Gees", "Schof", "Kuh", "Katz"],
+      "answer": "Gees",
+      "vocab": ["fa-gees"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Ent", "meaning": "duck", "phonetic": "ent", "vocab": ["fa-ent"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"duck\"?",
+      "options": ["Ent", "Gees", "Hinkel", "Haahne"],
+      "answer": "Ent",
+      "vocab": ["fa-ent"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Schof\"",
+      "answer": "sheep",
+      "vocab": ["fa-schof"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Gees\" means \"duck.\"",
+      "answer": false,
+      "explanation": "Nee — Gees is a goat, and Ent is a duck.",
+      "vocab": ["fa-gees", "fa-ent"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my sheep\"",
+      "answer": ["mei", "Schof"],
+      "bank": ["mei", "Schof", "Gees", "Ent"],
+      "vocab": ["fh-mei", "fa-schof"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Schof", "english": "sheep" },
+        { "deitsh": "Gees", "english": "goat" },
+        { "deitsh": "Ent", "english": "duck" },
+        { "deitsh": "Haahne", "english": "rooster" }
+      ],
+      "vocab": ["fa-schof", "fa-gees", "fa-ent", "fa-haahne"],
+      "needsReview": true
+    }
+  ]
+}

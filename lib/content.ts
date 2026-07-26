@@ -26,6 +26,28 @@ import familyHome8 from "@/content/lessons/family-home-8.json";
 import familyHome9 from "@/content/lessons/family-home-9.json";
 import familyHomeVocab from "@/content/vocab/family-home.json";
 
+import farmAnimals1 from "@/content/lessons/farm-animals-1.json";
+import farmAnimals2 from "@/content/lessons/farm-animals-2.json";
+import farmAnimals3 from "@/content/lessons/farm-animals-3.json";
+import farmAnimals4 from "@/content/lessons/farm-animals-4.json";
+import farmAnimals5 from "@/content/lessons/farm-animals-5.json";
+import farmAnimals6 from "@/content/lessons/farm-animals-6.json";
+import farmAnimals7 from "@/content/lessons/farm-animals-7.json";
+import farmAnimals8 from "@/content/lessons/farm-animals-8.json";
+import farmAnimals9 from "@/content/lessons/farm-animals-9.json";
+import farmAnimalsVocab from "@/content/vocab/farm-animals.json";
+
+import numbersTime1 from "@/content/lessons/numbers-time-1.json";
+import numbersTime2 from "@/content/lessons/numbers-time-2.json";
+import numbersTime3 from "@/content/lessons/numbers-time-3.json";
+import numbersTime4 from "@/content/lessons/numbers-time-4.json";
+import numbersTime5 from "@/content/lessons/numbers-time-5.json";
+import numbersTime6 from "@/content/lessons/numbers-time-6.json";
+import numbersTime7 from "@/content/lessons/numbers-time-7.json";
+import numbersTime8 from "@/content/lessons/numbers-time-8.json";
+import numbersTime9 from "@/content/lessons/numbers-time-9.json";
+import numbersTimeVocab from "@/content/vocab/numbers-time.json";
+
 const LESSONS: Lesson[] = [
   greetings1,
   greetings2,
@@ -42,11 +64,31 @@ const LESSONS: Lesson[] = [
   familyHome7,
   familyHome8,
   familyHome9,
+  farmAnimals1,
+  farmAnimals2,
+  farmAnimals3,
+  farmAnimals4,
+  farmAnimals5,
+  farmAnimals6,
+  farmAnimals7,
+  farmAnimals8,
+  farmAnimals9,
+  numbersTime1,
+  numbersTime2,
+  numbersTime3,
+  numbersTime4,
+  numbersTime5,
+  numbersTime6,
+  numbersTime7,
+  numbersTime8,
+  numbersTime9,
 ] as Lesson[];
 
 const VOCAB: VocabEntry[] = [
   ...(greetingsVocab.entries as VocabEntry[]),
   ...(familyHomeVocab.entries as VocabEntry[]),
+  ...(farmAnimalsVocab.entries as VocabEntry[]),
+  ...(numbersTimeVocab.entries as VocabEntry[]),
 ];
 
 const lessonById = new Map(LESSONS.map((l) => [l.lesson_id, l]));

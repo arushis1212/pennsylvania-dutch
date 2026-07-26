@@ -1,0 +1,75 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-7",
+  "title": "Chores on the Farm",
+  "subUnit": "Farm Life & Chores",
+  "subtitle": "To feed, to milk, to ride, to work",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "fiddere", "meaning": "to feed", "phonetic": "FID-der-eh", "vocab": ["fa-fiddere"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to feed\"",
+      "options": ["fiddere", "koche", "wesche", "helfe"],
+      "answer": "fiddere",
+      "vocab": ["fa-fiddere"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "melke", "meaning": "to milk", "phonetic": "MEL-keh", "vocab": ["fa-melke"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to milk\"?",
+      "options": ["melke", "fiddere", "butze", "koche"],
+      "answer": "melke",
+      "vocab": ["fa-melke"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "reide", "meaning": "to ride", "phonetic": "RYE-deh", "vocab": ["fa-reide"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to ride\"",
+      "options": ["reide", "melke", "fiddere", "helfe"],
+      "answer": "reide",
+      "vocab": ["fa-reide"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "schaffe", "meaning": "to work", "phonetic": "SHAHF-feh", "vocab": ["fa-schaffe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to work\"?",
+      "options": ["schaffe", "reide", "melke", "fiddere"],
+      "answer": "schaffe",
+      "vocab": ["fa-schaffe"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"melke\" is what you do to a Kuh to get milk.",
+      "answer": true,
+      "explanation": "Ya — mir melke die Kuh (we milk the cow) every Mariye and Owed.",
+      "vocab": ["fa-melke", "fa-kuh"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"reide\"",
+      "answer": "to ride",
+      "acceptedAnswers": ["ride"],
+      "vocab": ["fa-reide"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "fiddere", "english": "to feed" },
+        { "deitsh": "melke", "english": "to milk" },
+        { "deitsh": "reide", "english": "to ride" },
+        { "deitsh": "schaffe", "english": "to work" }
+      ],
+      "vocab": ["fa-fiddere", "fa-melke", "fa-reide", "fa-schaffe"],
+      "needsReview": true
+    }
+  ]
+}

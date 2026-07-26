@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { UNITS } from "@/content/units";
 import { getLessonsForUnit, vocabIdsForUnit } from "@/lib/content";
-import { ProgressState, accuracyFor } from "@/lib/progress";
+import { ProgressState, unitMastery } from "@/lib/progress";
 import { MOTIF_ICONS, MotifKey, HexSign, QuiltBand } from "@/components/Motifs";
 import type { Lesson, UnitMeta } from "@/lib/types";
 
@@ -26,19 +26,15 @@ function unitAvailability(unit: UnitMeta, progress: ProgressState): Availability
   return gateMet(progress, unit.unlockAfter, unit.unlockAccuracy ?? 0) ? "available" : "locked";
 }
 
-/** Has the learner reviewed the prior unit to the required accuracy? */
+/** Has the learner mastered the prior unit to the required threshold? */
 function gateMet(progress: ProgressState, priorUnitId: string, threshold: number): boolean {
-  const vocab = vocabIdsForUnit(priorUnitId);
-  const reviewed = vocab.some((id) => progress.cards[id]?.seen);
-  return reviewed && accuracyFor(progress, vocab) >= threshold;
+  return unitMastery(progress, vocabIdsForUnit(priorUnitId)) >= threshold;
 }
 
 /** Progress (0-1) toward a unit's unlock gate, for the locked-state meter. */
 function gateProgress(progress: ProgressState, priorUnitId: string, threshold: number): number {
-  const vocab = vocabIdsForUnit(priorUnitId);
-  const reviewed = vocab.some((id) => progress.cards[id]?.seen);
-  if (!reviewed) return 0;
-  return Math.min(1, accuracyFor(progress, vocab) / (threshold || 1));
+  const mastery = unitMastery(progress, vocabIdsForUnit(priorUnitId));
+  return Math.min(1, mastery / (threshold || 1));
 }
 
 export function LearningPath({ progress }: { progress: ProgressState }) {
@@ -127,17 +123,21 @@ function UnitSection({
   );
 }
 
-/** The zigzag trail of lesson stops for one unit, with sub-unit signposts. */
+/**
+ * The zigzag trail of lesson stops for one unit. The trail runs unbroken between
+ * stops; only milestone lessons get a labeled signpost (ordinary sub-unit labels
+ * are omitted to keep the path uncluttered - sub-units still organize content
+ * via each lesson's `subUnit`, they're just not chipped onto the map).
+ */
 function UnitTrail({ lessons, progress }: { lessons: Lesson[]; progress: ProgressState }) {
   return (
     <ol className="relative mt-6 flex flex-col items-center">
       {lessons.map((lesson, i) => {
         const done = progress.completedLessons.includes(lesson.lesson_id);
-        const startsSubUnit = i === 0 || lessons[i - 1].subUnit !== lesson.subUnit;
         return (
           <Fragment key={lesson.lesson_id}>
-            {startsSubUnit ? (
-              lesson.subUnit && <SubUnitSignpost label={lesson.subUnit} first={i === 0} />
+            {i === 0 ? null : lesson.milestone ? (
+              <MilestoneSignpost label={lesson.subUnit ?? "Milestone"} />
             ) : (
               <TrailCurve
                 grown={progress.completedLessons.includes(lessons[i - 1].lesson_id)}
@@ -158,10 +158,10 @@ function UnitTrail({ lessons, progress }: { lessons: Lesson[]; progress: Progres
   );
 }
 
-function SubUnitSignpost({ label, first }: { label: string; first: boolean }) {
+function MilestoneSignpost({ label }: { label: string }) {
   return (
-    <div className={`relative z-10 ${first ? "" : "mt-4"} mb-1`}>
-      <span className="rounded-full border-2 border-wood-200 bg-cream px-4 py-1 font-display text-sm uppercase tracking-wide text-wood-500 shadow-sm">
+    <div className="relative z-10 mb-1 mt-4">
+      <span className="rounded-full border-2 border-sky-300 bg-cream px-4 py-1 font-display text-sm uppercase tracking-wide text-sky-700 shadow-sm">
         {label}
       </span>
     </div>

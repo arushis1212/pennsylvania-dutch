@@ -1,0 +1,82 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-4",
+  "title": "Twenty and Beyond",
+  "subUnit": "Bigger Numbers",
+  "subtitle": "Twenty, thirty, a hundred",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "zwansich", "meaning": "twenty", "phonetic": "TSVAHN-tsich", "vocab": ["nt-zwansich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"twenty\"",
+      "options": ["zwansich", "zwelf", "zeh", "zwee"],
+      "answer": "zwansich",
+      "vocab": ["nt-zwansich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "dreissich", "meaning": "thirty", "phonetic": "DRY-sich", "vocab": ["nt-dreissich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"thirty\"?",
+      "options": ["dreissich", "zwansich", "dreizeh", "drei"],
+      "answer": "dreissich",
+      "vocab": ["nt-dreissich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "The tens often end in -zich: zwansich (20), dreissich (30).",
+      "answer": true,
+      "explanation": "Ya — watch the endings: -zeh marks the teens (dreizeh = 13), -zich marks the tens (dreissich = 30).",
+      "vocab": ["nt-zwansich", "nt-dreissich", "nt-dreizeh"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "hunnert", "meaning": "hundred", "phonetic": "HUN-nert", "vocab": ["nt-hunnert"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which is the largest number?",
+      "options": ["hunnert", "dreissich", "zwansich", "zeh"],
+      "answer": "hunnert",
+      "vocab": ["nt-hunnert", "nt-dreissich", "nt-zwansich", "nt-zeh"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"zwansich Hinkel\"",
+      "answer": "twenty chickens",
+      "vocab": ["nt-zwansich", "fa-hinkel"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"hunnert\" means \"twenty.\"",
+      "answer": false,
+      "explanation": "Nee — hunnert is a hundred (100). Twenty is zwansich.",
+      "vocab": ["nt-hunnert", "nt-zwansich"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"a hundred sheep\"",
+      "answer": ["hunnert", "Schof"],
+      "bank": ["hunnert", "Schof", "dreissich", "Gaul"],
+      "vocab": ["nt-hunnert", "fa-schof"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each number to its meaning",
+      "pairs": [
+        { "deitsh": "zwansich", "english": "twenty" },
+        { "deitsh": "dreissich", "english": "thirty" },
+        { "deitsh": "hunnert", "english": "hundred" },
+        { "deitsh": "zwelf", "english": "twelve" }
+      ],
+      "vocab": ["nt-zwansich", "nt-dreissich", "nt-hunnert", "nt-zwelf"],
+      "needsReview": true
+    }
+  ]
+}

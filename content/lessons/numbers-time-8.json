@@ -1,0 +1,77 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-8",
+  "title": "The Rest of the Week",
+  "subUnit": "Days & the Week",
+  "subtitle": "Midweek to Saturday, today and tomorrow",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Mittwoch", "meaning": "Wednesday", "phonetic": "MIT-vokh", "vocab": ["nt-mittwoch"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"Wednesday\"?",
+      "options": ["Mittwoch", "Dinschdaag", "Muundaag", "Woch"],
+      "answer": "Mittwoch",
+      "vocab": ["nt-mittwoch"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Dunnerschdaag", "meaning": "Thursday", "phonetic": "DUN-ner-shdahg", "vocab": ["nt-dunnerschdaag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"Thursday\"",
+      "options": ["Dunnerschdaag", "Mittwoch", "Dinschdaag", "Sunndaag"],
+      "answer": "Dunnerschdaag",
+      "vocab": ["nt-dunnerschdaag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Freidaag", "meaning": "Friday", "phonetic": "FRY-dahg", "vocab": ["nt-freidaag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"Friday\"?",
+      "options": ["Freidaag", "Dunnerschdaag", "Mittwoch", "Daag"],
+      "answer": "Freidaag",
+      "vocab": ["nt-freidaag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Samschdaag", "meaning": "Saturday", "phonetic": "SAHMS-dahg", "vocab": ["nt-samschdaag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which day comes right after Freidaag?",
+      "options": ["Samschdaag", "Sunndaag", "Dunnerschdaag", "Mittwoch"],
+      "answer": "Samschdaag",
+      "vocab": ["nt-samschdaag", "nt-freidaag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "heit", "meaning": "today", "phonetic": "hite", "vocab": ["nt-heit"], "needsReview": true },
+    { "type": "introduce", "word": "morge", "meaning": "tomorrow", "phonetic": "MOR-geh", "vocab": ["nt-morge"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"heit\" means today and \"morge\" means tomorrow.",
+      "answer": true,
+      "explanation": "Ya! Heit is today; morge is tomorrow. So \"heit is Freidaag\" means \"today is Friday.\"",
+      "vocab": ["nt-heit", "nt-morge", "nt-freidaag"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"Today is Saturday.\"",
+      "answer": ["Heit", "is", "Samschdaag"],
+      "bank": ["Heit", "is", "Samschdaag", "morge", "Freidaag"],
+      "vocab": ["nt-heit", "nt-samschdaag"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Mittwoch", "english": "Wednesday" },
+        { "deitsh": "Dunnerschdaag", "english": "Thursday" },
+        { "deitsh": "Freidaag", "english": "Friday" },
+        { "deitsh": "Samschdaag", "english": "Saturday" }
+      ],
+      "vocab": ["nt-mittwoch", "nt-dunnerschdaag", "nt-freidaag", "nt-samschdaag"],
+      "needsReview": true
+    }
+  ]
+}

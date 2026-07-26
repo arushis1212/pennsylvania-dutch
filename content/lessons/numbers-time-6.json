@@ -1,0 +1,75 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-6",
+  "title": "Hours and Minutes",
+  "subUnit": "Telling Time",
+  "subtitle": "Hour, minute, and half",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Schtunn", "meaning": "hour", "phonetic": "shtoon", "vocab": ["nt-schtunn"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"hour\"",
+      "options": ["Schtunn", "Uhr", "Zeit", "Minutt"],
+      "answer": "Schtunn",
+      "vocab": ["nt-schtunn"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Minutt", "meaning": "minute", "phonetic": "mih-NOOT", "vocab": ["nt-minutt"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"minute\"?",
+      "options": ["Minutt", "Schtunn", "Uhr", "Woch"],
+      "answer": "Minutt",
+      "vocab": ["nt-minutt"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "halb", "meaning": "half", "phonetic": "hahlp", "vocab": ["nt-halb"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"half\"?",
+      "options": ["halb", "hunnert", "Schtunn", "eens"],
+      "answer": "halb",
+      "vocab": ["nt-halb"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"en halb Schtunn\" (a half hour) is dreissich (thirty) Minutt.",
+      "answer": true,
+      "explanation": "Ya! A half hour (halb Schtunn) is 30 (dreissich) minutes (Minutt).",
+      "vocab": ["nt-halb", "nt-schtunn", "nt-dreissich", "nt-minutt"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A \"Schtunn\" is shorter than a \"Minutt.\"",
+      "answer": false,
+      "explanation": "Nee — a Schtunn (hour) is much longer; it holds sixty Minutt.",
+      "vocab": ["nt-schtunn", "nt-minutt"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"en halb Schtunn\"",
+      "answer": "a half hour",
+      "acceptedAnswers": ["half an hour", "half hour"],
+      "vocab": ["nt-halb", "nt-schtunn"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Schtunn", "english": "hour" },
+        { "deitsh": "Minutt", "english": "minute" },
+        { "deitsh": "halb", "english": "half" },
+        { "deitsh": "Zeit", "english": "time" }
+      ],
+      "vocab": ["nt-schtunn", "nt-minutt", "nt-halb", "nt-zeit"],
+      "needsReview": true
+    }
+  ]
+}

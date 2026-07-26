@@ -1,0 +1,76 @@
+{
+  "unit": "numbers-time",
+  "lesson_id": "numbers-time-7",
+  "title": "Days of the Week",
+  "subUnit": "Days & the Week",
+  "subtitle": "Day, week, and the start of the week",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Daag", "meaning": "day", "phonetic": "dahg", "vocab": ["nt-daag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"day\"",
+      "options": ["Daag", "Woch", "Uhr", "Zeit"],
+      "answer": "Daag",
+      "vocab": ["nt-daag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Woch", "meaning": "week", "phonetic": "vokh", "vocab": ["nt-woch"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A Woch (week) has siwwe (seven) Daag.",
+      "answer": true,
+      "explanation": "Ya! One week (Woch) is seven (siwwe) days (Daag).",
+      "vocab": ["nt-woch", "nt-siwwe", "nt-daag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Sunndaag", "meaning": "Sunday", "phonetic": "SOON-dahg", "vocab": ["nt-sunndaag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"Sunday\"?",
+      "options": ["Sunndaag", "Woch", "Daag", "Uhr"],
+      "answer": "Sunndaag",
+      "vocab": ["nt-sunndaag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Muundaag", "meaning": "Monday", "phonetic": "MOON-dahg", "vocab": ["nt-muundaag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"Monday\"",
+      "options": ["Muundaag", "Sunndaag", "Woch", "Daag"],
+      "answer": "Muundaag",
+      "vocab": ["nt-muundaag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Dinschdaag", "meaning": "Tuesday", "phonetic": "DINS-dahg", "vocab": ["nt-dinschdaag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which day comes right after Muundaag?",
+      "options": ["Dinschdaag", "Sunndaag", "Woch", "Muundaag"],
+      "answer": "Dinschdaag",
+      "vocab": ["nt-dinschdaag", "nt-muundaag"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Put these in order: Sunday, Monday, Tuesday",
+      "answer": ["Sunndaag", "Muundaag", "Dinschdaag"],
+      "bank": ["Sunndaag", "Muundaag", "Dinschdaag", "Woch"],
+      "vocab": ["nt-sunndaag", "nt-muundaag", "nt-dinschdaag"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Daag", "english": "day" },
+        { "deitsh": "Woch", "english": "week" },
+        { "deitsh": "Sunndaag", "english": "Sunday" },
+        { "deitsh": "Muundaag", "english": "Monday" }
+      ],
+      "vocab": ["nt-daag", "nt-woch", "nt-sunndaag", "nt-muundaag"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "unit": "farm-animals",
+  "lesson_id": "farm-animals-6",
+  "title": "In the Barn",
+  "subUnit": "Around the Farm",
+  "subtitle": "Stable, hay, silo, wagon",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Schtall", "meaning": "stable", "phonetic": "shtahl", "vocab": ["fa-schtall"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"stable\"",
+      "options": ["Schtall", "Scheier", "Feld", "Zau"],
+      "answer": "Schtall",
+      "vocab": ["fa-schtall"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Hoi", "meaning": "hay", "phonetic": "hoy", "vocab": ["fa-hoi"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"hay\"",
+      "options": ["Hoi", "Schtall", "Gaarde", "Feld"],
+      "answer": "Hoi",
+      "vocab": ["fa-hoi"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Silo", "meaning": "silo", "phonetic": "SIGH-loh", "vocab": ["fa-silo"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"silo\"?",
+      "options": ["Silo", "Scheier", "Schtall", "Hoi"],
+      "answer": "Silo",
+      "vocab": ["fa-silo"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Waage", "meaning": "wagon", "phonetic": "VAH-geh", "vocab": ["fa-waage"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"wagon\"",
+      "options": ["Waage", "Silo", "Hoi", "Zau"],
+      "answer": "Waage",
+      "vocab": ["fa-waage"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Hoi\" means \"hay.\"",
+      "answer": true,
+      "explanation": "Ya! The Gäul eat Hoi in the Schtall, and the extra is stored high in the Scheier.",
+      "vocab": ["fa-hoi", "fa-gaeul", "fa-schtall"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Silo\"",
+      "answer": "silo",
+      "vocab": ["fa-silo"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Schtall", "english": "stable" },
+        { "deitsh": "Hoi", "english": "hay" },
+        { "deitsh": "Silo", "english": "silo" },
+        { "deitsh": "Waage", "english": "wagon" }
+      ],
+      "vocab": ["fa-schtall", "fa-hoi", "fa-silo", "fa-waage"],
+      "needsReview": true
+    }
+  ]
+}

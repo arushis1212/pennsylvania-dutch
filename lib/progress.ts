@@ -196,12 +196,30 @@ export function resetProgress(now: number = Date.now()): ProgressState {
 
 // ---- Derived selectors ----
 
-/** Rolling review accuracy across the given vocab ids (for unit gating). */
+/** Rolling review accuracy across the given vocab ids (over seen cards only). */
 export function accuracyFor(state: ProgressState, vocabIds: string[]): number {
   const cards = vocabIds
     .map((id) => state.cards[id])
     .filter((c): c is SrsCard => Boolean(c));
   return reviewAccuracy(cards);
+}
+
+/**
+ * Unit mastery (0..1) for unlock gating (PRD 6.3). Unlike {@link accuracyFor},
+ * this averages per-word accuracy across the ENTIRE unit's vocab, with words
+ * never reviewed counting as 0. Reaching the threshold therefore takes both
+ * broad coverage of the unit AND accuracy on it - you can't unlock the next unit
+ * by answering a single word correctly. E.g. 70% mastery ≈ 70% of the unit's
+ * words answered correctly.
+ */
+export function unitMastery(state: ProgressState, vocabIds: string[]): number {
+  if (vocabIds.length === 0) return 1;
+  let sum = 0;
+  for (const id of vocabIds) {
+    const c = state.cards[id];
+    if (c && c.seen > 0) sum += c.correct / c.seen;
+  }
+  return sum / vocabIds.length;
 }
 
 /** Whether today's Daily Hex has already been completed. */
