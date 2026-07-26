@@ -1,0 +1,68 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-8",
+  "title": "Faith, Hope, and Love",
+  "subUnit": "Blessings & Good Wishes",
+  "subtitle": "A few words of faith, and a common saying",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Gott", "meaning": "God", "phonetic": "gott", "vocab": ["fc-gott"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"God\"",
+      "options": ["Gott", "Sege", "Friede", "Gmee"],
+      "answer": "Gott",
+      "vocab": ["fc-gott"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Glaawe", "meaning": "faith", "phonetic": "GLAH-veh", "vocab": ["fc-glaawe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"faith\"?",
+      "options": ["Glaawe", "Friede", "Sege", "Gmee"],
+      "answer": "Glaawe",
+      "vocab": ["fc-glaawe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Hoffning", "meaning": "hope", "phonetic": "HOF-ning", "vocab": ["fc-hoffning"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"hope\"?",
+      "options": ["Hoffning", "Glaawe", "Friede", "gsund"],
+      "answer": "Hoffning",
+      "vocab": ["fc-hoffning"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Liewe", "meaning": "love", "phonetic": "LEE-veh", "vocab": ["fc-liewe"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Glaawe, Hoffning, un Liewe\" means \"faith, hope, and love.\"",
+      "answer": true,
+      "explanation": "Ya — Glaawe (faith), Hoffning (hope), un (and) Liewe (love).",
+      "vocab": ["fc-glaawe", "fc-hoffning", "fc-liewe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "wann Gott will", "meaning": "God willing", "phonetic": "vann gott vill", "vocab": ["fc-wann-gott-will"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"wann Gott will\" is a common saying meaning:",
+      "options": ["God willing", "thank you", "good day", "be well"],
+      "answer": "God willing",
+      "vocab": ["fc-wann-gott-will"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Gott", "english": "God" },
+        { "deitsh": "Glaawe", "english": "faith" },
+        { "deitsh": "Hoffning", "english": "hope" },
+        { "deitsh": "Liewe", "english": "love" }
+      ],
+      "vocab": ["fc-gott", "fc-glaawe", "fc-hoffning", "fc-liewe"],
+      "needsReview": true
+    }
+  ]
+}

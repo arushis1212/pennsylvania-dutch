@@ -1,0 +1,74 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-1",
+  "title": "Neighbors and Folks",
+  "subUnit": "Neighbors & Folks",
+  "subtitle": "Neighbor, friend, people, community",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Nochber", "meaning": "neighbor", "phonetic": "NOKH-ber", "vocab": ["fc-nochber"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"neighbor\"",
+      "options": ["Nochber", "Mudder", "Gaul", "Brot"],
+      "answer": "Nochber",
+      "vocab": ["fc-nochber"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Freind", "meaning": "friend", "phonetic": "frynt", "vocab": ["fc-freind"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"friend\"",
+      "options": ["Freind", "Nochber", "Familye", "Uhr"],
+      "answer": "Freind",
+      "vocab": ["fc-freind"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Leit", "meaning": "people", "phonetic": "lite", "vocab": ["fc-leit"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"people\" (folks)?",
+      "options": ["Leit", "Freind", "Nochber", "Geld"],
+      "answer": "Leit",
+      "vocab": ["fc-leit"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Nochber\"",
+      "answer": "neighbor",
+      "vocab": ["fc-nochber"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Gmee", "meaning": "community", "phonetic": "g'MAY", "vocab": ["fc-gmee"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"community\"?",
+      "options": ["Gmee", "Leit", "Haus", "Maarik"],
+      "answer": "Gmee",
+      "vocab": ["fc-gmee"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Leit\" means \"people\" or \"folks.\"",
+      "answer": true,
+      "explanation": "Ya — the Leit (folks) of a Gmee (community) are its neighbors and friends.",
+      "vocab": ["fc-leit", "fc-gmee"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Nochber", "english": "neighbor" },
+        { "deitsh": "Freind", "english": "friend" },
+        { "deitsh": "Leit", "english": "people" },
+        { "deitsh": "Gmee", "english": "community" }
+      ],
+      "vocab": ["fc-nochber", "fc-freind", "fc-leit", "fc-gmee"],
+      "needsReview": true
+    }
+  ]
+}

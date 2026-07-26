@@ -1,0 +1,68 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-7",
+  "title": "Be Well",
+  "subUnit": "Blessings & Good Wishes",
+  "subtitle": "Healthy, be well, peace, blessing",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "gsund", "meaning": "healthy", "phonetic": "g'SOONT", "vocab": ["fc-gsund"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"healthy\"",
+      "options": ["gsund", "froh", "freindlich", "gut"],
+      "answer": "gsund",
+      "vocab": ["fc-gsund"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Sei gsund", "meaning": "be well", "phonetic": "sy g'SOONT", "vocab": ["fc-sei-gsund"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Sei gsund\" is a kind way to say \"be well\" when parting.",
+      "answer": true,
+      "explanation": "Ya — Sei gsund (be well / stay healthy) is a warm farewell wish.",
+      "vocab": ["fc-sei-gsund", "fc-gsund"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Friede", "meaning": "peace", "phonetic": "FREE-deh", "vocab": ["fc-friede"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"peace\"?",
+      "options": ["Friede", "Gmee", "Freind", "Lied"],
+      "answer": "Friede",
+      "vocab": ["fc-friede"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Sege", "meaning": "blessing", "phonetic": "ZAY-geh", "vocab": ["fc-sege"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A \"Sege\" is a blessing — a wish for good upon someone.",
+      "answer": true,
+      "explanation": "Ya — a Sege (blessing) and Friede (peace) are kind wishes shared in a Gmee.",
+      "vocab": ["fc-sege", "fc-friede", "fc-gmee"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Sei gsund\"",
+      "answer": "be well",
+      "acceptedAnswers": ["be healthy", "stay well"],
+      "vocab": ["fc-sei-gsund"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "gsund", "english": "healthy" },
+        { "deitsh": "Sei gsund", "english": "be well" },
+        { "deitsh": "Friede", "english": "peace" },
+        { "deitsh": "Sege", "english": "blessing" }
+      ],
+      "vocab": ["fc-gsund", "fc-sei-gsund", "fc-friede", "fc-sege"],
+      "needsReview": true
+    }
+  ]
+}

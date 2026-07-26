@@ -1,0 +1,82 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-3",
+  "title": "Come and Go",
+  "subUnit": "Coming Together",
+  "subtitle": "Going, coming, and inviting",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "geh", "meaning": "to go", "phonetic": "gay", "vocab": ["fc-geh"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to go\"",
+      "options": ["geh", "kumme", "esse", "besuche"],
+      "answer": "geh",
+      "vocab": ["fc-geh"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Mir gehe\" means \"we go.\"",
+      "answer": true,
+      "explanation": "Ya — geh is \"to go\": ich geh (I go), mir gehe (we go).",
+      "vocab": ["fc-geh", "fc-mir"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "kumme", "meaning": "to come", "phonetic": "KOOM-eh", "vocab": ["fc-kumme"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to come\"?",
+      "options": ["kumme", "geh", "schwetze", "besuche"],
+      "answer": "kumme",
+      "vocab": ["fc-kumme"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Kumm!\" is a friendly way to say \"Come!\"",
+      "answer": true,
+      "explanation": "Ya — Kumm! invites someone over: Kumm ins Haus! (Come into the house!)",
+      "vocab": ["fc-kumme"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We go together.\"",
+      "answer": ["Mir", "gehe", "zamme"],
+      "bank": ["Mir", "gehe", "zamme", "kumme", "mir"],
+      "vocab": ["fc-mir", "fc-geh", "md-zamme"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the invitation: \"Come into the house!\"",
+      "answer": ["Kumm", "ins", "Haus"],
+      "bank": ["Kumm", "ins", "Haus", "geh", "zamme"],
+      "vocab": ["fc-kumme", "fh-haus"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Mir gehe.\"",
+      "answer": "we go",
+      "acceptedAnswers": ["we are going"],
+      "vocab": ["fc-mir", "fc-geh"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "geh", "english": "to go" },
+        { "deitsh": "kumme", "english": "to come" },
+        { "deitsh": "mir", "english": "we" },
+        { "deitsh": "besuche", "english": "to visit" }
+      ],
+      "vocab": ["fc-geh", "fc-kumme", "fc-mir", "fc-besuche"],
+      "needsReview": true
+    }
+  ]
+}

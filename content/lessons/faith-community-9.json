@@ -1,0 +1,100 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-9",
+  "title": "Milestone: Mir kumme zamme (We come together)",
+  "subUnit": "Milestone",
+  "subtitle": "A gathering-day review of neighbors and good wishes",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "On a Sunndaag the Nochbere gather. You greet a Freind:",
+      "options": ["Guder Mariye", "Gut Nacht", "Ade", "Wie viel"],
+      "answer": "Guder Mariye",
+      "vocab": ["guder-mariye", "fc-nochber", "fc-freind"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We go together.\"",
+      "answer": ["Mir", "gehe", "zamme"],
+      "bank": ["Mir", "gehe", "zamme", "kumme", "besuche"],
+      "vocab": ["fc-mir", "fc-geh", "md-zamme"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Mir singe en Lied.\"",
+      "answer": "we sing a song",
+      "acceptedAnswers": ["we sing a hymn", "we are singing a song"],
+      "vocab": ["fc-mir", "fc-singe", "fc-lied"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Nochber", "english": "neighbor" },
+        { "deitsh": "Gmee", "english": "community" },
+        { "deitsh": "Versammling", "english": "gathering" },
+        { "deitsh": "Gascht", "english": "guest" }
+      ],
+      "vocab": ["fc-nochber", "fc-gmee", "fc-versammling", "fc-gascht"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Nochbere helfe mitnanner\" means \"neighbors help one another.\"",
+      "answer": true,
+      "explanation": "Ya — in a Gmee, the Leit helfe mitnanner (help one another).",
+      "vocab": ["fc-nochber", "fh-helfe", "fc-mitnanner"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "After sharing a meal you feel dankbaar and say:",
+      "options": ["Danki", "Nee", "Wie viel", "Ade"],
+      "answer": "Danki",
+      "vocab": ["fc-dankbaar", "danki"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"our community\"",
+      "answer": ["unser", "Gmee"],
+      "bank": ["unser", "Gmee", "mei", "Freind"],
+      "vocab": ["fc-unser", "fc-gmee"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Sei gsund!\"",
+      "answer": "be well",
+      "acceptedAnswers": ["be healthy", "stay well"],
+      "vocab": ["fc-sei-gsund"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "The common saying \"wann Gott will\" means:",
+      "options": ["God willing", "good night", "thank you", "welcome"],
+      "answer": "God willing",
+      "vocab": ["fc-wann-gott-will"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Sege", "english": "blessing" },
+        { "deitsh": "Friede", "english": "peace" },
+        { "deitsh": "Glaawe", "english": "faith" },
+        { "deitsh": "Liewe", "english": "love" }
+      ],
+      "vocab": ["fc-sege", "fc-friede", "fc-glaawe", "fc-liewe"],
+      "needsReview": true
+    }
+  ]
+}

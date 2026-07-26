@@ -1,0 +1,75 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-4",
+  "title": "When Folks Gather",
+  "subUnit": "Coming Together",
+  "subtitle": "Gathering, meetinghouse, singing, songs",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Versammling", "meaning": "gathering", "phonetic": "fer-SAHM-ling", "vocab": ["fc-versammling"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"gathering\"",
+      "options": ["Versammling", "Gmee", "Maarik", "Haus"],
+      "answer": "Versammling",
+      "vocab": ["fc-versammling"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kaerrich", "meaning": "church", "phonetic": "KAIR-rikh", "vocab": ["fc-kaerrich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word names the church building?",
+      "options": ["Kaerrich", "Scheier", "Haus", "Schtand"],
+      "answer": "Kaerrich",
+      "vocab": ["fc-kaerrich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "singe", "meaning": "to sing", "phonetic": "ZING-eh", "vocab": ["fc-singe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to sing\"?",
+      "options": ["singe", "schwetze", "esse", "geh"],
+      "answer": "singe",
+      "vocab": ["fc-singe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Lied", "meaning": "song", "phonetic": "leed", "vocab": ["fc-lied"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "At a Versammling, the Leit often singe a Lied together.",
+      "answer": true,
+      "explanation": "Ya — folks (Leit) sing (singe) a song (Lied) when they gather.",
+      "vocab": ["fc-versammling", "fc-leit", "fc-singe", "fc-lied"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We sing a song.\"",
+      "answer": ["Mir", "singe", "en", "Lied"],
+      "bank": ["Mir", "singe", "en", "Lied", "Versammling", "schwetze"],
+      "vocab": ["fc-mir", "fc-singe", "fc-lied"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Lied\"",
+      "answer": "song",
+      "acceptedAnswers": ["hymn"],
+      "vocab": ["fc-lied"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Versammling", "english": "gathering" },
+        { "deitsh": "Kaerrich", "english": "church" },
+        { "deitsh": "singe", "english": "to sing" },
+        { "deitsh": "Lied", "english": "song" }
+      ],
+      "vocab": ["fc-versammling", "fc-kaerrich", "fc-singe", "fc-lied"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-2",
+  "title": "Visiting Neighbors",
+  "subUnit": "Neighbors & Folks",
+  "subtitle": "Guest, visiting, chatting, and \"we\"",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Gascht", "meaning": "guest", "phonetic": "gahsht", "vocab": ["fc-gascht"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"guest\"",
+      "options": ["Gascht", "Nochber", "Freind", "Leit"],
+      "answer": "Gascht",
+      "vocab": ["fc-gascht"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "besuche", "meaning": "to visit", "phonetic": "be-ZOOKH-eh", "vocab": ["fc-besuche"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to visit\"?",
+      "options": ["besuche", "esse", "kaafe", "helfe"],
+      "answer": "besuche",
+      "vocab": ["fc-besuche"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "schwetze", "meaning": "to talk", "phonetic": "SHVET-seh", "vocab": ["fc-schwetze"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "When a Gascht comes over, the Leit like to:",
+      "options": ["schwetze", "besuche", "koche", "verkaafe"],
+      "answer": "schwetze",
+      "vocab": ["fc-schwetze", "fc-gascht"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "mir", "meaning": "we", "phonetic": "meer", "vocab": ["fc-mir"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"mir\" means \"we.\"",
+      "answer": true,
+      "explanation": "Ya — mir besuche der Nochber (we visit the neighbor).",
+      "vocab": ["fc-mir", "fc-besuche", "fc-nochber"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We visit the neighbor.\"",
+      "answer": ["Mir", "besuche", "der", "Nochber"],
+      "bank": ["Mir", "besuche", "der", "Nochber", "Freind", "schwetze"],
+      "vocab": ["fc-mir", "fc-besuche", "fc-nochber"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Gascht\"",
+      "answer": "guest",
+      "vocab": ["fc-gascht"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Gascht", "english": "guest" },
+        { "deitsh": "besuche", "english": "to visit" },
+        { "deitsh": "schwetze", "english": "to talk" },
+        { "deitsh": "mir", "english": "we" }
+      ],
+      "vocab": ["fc-gascht", "fc-besuche", "fc-schwetze", "fc-mir"],
+      "needsReview": true
+    }
+  ]
+}

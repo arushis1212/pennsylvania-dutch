@@ -1,0 +1,75 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-5",
+  "title": "Lending a Hand",
+  "subUnit": "Helping & Kindness",
+  "subtitle": "Sharing, giving, and doing it together",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "teile", "meaning": "to share", "phonetic": "TY-leh", "vocab": ["fc-teile"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to share\"",
+      "options": ["teile", "gewwe", "esse", "kaafe"],
+      "answer": "teile",
+      "vocab": ["fc-teile"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "gewwe", "meaning": "to give", "phonetic": "GEV-veh", "vocab": ["fc-gewwe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to give\"?",
+      "options": ["gewwe", "teile", "kaafe", "esse"],
+      "answer": "gewwe",
+      "vocab": ["fc-gewwe"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"teile\" is to share, and \"gewwe\" is to give.",
+      "answer": true,
+      "explanation": "Ya — to share (teile) and to give (gewwe) are neighborly things to do.",
+      "vocab": ["fc-teile", "fc-gewwe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "mitnanner", "meaning": "together", "phonetic": "mit-NAHN-ner", "vocab": ["fc-mitnanner"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"together\" (with one another)?",
+      "options": ["mitnanner", "besuche", "singe", "geh"],
+      "answer": "mitnanner",
+      "vocab": ["fc-mitnanner"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Nochbere helfe mitnanner\" means \"neighbors help one another.\"",
+      "answer": true,
+      "explanation": "Ya — reusing helfe (to help): the Leit helfe mitnanner (help one another).",
+      "vocab": ["fc-nochber", "fh-helfe", "fc-mitnanner"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We share the bread.\"",
+      "answer": ["Mir", "teile", "es", "Brot"],
+      "bank": ["Mir", "teile", "es", "Brot", "gewwe", "Kees"],
+      "vocab": ["fc-mir", "fc-teile", "fd-brot"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "teile", "english": "to share" },
+        { "deitsh": "gewwe", "english": "to give" },
+        { "deitsh": "mitnanner", "english": "together" },
+        { "deitsh": "helfe", "english": "to help" }
+      ],
+      "vocab": ["fc-teile", "fc-gewwe", "fc-mitnanner", "fh-helfe"],
+      "needsReview": true
+    }
+  ]
+}

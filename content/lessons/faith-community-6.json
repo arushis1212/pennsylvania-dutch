@@ -1,0 +1,67 @@
+{
+  "unit": "faith-community",
+  "lesson_id": "faith-community-6",
+  "title": "Kind and Thankful",
+  "subUnit": "Helping & Kindness",
+  "subtitle": "Friendly, thankful, glad, and \"our\"",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "freindlich", "meaning": "friendly", "phonetic": "FRYNT-likh", "vocab": ["fc-freindlich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"friendly\"",
+      "options": ["freindlich", "gut", "groß", "kalt"],
+      "answer": "freindlich",
+      "vocab": ["fc-freindlich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "dankbaar", "meaning": "thankful", "phonetic": "DAHNK-bahr", "vocab": ["fc-dankbaar"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "When you are dankbaar, you say \"Danki.\"",
+      "answer": true,
+      "explanation": "Ya — dankbaar (thankful) is the feeling behind \"Danki\" (thank you).",
+      "vocab": ["fc-dankbaar", "danki"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "froh", "meaning": "glad", "phonetic": "froh", "vocab": ["fc-froh"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"glad\" (happy)?",
+      "options": ["froh", "dankbaar", "freindlich", "deier"],
+      "answer": "froh",
+      "vocab": ["fc-froh"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "unser", "meaning": "our", "phonetic": "OON-ser", "vocab": ["fc-unser"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"unser Gmee\" means:",
+      "options": ["our community", "my community", "the community", "your community"],
+      "answer": "our community",
+      "vocab": ["fc-unser", "fc-gmee"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"Our friend is friendly.\"",
+      "answer": ["Unser", "Freind", "is", "freindlich"],
+      "bank": ["Unser", "Freind", "is", "freindlich", "dankbaar", "froh"],
+      "vocab": ["fc-unser", "fc-freind", "fc-freindlich"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "freindlich", "english": "friendly" },
+        { "deitsh": "dankbaar", "english": "thankful" },
+        { "deitsh": "froh", "english": "glad" },
+        { "deitsh": "unser", "english": "our" }
+      ],
+      "vocab": ["fc-freindlich", "fc-dankbaar", "fc-froh", "fc-unser"],
+      "needsReview": true
+    }
+  ]
+}
