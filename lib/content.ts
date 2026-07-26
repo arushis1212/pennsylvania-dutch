@@ -59,6 +59,17 @@ import food8 from "@/content/lessons/food-8.json";
 import food9 from "@/content/lessons/food-9.json";
 import foodVocab from "@/content/vocab/food.json";
 
+import weatherSeasons1 from "@/content/lessons/weather-seasons-1.json";
+import weatherSeasons2 from "@/content/lessons/weather-seasons-2.json";
+import weatherSeasons3 from "@/content/lessons/weather-seasons-3.json";
+import weatherSeasons4 from "@/content/lessons/weather-seasons-4.json";
+import weatherSeasons5 from "@/content/lessons/weather-seasons-5.json";
+import weatherSeasons6 from "@/content/lessons/weather-seasons-6.json";
+import weatherSeasons7 from "@/content/lessons/weather-seasons-7.json";
+import weatherSeasons8 from "@/content/lessons/weather-seasons-8.json";
+import weatherSeasons9 from "@/content/lessons/weather-seasons-9.json";
+import weatherSeasonsVocab from "@/content/vocab/weather-seasons.json";
+
 const LESSONS: Lesson[] = [
   greetings1,
   greetings2,
@@ -102,6 +113,15 @@ const LESSONS: Lesson[] = [
   food7,
   food8,
   food9,
+  weatherSeasons1,
+  weatherSeasons2,
+  weatherSeasons3,
+  weatherSeasons4,
+  weatherSeasons5,
+  weatherSeasons6,
+  weatherSeasons7,
+  weatherSeasons8,
+  weatherSeasons9,
 ] as Lesson[];
 
 const VOCAB: VocabEntry[] = [
@@ -110,6 +130,7 @@ const VOCAB: VocabEntry[] = [
   ...(farmAnimalsVocab.entries as VocabEntry[]),
   ...(numbersTimeVocab.entries as VocabEntry[]),
   ...(foodVocab.entries as VocabEntry[]),
+  ...(weatherSeasonsVocab.entries as VocabEntry[]),
 ];
 
 const lessonById = new Map(LESSONS.map((l) => [l.lesson_id, l]));

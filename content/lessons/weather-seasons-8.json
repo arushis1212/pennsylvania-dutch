@@ -1,0 +1,68 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-8",
+  "title": "The Weather Turns",
+  "subUnit": "Seasonal Farm Life",
+  "subtitle": "Flowers, ice, rainbows — and what's to come",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Blumme", "meaning": "flowers", "phonetic": "BLOOM-eh", "vocab": ["ws-blumme"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "What grows (wachse) in the Gaarde in Frühyaahr?",
+      "options": ["Blumme", "Schnee", "Iis", "Dunner"],
+      "answer": "Blumme",
+      "vocab": ["ws-blumme", "ws-fruehyaahr"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Iis", "meaning": "ice", "phonetic": "eece", "vocab": ["ws-iis"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "When it is frostich and kalt, Wasser turns to Iis.",
+      "answer": true,
+      "explanation": "Ya — in the cold (kalt) winter, water (Wasser) freezes into ice (Iis).",
+      "vocab": ["ws-iis", "ws-frostich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Reggeboge", "meaning": "rainbow", "phonetic": "REG-geh-boh-geh", "vocab": ["ws-reggeboge"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "After the Rege, when the Sunn comes out, you might see a Reggeboge.",
+      "answer": true,
+      "explanation": "Ya — sun (Sunn) after rain (Rege) makes a rainbow (Reggeboge).",
+      "vocab": ["ws-reggeboge", "ws-rege", "ws-sunn"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Es watt kalt\" means \"it is getting cold\" (it will turn cold).",
+      "answer": true,
+      "explanation": "Ya — \"Es watt ___\" says the weather is becoming that way: Es watt kalt (turning cold), Es watt Winder (winter is coming).",
+      "vocab": ["fd-kalt", "ws-winder"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"It is getting cold.\"",
+      "answer": ["Es", "watt", "kalt"],
+      "bank": ["Es", "watt", "kalt", "warm", "is"],
+      "vocab": ["fd-kalt"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Blumme", "english": "flowers" },
+        { "deitsh": "Iis", "english": "ice" },
+        { "deitsh": "Reggeboge", "english": "rainbow" },
+        { "deitsh": "Erd", "english": "ground" }
+      ],
+      "vocab": ["ws-blumme", "ws-iis", "ws-reggeboge", "ws-erd"],
+      "needsReview": true
+    }
+  ]
+}

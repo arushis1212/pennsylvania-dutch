@@ -1,0 +1,67 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-7",
+  "title": "Working the Seasons",
+  "subUnit": "Seasonal Farm Life",
+  "subtitle": "Plant, harvest, grow, ground",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "blanze", "meaning": "to plant", "phonetic": "BLAHN-tseh", "vocab": ["ws-blanze"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to plant\"",
+      "options": ["blanze", "ernte", "esse", "schaffe"],
+      "answer": "blanze",
+      "vocab": ["ws-blanze"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "ernte", "meaning": "to harvest", "phonetic": "ERN-teh", "vocab": ["ws-ernte"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to harvest\"?",
+      "options": ["ernte", "blanze", "wachse", "koche"],
+      "answer": "ernte",
+      "vocab": ["ws-ernte"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "wachse", "meaning": "to grow", "phonetic": "VAHK-seh", "vocab": ["ws-wachse"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "You blanze in the Frühyaahr and ernte in the Harebscht.",
+      "answer": true,
+      "explanation": "Ya — plant (blanze) in spring, let it grow (wachse) all summer, and harvest (ernte) in autumn.",
+      "vocab": ["ws-blanze", "ws-fruehyaahr", "ws-ernte", "ws-harebscht"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Erd", "meaning": "ground", "phonetic": "airt", "vocab": ["ws-erd"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "You plant seeds in the:",
+      "options": ["Erd", "Himmel", "Wolk", "Uhr"],
+      "answer": "Erd",
+      "vocab": ["ws-erd", "ws-himmel"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"to plant in the garden\"",
+      "answer": ["blanze", "im", "Gaarde"],
+      "bank": ["blanze", "im", "Gaarde", "Feld", "ernte"],
+      "vocab": ["ws-blanze", "fa-gaarde"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "blanze", "english": "to plant" },
+        { "deitsh": "ernte", "english": "to harvest" },
+        { "deitsh": "wachse", "english": "to grow" },
+        { "deitsh": "Erd", "english": "ground" }
+      ],
+      "vocab": ["ws-blanze", "ws-ernte", "ws-wachse", "ws-erd"],
+      "needsReview": true
+    }
+  ]
+}

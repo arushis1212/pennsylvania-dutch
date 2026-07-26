@@ -1,0 +1,83 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-1",
+  "title": "Sun, Rain, and Snow",
+  "subUnit": "Weather & Sky",
+  "subtitle": "Weather, sun, rain, snow",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Wedder", "meaning": "weather", "phonetic": "VED-der", "vocab": ["ws-wedder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"weather\"",
+      "options": ["Wedder", "Mudder", "Uhr", "Brot"],
+      "answer": "Wedder",
+      "vocab": ["ws-wedder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Sunn", "meaning": "sun", "phonetic": "zoon", "vocab": ["ws-sunn"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"sun\"",
+      "options": ["Sunn", "Wedder", "Kaffi", "Gaul"],
+      "answer": "Sunn",
+      "vocab": ["ws-sunn"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Rege", "meaning": "rain", "phonetic": "RAY-geh", "vocab": ["ws-rege"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"rain\"?",
+      "options": ["Rege", "Sunn", "Wedder", "Wasser"],
+      "answer": "Rege",
+      "vocab": ["ws-rege"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Es regert\" means \"it is raining.\"",
+      "answer": true,
+      "explanation": "Ya — from Rege (rain) comes \"Es regert\" (it rains / it's raining).",
+      "vocab": ["ws-rege"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Schnee", "meaning": "snow", "phonetic": "shnay", "vocab": ["ws-schnee"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"snow\"",
+      "options": ["Schnee", "Rege", "Sunn", "Millich"],
+      "answer": "Schnee",
+      "vocab": ["ws-schnee"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "When \"es schneet,\" cold white Schnee falls from the sky.",
+      "answer": true,
+      "explanation": "Ya — \"Es schneet\" means \"it is snowing.\" Schnee is cold (kalt) and white.",
+      "vocab": ["ws-schnee"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Sunn\"",
+      "answer": "sun",
+      "vocab": ["ws-sunn"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Wedder", "english": "weather" },
+        { "deitsh": "Sunn", "english": "sun" },
+        { "deitsh": "Rege", "english": "rain" },
+        { "deitsh": "Schnee", "english": "snow" }
+      ],
+      "vocab": ["ws-wedder", "ws-sunn", "ws-rege", "ws-schnee"],
+      "needsReview": true
+    }
+  ]
+}

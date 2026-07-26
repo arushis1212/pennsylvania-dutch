@@ -1,0 +1,73 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-5",
+  "title": "Summer and Winter",
+  "subUnit": "The Four Seasons",
+  "subtitle": "Year, summer, winter",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Yaahr", "meaning": "year", "phonetic": "yaar", "vocab": ["ws-yaahr"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"year\"",
+      "options": ["Yaahr", "Woch", "Daag", "Uhr"],
+      "answer": "Yaahr",
+      "vocab": ["ws-yaahr"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Summer", "meaning": "summer", "phonetic": "ZOOM-mer", "vocab": ["ws-summer"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which season is warm and sunnich?",
+      "options": ["Summer", "Winder", "Yaahr", "Wedder"],
+      "answer": "Summer",
+      "vocab": ["ws-summer", "ws-sunnich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Winder", "meaning": "winter", "phonetic": "VIN-der", "vocab": ["ws-winder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "In which season does es schnee (it snow) and turn kalt?",
+      "options": ["Winder", "Summer", "Yaahr", "Sunn"],
+      "answer": "Winder",
+      "vocab": ["ws-winder", "ws-schnee"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Der Summer is wermer as der Winder.",
+      "answer": true,
+      "explanation": "Ya — summer is warmer than winter (wermer as = warmer than); winter is kelter as summer.",
+      "vocab": ["ws-summer", "ws-winder"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"Winter is colder than summer.\"",
+      "answer": ["Der", "Winder", "is", "kelter", "as", "der", "Summer"],
+      "bank": ["Der", "Winder", "is", "kelter", "as", "der", "Summer", "wermer"],
+      "vocab": ["ws-winder", "ws-summer"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Yaahr\"",
+      "answer": "year",
+      "vocab": ["ws-yaahr"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Yaahr", "english": "year" },
+        { "deitsh": "Summer", "english": "summer" },
+        { "deitsh": "Winder", "english": "winter" },
+        { "deitsh": "Schnee", "english": "snow" }
+      ],
+      "vocab": ["ws-yaahr", "ws-summer", "ws-winder", "ws-schnee"],
+      "needsReview": true
+    }
+  ]
+}

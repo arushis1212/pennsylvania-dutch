@@ -1,0 +1,76 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-3",
+  "title": "How's the Weather?",
+  "subUnit": "Describing the Weather",
+  "subtitle": "Sunny, cloudy, windy, wet",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "sunnich", "meaning": "sunny", "phonetic": "ZOON-ikh", "vocab": ["ws-sunnich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"sunny\"",
+      "options": ["sunnich", "Sunn", "Wedder", "kalt"],
+      "answer": "sunnich",
+      "vocab": ["ws-sunnich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Es is sunnich\" means \"it is sunny.\"",
+      "answer": true,
+      "explanation": "Ya — \"Es is sunnich\" (it is sunny), just like \"Es is kalt\" (it is cold).",
+      "vocab": ["ws-sunnich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "wolkich", "meaning": "cloudy", "phonetic": "VOLK-ikh", "vocab": ["ws-wolkich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"cloudy\"?",
+      "options": ["wolkich", "sunnich", "Wolk", "Wind"],
+      "answer": "wolkich",
+      "vocab": ["ws-wolkich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "windich", "meaning": "windy", "phonetic": "VIN-dikh", "vocab": ["ws-windich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "When the Wind blows hard, it is:",
+      "options": ["windich", "wolkich", "sunnich", "nass"],
+      "answer": "windich",
+      "vocab": ["ws-windich", "ws-wind"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "nass", "meaning": "wet", "phonetic": "nahss", "vocab": ["ws-nass"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "After the Rege, the Erd is nass.",
+      "answer": true,
+      "explanation": "Ya — after rain (Rege) the ground is wet (nass).",
+      "vocab": ["ws-nass", "ws-rege"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"It is sunny.\"",
+      "answer": ["Es", "is", "sunnich"],
+      "bank": ["Es", "is", "sunnich", "wolkich", "Sunn"],
+      "vocab": ["ws-sunnich"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "sunnich", "english": "sunny" },
+        { "deitsh": "wolkich", "english": "cloudy" },
+        { "deitsh": "windich", "english": "windy" },
+        { "deitsh": "nass", "english": "wet" }
+      ],
+      "vocab": ["ws-sunnich", "ws-wolkich", "ws-windich", "ws-nass"],
+      "needsReview": true
+    }
+  ]
+}

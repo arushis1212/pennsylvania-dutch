@@ -1,0 +1,76 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-2",
+  "title": "Wind and Storms",
+  "subUnit": "Weather & Sky",
+  "subtitle": "Wind, cloud, sky, storm, thunder",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Wind", "meaning": "wind", "phonetic": "vint", "vocab": ["ws-wind"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"wind\"",
+      "options": ["Wind", "Rege", "Schnee", "Sunn"],
+      "answer": "Wind",
+      "vocab": ["ws-wind"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Wolk", "meaning": "cloud", "phonetic": "volk", "vocab": ["ws-wolk"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"cloud\"",
+      "options": ["Wolk", "Wind", "Wedder", "Himmel"],
+      "answer": "Wolk",
+      "vocab": ["ws-wolk"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Himmel", "meaning": "sky", "phonetic": "HIM-mel", "vocab": ["ws-himmel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Where do the Sunn and the Wolk appear?",
+      "options": ["im Himmel", "im Haus", "im Feld", "im Schtall"],
+      "answer": "im Himmel",
+      "vocab": ["ws-himmel", "ws-sunn", "ws-wolk"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Schtarm", "meaning": "storm", "phonetic": "shtarm", "vocab": ["ws-schtarm"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"storm\"?",
+      "options": ["Schtarm", "Wolk", "Himmel", "Wind"],
+      "answer": "Schtarm",
+      "vocab": ["ws-schtarm"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Dunner", "meaning": "thunder", "phonetic": "DUN-ner", "vocab": ["ws-dunner"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "In a Schtarm you often hear Dunner.",
+      "answer": true,
+      "explanation": "Ya — a storm (Schtarm) brings wind (Wind) and thunder (Dunner).",
+      "vocab": ["ws-schtarm", "ws-dunner"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Himmel\"",
+      "answer": "sky",
+      "acceptedAnswers": ["heaven"],
+      "vocab": ["ws-himmel"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Wind", "english": "wind" },
+        { "deitsh": "Wolk", "english": "cloud" },
+        { "deitsh": "Himmel", "english": "sky" },
+        { "deitsh": "Dunner", "english": "thunder" }
+      ],
+      "vocab": ["ws-wind", "ws-wolk", "ws-himmel", "ws-dunner"],
+      "needsReview": true
+    }
+  ]
+}

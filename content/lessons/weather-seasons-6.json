@@ -1,0 +1,74 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-6",
+  "title": "Spring and Fall",
+  "subUnit": "The Four Seasons",
+  "subtitle": "Spring, autumn, and falling leaves",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Frühyaahr", "meaning": "spring", "phonetic": "FREE-yaar", "vocab": ["ws-fruehyaahr"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which season comes after Winder, when it turns warm again?",
+      "options": ["Frühyaahr", "Summer", "Harebscht", "Yaahr"],
+      "answer": "Frühyaahr",
+      "vocab": ["ws-fruehyaahr", "ws-winder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Harebscht", "meaning": "autumn", "phonetic": "HAH-rebsht", "vocab": ["ws-harebscht"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"autumn\" (fall)?",
+      "options": ["Harebscht", "Frühyaahr", "Summer", "Winder"],
+      "answer": "Harebscht",
+      "vocab": ["ws-harebscht"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Blatt", "meaning": "leaf", "phonetic": "blaht", "vocab": ["ws-blatt"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"leaf\"",
+      "options": ["Blatt", "Blumme", "Wolk", "Erd"],
+      "answer": "Blatt",
+      "vocab": ["ws-blatt"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Im Harebscht falls the Blatt from the tree.",
+      "answer": true,
+      "explanation": "Ya — in autumn (Harebscht), the leaves (Blatt) turn color and fall.",
+      "vocab": ["ws-harebscht", "ws-blatt"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "There are four seasons: Frühyaahr, Summer, Harebscht, and Winder.",
+      "answer": true,
+      "explanation": "Ya — spring, summer, autumn, winter make the turning Yaahr (year).",
+      "vocab": ["ws-fruehyaahr", "ws-summer", "ws-harebscht", "ws-winder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Frühyaahr\"",
+      "answer": "spring",
+      "vocab": ["ws-fruehyaahr"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Frühyaahr", "english": "spring" },
+        { "deitsh": "Harebscht", "english": "autumn" },
+        { "deitsh": "Blatt", "english": "leaf" },
+        { "deitsh": "Summer", "english": "summer" }
+      ],
+      "vocab": ["ws-fruehyaahr", "ws-harebscht", "ws-blatt", "ws-summer"],
+      "needsReview": true
+    }
+  ]
+}

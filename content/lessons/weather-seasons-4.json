@@ -1,0 +1,76 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-4",
+  "title": "Hotter and Colder",
+  "subUnit": "Describing the Weather",
+  "subtitle": "Hot, cool, dry, frosty — and comparing",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "heess", "meaning": "hot", "phonetic": "hayss", "vocab": ["ws-heess"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"hot\"",
+      "options": ["heess", "kalt", "nass", "sunnich"],
+      "answer": "heess",
+      "vocab": ["ws-heess"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "kiehl", "meaning": "cool", "phonetic": "keel", "vocab": ["ws-kiehl"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"cool\"? (not fully cold, just cool)",
+      "options": ["kiehl", "heess", "warm", "nass"],
+      "answer": "kiehl",
+      "vocab": ["ws-kiehl"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "drucke", "meaning": "dry", "phonetic": "DROOK-eh", "vocab": ["ws-drucke"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"drucke\" (dry) is the opposite of \"nass\" (wet).",
+      "answer": true,
+      "explanation": "Ya — drucke (dry) is the opposite of nass (wet).",
+      "vocab": ["ws-drucke", "ws-nass"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "frostich", "meaning": "frosty", "phonetic": "FROST-ikh", "vocab": ["ws-frostich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "On a cold, frosty morning, the weather is:",
+      "options": ["frostich", "heess", "sunnich", "drucke"],
+      "answer": "frostich",
+      "vocab": ["ws-frostich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "To compare, you add -er and \"as\": \"kelter as\" means \"colder than.\"",
+      "answer": true,
+      "explanation": "Ya — kalt → kelter as (colder than), warm → wermer as (warmer than). \"as\" = than.",
+      "vocab": ["ws-heess", "ws-kiehl"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"Snow is colder than rain.\"",
+      "answer": ["Schnee", "is", "kelter", "as", "Rege"],
+      "bank": ["Schnee", "is", "kelter", "as", "Rege", "wermer"],
+      "vocab": ["ws-schnee", "ws-rege"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "heess", "english": "hot" },
+        { "deitsh": "kiehl", "english": "cool" },
+        { "deitsh": "drucke", "english": "dry" },
+        { "deitsh": "frostich", "english": "frosty" }
+      ],
+      "vocab": ["ws-heess", "ws-kiehl", "ws-drucke", "ws-frostich"],
+      "needsReview": true
+    }
+  ]
+}

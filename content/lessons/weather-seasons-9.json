@@ -1,0 +1,100 @@
+{
+  "unit": "weather-seasons",
+  "lesson_id": "weather-seasons-9",
+  "title": "Milestone: Es Yaahr Rum (The year around)",
+  "subUnit": "Milestone",
+  "subtitle": "A turning-year review of weather and seasons",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Es is sunnich un warm.\" Which season fits best?",
+      "options": ["Summer", "Winder", "Harebscht", "Schnee"],
+      "answer": "Summer",
+      "vocab": ["ws-sunnich", "fd-warm", "ws-summer"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Es regert.\"",
+      "answer": "it is raining",
+      "acceptedAnswers": ["it's raining", "it rains"],
+      "vocab": ["ws-rege"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"Winter is colder than summer.\"",
+      "answer": ["Der", "Winder", "is", "kelter", "as", "der", "Summer"],
+      "bank": ["Der", "Winder", "is", "kelter", "as", "der", "Summer", "wermer"],
+      "vocab": ["ws-winder", "ws-summer"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Sunn", "english": "sun" },
+        { "deitsh": "Rege", "english": "rain" },
+        { "deitsh": "Schnee", "english": "snow" },
+        { "deitsh": "Wind", "english": "wind" }
+      ],
+      "vocab": ["ws-sunn", "ws-rege", "ws-schnee", "ws-wind"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Im Frühyaahr blanze mir Blumme in der Erd.",
+      "answer": true,
+      "explanation": "Ya — in spring (Frühyaahr) we plant (blanze) flowers (Blumme) in the ground (Erd).",
+      "vocab": ["ws-fruehyaahr", "ws-blanze", "ws-blumme", "ws-erd"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "After the Rege, the Sunn comes out. You might see a:",
+      "options": ["Reggeboge", "Schnee", "Iis", "Dunner"],
+      "answer": "Reggeboge",
+      "vocab": ["ws-reggeboge", "ws-rege", "ws-sunn"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each season to its meaning",
+      "pairs": [
+        { "deitsh": "Frühyaahr", "english": "spring" },
+        { "deitsh": "Summer", "english": "summer" },
+        { "deitsh": "Harebscht", "english": "autumn" },
+        { "deitsh": "Winder", "english": "winter" }
+      ],
+      "vocab": ["ws-fruehyaahr", "ws-summer", "ws-harebscht", "ws-winder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Es is kalt un frostich.\"",
+      "answer": "it is cold and frosty",
+      "acceptedAnswers": ["it's cold and frosty"],
+      "vocab": ["fd-kalt", "ws-frostich"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Im Harebscht the family goes to ernte in the field. Which word means \"field\"?",
+      "options": ["Feld", "Gaarde", "Scheier", "Himmel"],
+      "answer": "Feld",
+      "vocab": ["fa-feld", "ws-harebscht", "ws-ernte"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "On a bright Summer Mariye, you greet a neighbor with:",
+      "options": ["Guder Mariye", "Gut Nacht", "Ade", "Danki"],
+      "answer": "Guder Mariye",
+      "vocab": ["guder-mariye", "ws-summer"],
+      "needsReview": true
+    }
+  ]
+}
