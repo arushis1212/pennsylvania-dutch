@@ -1,0 +1,100 @@
+{
+  "unit": "food",
+  "lesson_id": "food-9",
+  "title": "Milestone: Am Disch (At the table)",
+  "subUnit": "Milestone",
+  "subtitle": "A mealtime review, tying the table together",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Es is zwelf Uhr — Zeit fer's Middaagesse.\" Which meal is it time for?",
+      "options": ["Middaagesse", "Frühschtick", "Nachtesse", "Kaffi"],
+      "answer": "Middaagesse",
+      "vocab": ["nt-zwelf", "nt-uhr", "fd-middaagesse"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Ich hätt gern Kaffi.\"",
+      "answer": "i would like coffee",
+      "acceptedAnswers": ["i'd like coffee", "i would like some coffee"],
+      "vocab": ["fd-haett-gern", "fd-kaffi"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"The pie is sweet.\"",
+      "answer": ["Der", "Boi", "is", "siess"],
+      "bank": ["Der", "Boi", "is", "siess", "warm", "Kuche"],
+      "vocab": ["fa-der", "fd-boi", "fd-siess"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each food to its meaning",
+      "pairs": [
+        { "deitsh": "Brot", "english": "bread" },
+        { "deitsh": "Kees", "english": "cheese" },
+        { "deitsh": "Supp", "english": "soup" },
+        { "deitsh": "Grumbiere", "english": "potatoes" }
+      ],
+      "vocab": ["fd-brot", "fd-kees", "fd-supp", "fd-grumbiere"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Millich (milk) comes from a Kuh.",
+      "answer": true,
+      "explanation": "Ya — you melke (milk) the Kuh (cow) to get Millich (milk).",
+      "vocab": ["fd-millich", "fa-kuh"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which utensil do you eat Supp with?",
+      "options": ["Leffel", "Gawwel", "Messer", "Deller"],
+      "answer": "Leffel",
+      "vocab": ["fd-leffel", "fd-supp"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Ich bin hungrich.\"",
+      "answer": "i am hungry",
+      "acceptedAnswers": ["i'm hungry"],
+      "vocab": ["fd-hungrich"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "After a good Nachtesse, you thank your host. You say:",
+      "options": ["Danki", "Sei so gut", "Ade", "Hallo"],
+      "answer": "Danki",
+      "vocab": ["danki", "fd-nachtesse"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "gut", "english": "good" },
+        { "deitsh": "siess", "english": "sweet" },
+        { "deitsh": "warm", "english": "warm" },
+        { "deitsh": "kalt", "english": "cold" }
+      ],
+      "vocab": ["fd-gut", "fd-siess", "fd-warm", "fd-kalt"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "You are hungrich and want cake. You politely say:",
+      "options": ["Ich hätt gern Kuche", "Ich bin Kuche", "Der Kuche is glee", "Wie viel Kuche"],
+      "answer": "Ich hätt gern Kuche",
+      "vocab": ["fd-haett-gern", "fd-kuche"],
+      "needsReview": true
+    }
+  ]
+}

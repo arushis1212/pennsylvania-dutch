@@ -1,0 +1,82 @@
+{
+  "unit": "food",
+  "lesson_id": "food-5",
+  "title": "Sweets & Baking",
+  "subUnit": "Sweets & Baking",
+  "subtitle": "Cake, pie, sugar, honey",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Kuche", "meaning": "cake", "phonetic": "KOO-kheh", "vocab": ["fd-kuche"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"cake\"",
+      "options": ["Kuche", "Supp", "Fleesch", "Brot"],
+      "answer": "Kuche",
+      "vocab": ["fd-kuche"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Boi", "meaning": "pie", "phonetic": "boy", "vocab": ["fd-boi"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"pie\"",
+      "options": ["Boi", "Kuche", "Supp", "Kees"],
+      "answer": "Boi",
+      "vocab": ["fd-boi"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Kuche\" means cake and \"Boi\" means pie.",
+      "answer": true,
+      "explanation": "Ya! Kuche is cake; Boi is pie — think shoofly Boi cooling on the sill.",
+      "vocab": ["fd-kuche", "fd-boi"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Zucker", "meaning": "sugar", "phonetic": "TSOOK-er", "vocab": ["fd-zucker"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"sugar\"?",
+      "options": ["Zucker", "Kuche", "Boi", "Budder"],
+      "answer": "Zucker",
+      "vocab": ["fd-zucker"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Honich", "meaning": "honey", "phonetic": "HOH-nikh", "vocab": ["fd-honich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"honey\"",
+      "options": ["Honich", "Zucker", "Boi", "Kuche"],
+      "answer": "Honich",
+      "vocab": ["fd-honich"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"I eat pie.\"",
+      "answer": ["Ich", "ess", "Boi"],
+      "bank": ["Ich", "ess", "Boi", "Kuche", "drink"],
+      "vocab": ["fd-esse", "fd-boi"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Zucker\"",
+      "answer": "sugar",
+      "vocab": ["fd-zucker"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Kuche", "english": "cake" },
+        { "deitsh": "Boi", "english": "pie" },
+        { "deitsh": "Zucker", "english": "sugar" },
+        { "deitsh": "Honich", "english": "honey" }
+      ],
+      "vocab": ["fd-kuche", "fd-boi", "fd-zucker", "fd-honich"],
+      "needsReview": true
+    }
+  ]
+}

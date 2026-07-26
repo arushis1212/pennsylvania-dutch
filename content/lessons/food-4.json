@@ -1,0 +1,74 @@
+{
+  "unit": "food",
+  "lesson_id": "food-4",
+  "title": "A Hearty Supper",
+  "subUnit": "Common Dishes",
+  "subtitle": "Soup, meat, potatoes, beans",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Supp", "meaning": "soup", "phonetic": "zoop", "vocab": ["fd-supp"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"soup\"",
+      "options": ["Supp", "Brot", "Kees", "Oi"],
+      "answer": "Supp",
+      "vocab": ["fd-supp"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Fleesch", "meaning": "meat", "phonetic": "flaysh", "vocab": ["fd-fleesch"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"meat\"",
+      "options": ["Fleesch", "Supp", "Brot", "Budder"],
+      "answer": "Fleesch",
+      "vocab": ["fd-fleesch"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Grumbiere", "meaning": "potatoes", "phonetic": "GROOM-beer-eh", "vocab": ["fd-grumbiere"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Grumbiere\" means potatoes.",
+      "answer": true,
+      "explanation": "Ya — Grumbiere (potatoes) are a PA Dutch table staple.",
+      "vocab": ["fd-grumbiere"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Bohne", "meaning": "beans", "phonetic": "BOH-neh", "vocab": ["fd-bohne"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"beans\"?",
+      "options": ["Bohne", "Grumbiere", "Fleesch", "Supp"],
+      "answer": "Bohne",
+      "vocab": ["fd-bohne"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"three potatoes\"",
+      "answer": ["drei", "Grumbiere"],
+      "bank": ["drei", "Grumbiere", "Bohne", "zwee"],
+      "vocab": ["nt-drei", "fd-grumbiere"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Fleesch\"",
+      "answer": "meat",
+      "vocab": ["fd-fleesch"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Supp", "english": "soup" },
+        { "deitsh": "Fleesch", "english": "meat" },
+        { "deitsh": "Grumbiere", "english": "potatoes" },
+        { "deitsh": "Bohne", "english": "beans" }
+      ],
+      "vocab": ["fd-supp", "fd-fleesch", "fd-grumbiere", "fd-bohne"],
+      "needsReview": true
+    }
+  ]
+}

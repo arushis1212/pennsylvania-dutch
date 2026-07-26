@@ -1,0 +1,82 @@
+{
+  "unit": "food",
+  "lesson_id": "food-7",
+  "title": "Setting the Table",
+  "subUnit": "At the Table",
+  "subtitle": "Plate, fork, knife, spoon",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Deller", "meaning": "plate", "phonetic": "DEL-ler", "vocab": ["fd-deller"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"plate\"",
+      "options": ["Deller", "Supp", "Brot", "Kuche"],
+      "answer": "Deller",
+      "vocab": ["fd-deller"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Gawwel", "meaning": "fork", "phonetic": "GAH-wel", "vocab": ["fd-gawwel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"fork\"",
+      "options": ["Gawwel", "Deller", "Boi", "Kees"],
+      "answer": "Gawwel",
+      "vocab": ["fd-gawwel"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Messer", "meaning": "knife", "phonetic": "MES-ser", "vocab": ["fd-messer"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"knife\"?",
+      "options": ["Messer", "Gawwel", "Deller", "Fleesch"],
+      "answer": "Messer",
+      "vocab": ["fd-messer"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Leffel", "meaning": "spoon", "phonetic": "LEF-fel", "vocab": ["fd-leffel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which utensil do you eat Supp with?",
+      "options": ["Leffel", "Gawwel", "Messer", "Deller"],
+      "answer": "Leffel",
+      "vocab": ["fd-leffel", "fd-supp"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A Gawwel is a fork and a Leffel is a spoon.",
+      "answer": true,
+      "explanation": "Ya — Gawwel (fork), Leffel (spoon), Messer (knife), all on the Deller (plate).",
+      "vocab": ["fd-gawwel", "fd-leffel"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"two plates\"",
+      "answer": ["zwee", "Deller"],
+      "bank": ["zwee", "Deller", "Gawwel", "drei"],
+      "vocab": ["nt-zwee", "fd-deller"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Messer\"",
+      "answer": "knife",
+      "vocab": ["fd-messer"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Deller", "english": "plate" },
+        { "deitsh": "Gawwel", "english": "fork" },
+        { "deitsh": "Messer", "english": "knife" },
+        { "deitsh": "Leffel", "english": "spoon" }
+      ],
+      "vocab": ["fd-deller", "fd-gawwel", "fd-messer", "fd-leffel"],
+      "needsReview": true
+    }
+  ]
+}

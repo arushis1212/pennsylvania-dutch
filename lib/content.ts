@@ -48,6 +48,17 @@ import numbersTime8 from "@/content/lessons/numbers-time-8.json";
 import numbersTime9 from "@/content/lessons/numbers-time-9.json";
 import numbersTimeVocab from "@/content/vocab/numbers-time.json";
 
+import food1 from "@/content/lessons/food-1.json";
+import food2 from "@/content/lessons/food-2.json";
+import food3 from "@/content/lessons/food-3.json";
+import food4 from "@/content/lessons/food-4.json";
+import food5 from "@/content/lessons/food-5.json";
+import food6 from "@/content/lessons/food-6.json";
+import food7 from "@/content/lessons/food-7.json";
+import food8 from "@/content/lessons/food-8.json";
+import food9 from "@/content/lessons/food-9.json";
+import foodVocab from "@/content/vocab/food.json";
+
 const LESSONS: Lesson[] = [
   greetings1,
   greetings2,
@@ -82,6 +93,15 @@ const LESSONS: Lesson[] = [
   numbersTime7,
   numbersTime8,
   numbersTime9,
+  food1,
+  food2,
+  food3,
+  food4,
+  food5,
+  food6,
+  food7,
+  food8,
+  food9,
 ] as Lesson[];
 
 const VOCAB: VocabEntry[] = [
@@ -89,6 +109,7 @@ const VOCAB: VocabEntry[] = [
   ...(familyHomeVocab.entries as VocabEntry[]),
   ...(farmAnimalsVocab.entries as VocabEntry[]),
   ...(numbersTimeVocab.entries as VocabEntry[]),
+  ...(foodVocab.entries as VocabEntry[]),
 ];
 
 const lessonById = new Map(LESSONS.map((l) => [l.lesson_id, l]));

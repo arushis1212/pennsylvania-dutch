@@ -1,0 +1,83 @@
+{
+  "unit": "food",
+  "lesson_id": "food-1",
+  "title": "Time to Eat",
+  "subUnit": "Meals & Mealtimes",
+  "subtitle": "Eating, breakfast, lunch, supper",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "esse", "meaning": "to eat", "phonetic": "ES-seh", "vocab": ["fd-esse"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to eat\"",
+      "options": ["esse", "koche", "hawwe", "helfe"],
+      "answer": "esse",
+      "vocab": ["fd-esse"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Frühschtick", "meaning": "breakfast", "phonetic": "FREE-shtick", "vocab": ["fd-fruehschtick"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"breakfast\"",
+      "options": ["Frühschtick", "Mudder", "Uhr", "Gaul"],
+      "answer": "Frühschtick",
+      "vocab": ["fd-fruehschtick"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Middaagesse", "meaning": "lunch", "phonetic": "MID-dahg-es-seh", "vocab": ["fd-middaagesse"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word is the midday meal?",
+      "options": ["Middaagesse", "Frühschtick", "esse", "Daag"],
+      "answer": "Middaagesse",
+      "vocab": ["fd-middaagesse"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"esse\" means \"to eat.\"",
+      "answer": true,
+      "explanation": "Ya! esse is \"to eat\": Ich ess (I eat), mir esse (we eat).",
+      "vocab": ["fd-esse"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Nachtesse", "meaning": "supper", "phonetic": "NAHKT-es-seh", "vocab": ["fd-nachtesse"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word is the evening meal?",
+      "options": ["Nachtesse", "Middaagesse", "Frühschtick", "Uhr"],
+      "answer": "Nachtesse",
+      "vocab": ["fd-nachtesse"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Frühschtick\"",
+      "answer": "breakfast",
+      "vocab": ["fd-fruehschtick"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Frühschtick comes earlier in the day than Nachtesse.",
+      "answer": true,
+      "explanation": "Ya — breakfast (Frühschtick) is the morning meal; supper (Nachtesse) is at night.",
+      "vocab": ["fd-fruehschtick", "fd-nachtesse"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "esse", "english": "to eat" },
+        { "deitsh": "Frühschtick", "english": "breakfast" },
+        { "deitsh": "Middaagesse", "english": "lunch" },
+        { "deitsh": "Nachtesse", "english": "supper" }
+      ],
+      "vocab": ["fd-esse", "fd-fruehschtick", "fd-middaagesse", "fd-nachtesse"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "unit": "food",
+  "lesson_id": "food-8",
+  "title": "Please and Thank You at the Table",
+  "subUnit": "At the Table",
+  "subtitle": "Being hungry and asking politely",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "hungrich", "meaning": "hungry", "phonetic": "HOONG-rikh", "vocab": ["fd-hungrich"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Ich bin hungrich\" means \"I am hungry.\"",
+      "answer": true,
+      "explanation": "Ya — bin means \"am\": Ich bin hungrich (I am hungry).",
+      "vocab": ["fd-hungrich"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"hungry\"?",
+      "options": ["hungrich", "gut", "warm", "siess"],
+      "answer": "hungrich",
+      "vocab": ["fd-hungrich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Ich hätt gern", "meaning": "I would like", "phonetic": "ikh het gairn", "vocab": ["fd-haett-gern"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Ich hätt gern Kaffi\" means:",
+      "options": ["I would like coffee", "I have coffee", "I drink coffee", "The coffee is good"],
+      "answer": "I would like coffee",
+      "vocab": ["fd-haett-gern", "fd-kaffi"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"I would like bread.\"",
+      "answer": ["Ich", "hätt", "gern", "Brot"],
+      "bank": ["Ich", "hätt", "gern", "Brot", "Supp", "ess"],
+      "vocab": ["fd-haett-gern", "fd-brot"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Adding \"Sei so gut\" (please) makes a request polite.",
+      "answer": true,
+      "explanation": "Ya — \"Ich hätt gern Supp, sei so gut\" = I would like soup, please. And you answer \"Danki\" (thank you).",
+      "vocab": ["sei-so-gut", "fd-haett-gern", "fd-supp"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Ich hätt gern Wasser.\"",
+      "answer": "i would like water",
+      "acceptedAnswers": ["i'd like water", "i would like some water"],
+      "vocab": ["fd-haett-gern", "fd-wasser"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "hungrich", "english": "hungry" },
+        { "deitsh": "Ich hätt gern", "english": "I would like" },
+        { "deitsh": "esse", "english": "to eat" },
+        { "deitsh": "trinke", "english": "to drink" }
+      ],
+      "vocab": ["fd-hungrich", "fd-haett-gern", "fd-esse", "fd-trinke"],
+      "needsReview": true
+    }
+  ]
+}

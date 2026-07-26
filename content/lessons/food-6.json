@@ -1,0 +1,92 @@
+{
+  "unit": "food",
+  "lesson_id": "food-6",
+  "title": "How Does It Taste?",
+  "subUnit": "Sweets & Baking",
+  "subtitle": "Good, sweet, warm, cold — describing food",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "gut", "meaning": "good", "phonetic": "goot", "vocab": ["fd-gut"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"good\"",
+      "options": ["gut", "Brot", "Kaffi", "Oi"],
+      "answer": "gut",
+      "vocab": ["fd-gut"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "siess", "meaning": "sweet", "phonetic": "zeess", "vocab": ["fd-siess"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"sweet\"?",
+      "options": ["siess", "gut", "Zucker", "Boi"],
+      "answer": "siess",
+      "vocab": ["fd-siess"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Zucker (sugar) is siess (sweet).",
+      "answer": true,
+      "explanation": "Ya — sugar and honey are both siess (sweet).",
+      "vocab": ["fd-zucker", "fd-siess"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "warm", "meaning": "warm", "phonetic": "vahrm", "vocab": ["fd-warm"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"warm\"",
+      "options": ["warm", "siess", "gut", "Supp"],
+      "answer": "warm",
+      "vocab": ["fd-warm"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "kalt", "meaning": "cold", "phonetic": "kahlt", "vocab": ["fd-kalt"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"cold\"?",
+      "options": ["kalt", "warm", "siess", "gut"],
+      "answer": "kalt",
+      "vocab": ["fd-kalt"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Kaffi is often warm, and Wasser can be kalt.",
+      "answer": true,
+      "explanation": "Ya — coffee (Kaffi) is usually warm; water (Wasser) can be cold (kalt).",
+      "vocab": ["fd-kaffi", "fd-warm", "fd-wasser", "fd-kalt"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"The coffee is warm.\"",
+      "answer": ["Der", "Kaffi", "is", "warm"],
+      "bank": ["Der", "Kaffi", "is", "warm", "kalt", "Supp"],
+      "vocab": ["fa-der", "fd-kaffi", "fd-warm"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"The cake is sweet.\"",
+      "answer": ["Der", "Kuche", "is", "siess"],
+      "bank": ["Der", "Kuche", "is", "siess", "gut", "warm"],
+      "vocab": ["fa-der", "fd-kuche", "fd-siess"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "gut", "english": "good" },
+        { "deitsh": "siess", "english": "sweet" },
+        { "deitsh": "warm", "english": "warm" },
+        { "deitsh": "kalt", "english": "cold" }
+      ],
+      "vocab": ["fd-gut", "fd-siess", "fd-warm", "fd-kalt"],
+      "needsReview": true
+    }
+  ]
+}

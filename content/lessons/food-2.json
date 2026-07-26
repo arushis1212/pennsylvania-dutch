@@ -1,0 +1,84 @@
+{
+  "unit": "food",
+  "lesson_id": "food-2",
+  "title": "Something to Drink",
+  "subUnit": "Meals & Mealtimes",
+  "subtitle": "Drinking, water, milk, coffee",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "trinke", "meaning": "to drink", "phonetic": "TRINK-eh", "vocab": ["fd-trinke"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to drink\"",
+      "options": ["trinke", "esse", "koche", "hawwe"],
+      "answer": "trinke",
+      "vocab": ["fd-trinke"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Wasser", "meaning": "water", "phonetic": "VAH-ser", "vocab": ["fd-wasser"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"water\"",
+      "options": ["Wasser", "esse", "Uhr", "Mudder"],
+      "answer": "Wasser",
+      "vocab": ["fd-wasser"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Millich", "meaning": "milk", "phonetic": "MIL-likh", "vocab": ["fd-millich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"milk\"?",
+      "options": ["Millich", "Wasser", "trinke", "Frühschtick"],
+      "answer": "Millich",
+      "vocab": ["fd-millich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"trinke\" means \"to drink.\"",
+      "answer": true,
+      "explanation": "Ya! trinke is \"to drink\": Ich drink Wasser (I drink water).",
+      "vocab": ["fd-trinke", "fd-wasser"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kaffi", "meaning": "coffee", "phonetic": "KAH-fee", "vocab": ["fd-kaffi"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"coffee\"",
+      "options": ["Kaffi", "Millich", "Wasser", "Nachtesse"],
+      "answer": "Kaffi",
+      "vocab": ["fd-kaffi"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"I drink milk.\"",
+      "answer": ["Ich", "drink", "Millich"],
+      "bank": ["Ich", "drink", "Millich", "Wasser", "esse"],
+      "vocab": ["fd-trinke", "fd-millich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "Millich (milk) comes from a Kuh.",
+      "answer": true,
+      "explanation": "Ya — milk (Millich) comes from a cow (Kuh), which you milk (melke).",
+      "vocab": ["fd-millich", "fa-kuh"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "trinke", "english": "to drink" },
+        { "deitsh": "Wasser", "english": "water" },
+        { "deitsh": "Millich", "english": "milk" },
+        { "deitsh": "Kaffi", "english": "coffee" }
+      ],
+      "vocab": ["fd-trinke", "fd-wasser", "fd-millich", "fd-kaffi"],
+      "needsReview": true
+    }
+  ]
+}
