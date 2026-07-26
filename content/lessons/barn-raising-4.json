@@ -29,7 +29,7 @@
     {
       "type": "multiple_choice",
       "prompt": "A good Balke must be:",
-      "options": ["schtarrick", "meed", "kalt", "billich"],
+      "options": ["schtarrick", "hewe", "kalt", "billich"],
       "answer": "schtarrick",
       "vocab": ["br-schtarrick", "br-balke"],
       "needsReview": true

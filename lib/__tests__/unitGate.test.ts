@@ -23,10 +23,11 @@ function cardsFrom(ids: string[], correct: number, seen: number): ProgressState[
 describe("unlock gate: scoped to a unit's own vocab (PRD 6.3)", () => {
   it("vocabIdsForUnit returns only farm-animals' own vocab file ids, not cross-referenced ids from milestone lessons", () => {
     const ids = vocabIdsForUnit("farm-animals");
-    // farm-animals.json has exactly 30 entries. The farm-animals-9 milestone
-    // lesson also tags fh-mei/fh-helfe/fh-arwet/guder-mariye for recombination -
-    // those must be excluded from the gate's population.
-    expect(ids).toHaveLength(30);
+    // farm-animals.json has exactly 29 entries ("der" moved to the greetings-0
+    // seed lesson - see CLAUDE.md). The farm-animals-9 milestone lesson also
+    // tags fh-mei/fh-helfe/fh-arwet/guder-mariye for recombination - those must
+    // be excluded from the gate's population.
+    expect(ids).toHaveLength(29);
     expect(ids).not.toContain("fh-mei");
     expect(ids).not.toContain("fh-helfe");
     expect(ids).not.toContain("fh-arwet");
@@ -37,7 +38,7 @@ describe("unlock gate: scoped to a unit's own vocab (PRD 6.3)", () => {
     const farmIds = vocabIdsForUnit("farm-animals");
     const state = defaultProgress(NOW);
 
-    // 20/30 correct on farm-animals' own words = 66.7%, genuinely below 70%.
+    // 20/29 correct on farm-animals' own words = ~69%, genuinely below 70%.
     const correctIds = farmIds.slice(0, 20);
     const wrongIds = farmIds.slice(20);
     state.cards = {
@@ -48,14 +49,14 @@ describe("unlock gate: scoped to a unit's own vocab (PRD 6.3)", () => {
     };
 
     const mastery = unitMastery(state, farmIds);
-    expect(mastery).toBeCloseTo(20 / 30, 5);
+    expect(mastery).toBeCloseTo(20 / 29, 5);
     expect(mastery).toBeLessThan(0.7);
   });
 
   it("70% on a unit's own vocab DOES clear the gate", () => {
     const farmIds = vocabIdsForUnit("farm-animals");
     const state = defaultProgress(NOW);
-    const correctIds = farmIds.slice(0, 21); // 21/30 = 70%
+    const correctIds = farmIds.slice(0, 21); // 21/29 ≈ 72%
     const wrongIds = farmIds.slice(21);
     state.cards = {
       ...cardsFrom(correctIds, 1, 1),

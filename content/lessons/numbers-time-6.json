@@ -19,7 +19,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Which word means \"minute\"?",
-      "options": ["Minutt", "Schtunn", "Uhr", "Woch"],
+      "options": ["Minutt", "Schtunn", "Uhr", "Zeit"],
       "answer": "Minutt",
       "vocab": ["nt-minutt"],
       "needsReview": true

@@ -37,7 +37,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Before you cut a Bord, you should:",
-      "options": ["messe", "hewe", "ruhe", "trinke"],
+      "options": ["messe", "hewe", "Saag", "trinke"],
       "answer": "messe",
       "vocab": ["br-messe", "br-bord"],
       "needsReview": true

@@ -72,7 +72,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Which means \"I'm sorry\"?",
-      "options": ["Es dutt mer leed", "Es freet mich", "Gut, danki", "Gut Nacht"],
+      "options": ["Es dutt mer leed", "Wilkumm", "Gut, danki", "Gut Nacht"],
       "answer": "Es dutt mer leed",
       "vocab": ["es-dutt-mer-leed"],
       "needsReview": true

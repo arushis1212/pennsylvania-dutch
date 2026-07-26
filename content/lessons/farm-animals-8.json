@@ -16,7 +16,6 @@
       "vocab": ["fa-hawwe"],
       "needsReview": true
     },
-    { "type": "introduce", "word": "der", "meaning": "the (masculine)", "phonetic": "dair", "vocab": ["fa-der"], "needsReview": true },
     {
       "type": "multiple_choice",
       "prompt": "\"der Gaul\" means:",

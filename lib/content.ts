@@ -7,6 +7,7 @@
 import type { Lesson, VocabEntry } from "./types";
 import { normalize } from "./answerCheck";
 
+import greetings0 from "@/content/lessons/greetings-0.json";
 import greetings1 from "@/content/lessons/greetings-1.json";
 import greetings2 from "@/content/lessons/greetings-2.json";
 import greetings3 from "@/content/lessons/greetings-3.json";
@@ -104,6 +105,7 @@ import barnRaising9 from "@/content/lessons/barn-raising-9.json";
 import barnRaisingVocab from "@/content/vocab/barn-raising.json";
 
 const LESSONS: Lesson[] = [
+  greetings0,
   greetings1,
   greetings2,
   greetings3,

@@ -1,0 +1,84 @@
+{
+  "unit": "greetings",
+  "lesson_id": "greetings-0",
+  "title": "The Building Blocks",
+  "subtitle": "I, it, is, a, the — the small words behind every sentence",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Ich", "meaning": "I", "phonetic": "ikh", "vocab": ["ich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"I\"",
+      "options": ["Ich", "es", "is", "en"],
+      "answer": "Ich",
+      "vocab": ["ich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "es", "meaning": "it", "phonetic": "es", "vocab": ["es"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"it\"?",
+      "options": ["es", "Ich", "is", "en"],
+      "answer": "es",
+      "vocab": ["es"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "is", "meaning": "is", "phonetic": "iss", "vocab": ["is"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"is\" is a small word used to link two ideas, like \"the house is big.\"",
+      "answer": true,
+      "explanation": "Ya — is (is) shows up in almost every sentence you'll build.",
+      "vocab": ["is"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "en", "meaning": "a/an", "phonetic": "en", "vocab": ["en"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"a\" or \"an\"?",
+      "options": ["en", "is", "es", "Ich"],
+      "answer": "en",
+      "vocab": ["en"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "der", "meaning": "the (masculine)", "phonetic": "dair", "vocab": ["fa-der"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"the\" (for masculine words)?",
+      "options": ["der", "en", "es", "is"],
+      "answer": "der",
+      "vocab": ["fa-der"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "die", "meaning": "the (feminine)", "phonetic": "dee", "vocab": ["die"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"der\" and \"die\" are both ways to say \"the\" — der before masculine words, die before feminine ones.",
+      "answer": true,
+      "explanation": "Ya — same word, \"the,\" just matched to whether the noun is masculine or feminine.",
+      "vocab": ["fa-der", "die"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Ich\"",
+      "answer": "I",
+      "vocab": ["ich"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Ich", "english": "I" },
+        { "deitsh": "es", "english": "it" },
+        { "deitsh": "der", "english": "the (masculine)" },
+        { "deitsh": "die", "english": "the (feminine)" }
+      ],
+      "vocab": ["ich", "es", "fa-der", "die"],
+      "needsReview": true
+    }
+  ]
+}

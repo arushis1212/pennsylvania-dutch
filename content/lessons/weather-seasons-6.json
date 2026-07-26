@@ -28,7 +28,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Select the word for \"leaf\"",
-      "options": ["Blatt", "Blumme", "Wolk", "Erd"],
+      "options": ["Blatt", "Wind", "Wolk", "Yaahr"],
       "answer": "Blatt",
       "vocab": ["ws-blatt"],
       "needsReview": true

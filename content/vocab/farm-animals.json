@@ -29,7 +29,6 @@
     { "id": "fa-reide", "deitsh": "reide", "english": "to ride", "phonetic": "RYE-deh", "needsReview": true },
     { "id": "fa-schaffe", "deitsh": "schaffe", "english": "to work", "phonetic": "SHAHF-feh", "needsReview": true },
     { "id": "fa-hawwe", "deitsh": "hawwe", "english": "to have", "phonetic": "HAH-weh", "needsReview": true },
-    { "id": "fa-der", "deitsh": "der", "english": "the (masculine)", "phonetic": "dair", "needsReview": true },
     { "id": "fa-gross", "deitsh": "groß", "english": "big", "phonetic": "grohss", "needsReview": true },
     { "id": "fa-glee", "deitsh": "glee", "english": "small", "phonetic": "glay", "needsReview": true }
   ]

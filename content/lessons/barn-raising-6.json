@@ -6,7 +6,6 @@
   "subtitle": "And, but, because — joining ideas",
   "reviewStatus": "pending",
   "exercises": [
-    { "type": "introduce", "word": "un", "meaning": "and", "phonetic": "oon", "vocab": ["br-un"], "needsReview": true },
     {
       "type": "multiple_choice",
       "prompt": "\"Mir schaffe un singe\" means:",

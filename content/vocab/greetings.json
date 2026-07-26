@@ -21,6 +21,12 @@
     { "id": "es-freet-mich", "deitsh": "Es freet mich", "english": "Pleased to meet you", "phonetic": "es FRAYT mikh", "needsReview": true },
     { "id": "sei-so-gut", "deitsh": "Sei so gut", "english": "Please", "phonetic": "sigh soh goot", "needsReview": true },
     { "id": "gern-gschehne", "deitsh": "Gern gschehne", "english": "You're welcome", "phonetic": "gairn g'SHAY-neh", "needsReview": true },
-    { "id": "es-dutt-mer-leed", "deitsh": "Es dutt mer leed", "english": "I'm sorry", "phonetic": "es doot mer layd", "needsReview": true }
+    { "id": "es-dutt-mer-leed", "deitsh": "Es dutt mer leed", "english": "I'm sorry", "phonetic": "es doot mer layd", "needsReview": true },
+    { "id": "ich", "deitsh": "Ich", "english": "I", "phonetic": "ikh", "needsReview": true },
+    { "id": "es", "deitsh": "es", "english": "it", "phonetic": "es", "needsReview": true },
+    { "id": "is", "deitsh": "is", "english": "is", "phonetic": "iss", "needsReview": true },
+    { "id": "en", "deitsh": "en", "english": "a/an", "phonetic": "en", "needsReview": true },
+    { "id": "fa-der", "deitsh": "der", "english": "the (masculine)", "phonetic": "dair", "needsReview": true },
+    { "id": "die", "deitsh": "die", "english": "the (feminine)", "phonetic": "dee", "needsReview": true }
   ]
 }

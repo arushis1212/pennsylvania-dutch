@@ -16,7 +16,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Select \"How are you?\"",
-      "options": ["Wie bischt du?", "Wie heescht du?", "Guder Mariye", "Danki"],
+      "options": ["Wie bischt du?", "Guder Owed", "Guder Mariye", "Danki"],
       "answer": "Wie bischt du?",
       "vocab": ["wie-bischt"],
       "needsReview": true

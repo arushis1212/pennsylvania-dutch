@@ -46,7 +46,7 @@
     {
       "type": "true_false",
       "prompt": "True or False?",
-      "statement": "After the Rege, the Erd is nass.",
+      "statement": "After the Rege, everything is nass.",
       "answer": true,
       "explanation": "Ya — after rain (Rege) the ground is wet (nass).",
       "vocab": ["ws-nass", "ws-rege"],

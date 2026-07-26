@@ -16,7 +16,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Select the word for \"Hello\"",
-      "options": ["Hallo", "Danki", "Nee", "Ya"],
+      "options": ["Hallo", "der", "Nee", "Ya"],
       "answer": "Hallo",
       "vocab": ["hallo"],
       "needsReview": true
@@ -48,7 +48,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Which word means \"No\"?",
-      "options": ["Ya", "Danki", "Nee", "Hallo"],
+      "options": ["Ya", "es", "Nee", "Hallo"],
       "answer": "Nee",
       "vocab": ["nee"],
       "needsReview": true
@@ -72,7 +72,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Select the word for \"Goodbye\"",
-      "options": ["Ade", "Hallo", "Ya", "Wilkumm"],
+      "options": ["Ade", "Hallo", "Ya", "is"],
       "answer": "Ade",
       "vocab": ["ade"],
       "needsReview": true

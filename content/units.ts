@@ -17,6 +17,7 @@ export const UNITS: UnitMeta[] = [
     motif: "buggy",
     status: "available",
     lessonIds: [
+      "greetings-0",
       "greetings-1",
       "greetings-2",
       "greetings-3",

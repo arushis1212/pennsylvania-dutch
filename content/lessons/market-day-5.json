@@ -28,7 +28,7 @@
     {
       "type": "multiple_choice",
       "prompt": "Which is a kind of Frucht?",
-      "options": ["Eppel", "Gemies", "Seef", "Geld"],
+      "options": ["Eppel", "Gemies", "Sack", "Geld"],
       "answer": "Eppel",
       "vocab": ["md-eppel", "md-frucht"],
       "needsReview": true

@@ -28,6 +28,8 @@ A gamified web app for learning Pennsylvania Dutch (Deitsh), starting with Amish
 ## Lesson content schema (draft — adjust as needed, keep consistent)
 **Pedagogy rule — teach before testing (PRD 6.2):** every new word/phrase gets an `"type": "introduce"` step (plain presentation, no quiz) before it ever appears in a quiz exercise. A word's FIRST appearance anywhere in the app must be an Introduce step, never a cold quiz question. Introduce and quiz steps are interleaved (introduce word 1 → quiz word 1 → introduce word 2 → quiz word 1+2 → …), not front-loaded.
 
+**Convention — conjugated forms are not separately taught:** conjugated verb forms (e.g. `hab`, `hen`, `ess`, `bin`, `sin`) are taught through contextual usage in sentences, not given individual introduce cards — only infinitives receive formal vocab entries. This is an intentional design choice, not a gap.
+
 ```json
 {
   "unit": "family-home",
