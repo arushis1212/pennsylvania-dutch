@@ -1,0 +1,91 @@
+/**
+ * Static content loader. Content authors add lessons/vocab by dropping JSON in
+ * /content - they register the file here (the one code touch), and everything
+ * else (path, player, SRS) picks it up automatically.
+ */
+
+import type { Lesson, VocabEntry } from "./types";
+import { normalize } from "./answerCheck";
+
+import greetings1 from "@/content/lessons/greetings-1.json";
+import greetings2 from "@/content/lessons/greetings-2.json";
+import greetings3 from "@/content/lessons/greetings-3.json";
+import greetings4 from "@/content/lessons/greetings-4.json";
+import greetings5 from "@/content/lessons/greetings-5.json";
+import greetings6 from "@/content/lessons/greetings-6.json";
+import greetingsVocab from "@/content/vocab/greetings.json";
+
+import familyHome1 from "@/content/lessons/family-home-1.json";
+import familyHome2 from "@/content/lessons/family-home-2.json";
+import familyHome3 from "@/content/lessons/family-home-3.json";
+import familyHome4 from "@/content/lessons/family-home-4.json";
+import familyHome5 from "@/content/lessons/family-home-5.json";
+import familyHome6 from "@/content/lessons/family-home-6.json";
+import familyHome7 from "@/content/lessons/family-home-7.json";
+import familyHome8 from "@/content/lessons/family-home-8.json";
+import familyHome9 from "@/content/lessons/family-home-9.json";
+import familyHomeVocab from "@/content/vocab/family-home.json";
+
+const LESSONS: Lesson[] = [
+  greetings1,
+  greetings2,
+  greetings3,
+  greetings4,
+  greetings5,
+  greetings6,
+  familyHome1,
+  familyHome2,
+  familyHome3,
+  familyHome4,
+  familyHome5,
+  familyHome6,
+  familyHome7,
+  familyHome8,
+  familyHome9,
+] as Lesson[];
+
+const VOCAB: VocabEntry[] = [
+  ...(greetingsVocab.entries as VocabEntry[]),
+  ...(familyHomeVocab.entries as VocabEntry[]),
+];
+
+const lessonById = new Map(LESSONS.map((l) => [l.lesson_id, l]));
+const vocabById = new Map(VOCAB.map((v) => [v.id, v]));
+
+// Lookup phonetic respellings by the displayed Deitsh text (normalized), so any
+// UI showing a known vocab word can append its pronunciation guide.
+const phoneticByText = new Map(VOCAB.map((v) => [normalize(v.deitsh), v.phonetic]));
+
+/**
+ * Phonetic respelling for a displayed Deitsh word/phrase, or undefined if it
+ * isn't a known vocab item (e.g. a single word-bank token). Shown in place of
+ * audio - see PRD Section 6.2.
+ */
+export function phoneticFor(deitshText: string): string | undefined {
+  return phoneticByText.get(normalize(deitshText));
+}
+
+export function getLesson(id: string): Lesson | undefined {
+  return lessonById.get(id);
+}
+
+export function getLessonsForUnit(unitId: string): Lesson[] {
+  return LESSONS.filter((l) => l.unit === unitId);
+}
+
+export function getVocab(id: string): VocabEntry | undefined {
+  return vocabById.get(id);
+}
+
+/** All vocab ids taught in a unit (drives unlock-accuracy gating). */
+export function vocabIdsForUnit(unitId: string): string[] {
+  const ids = new Set<string>();
+  for (const lesson of getLessonsForUnit(unitId)) {
+    for (const ex of lesson.exercises) {
+      for (const v of ex.vocab ?? []) ids.add(v);
+    }
+  }
+  return [...ids];
+}
+
+export { LESSONS, VOCAB };

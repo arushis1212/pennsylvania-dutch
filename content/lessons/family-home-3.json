@@ -1,0 +1,72 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-3",
+  "title": "Grandparents & Kin",
+  "subUnit": "Extended Family",
+  "subtitle": "Grandmother, grandfather, uncle",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Grossmammi", "meaning": "grandmother", "phonetic": "GROHSS-mah-mee", "vocab": ["fh-grossmammi"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"grandmother\"",
+      "options": ["Grossmammi", "Mudder", "Familye", "Danki"],
+      "answer": "Grossmammi",
+      "vocab": ["fh-grossmammi"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Grossdaadi", "meaning": "grandfather", "phonetic": "GROHSS-dah-dee", "vocab": ["fh-grossdaadi"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"grandfather\"",
+      "options": ["Grossdaadi", "Grossmammi", "Vadder", "Hallo"],
+      "answer": "Grossdaadi",
+      "vocab": ["fh-grossdaadi"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Grossmammi\"",
+      "answer": "grandmother",
+      "acceptedAnswers": ["grandma", "granny"],
+      "vocab": ["fh-grossmammi"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Onkel", "meaning": "uncle", "phonetic": "OHN-kel", "vocab": ["fh-onkel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"uncle\"?",
+      "options": ["Onkel", "Grossdaadi", "Bruder", "Ya"],
+      "answer": "Onkel",
+      "vocab": ["fh-onkel"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my grandmother\"",
+      "answer": ["mei", "Grossmammi"],
+      "bank": ["mei", "Grossmammi", "Grossdaadi", "Onkel"],
+      "vocab": ["fh-mei", "fh-grossmammi"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"mei Onkel\"",
+      "answer": "my uncle",
+      "vocab": ["fh-mei", "fh-onkel"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Grossmammi", "english": "grandmother" },
+        { "deitsh": "Grossdaadi", "english": "grandfather" },
+        { "deitsh": "Onkel", "english": "uncle" },
+        { "deitsh": "Mudder", "english": "mother" }
+      ],
+      "vocab": ["fh-grossmammi", "fh-grossdaadi", "fh-onkel", "fh-mudder"],
+      "needsReview": true
+    }
+  ]
+}

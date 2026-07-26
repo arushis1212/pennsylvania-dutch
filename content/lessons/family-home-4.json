@@ -1,0 +1,74 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-4",
+  "title": "Aunts, Cousins & Kids",
+  "subUnit": "Extended Family",
+  "subtitle": "Aunt, cousin, and the plural \"children\"",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Aendi", "meaning": "aunt", "phonetic": "EN-dee", "vocab": ["fh-aendi"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"aunt\"",
+      "options": ["Aendi", "Onkel", "Grossmammi", "Nee"],
+      "answer": "Aendi",
+      "vocab": ["fh-aendi"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Vetter", "meaning": "cousin", "phonetic": "VET-ter", "vocab": ["fh-vetter"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"cousin\"?",
+      "options": ["Vetter", "Aendi", "Onkel", "Danki"],
+      "answer": "Vetter",
+      "vocab": ["fh-vetter"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kinner", "meaning": "children", "phonetic": "KIN-ner", "vocab": ["fh-kinner"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Kinner\" is the plural of \"Kind\" (child).",
+      "answer": true,
+      "explanation": "Right! One Kind, many Kinner.",
+      "vocab": ["fh-kinner", "fh-kind"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"children\"?",
+      "options": ["Kinner", "Kind", "Familye", "Boppli"],
+      "answer": "Kinner",
+      "vocab": ["fh-kinner"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Kinner\"",
+      "answer": "children",
+      "acceptedAnswers": ["kids"],
+      "vocab": ["fh-kinner"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my cousin\"",
+      "answer": ["mei", "Vetter"],
+      "bank": ["mei", "Vetter", "Aendi", "Onkel"],
+      "vocab": ["fh-mei", "fh-vetter"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Aendi", "english": "aunt" },
+        { "deitsh": "Vetter", "english": "cousin" },
+        { "deitsh": "Kinner", "english": "children" },
+        { "deitsh": "Kind", "english": "child" }
+      ],
+      "vocab": ["fh-aendi", "fh-vetter", "fh-kinner", "fh-kind"],
+      "needsReview": true
+    }
+  ]
+}

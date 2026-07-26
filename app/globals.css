@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Friendly rounded display + clean rounded sans. Loaded via <link> in
+     layout.tsx; these stacks degrade gracefully to system rounded fonts
+     offline (no build-time font fetching). */
+  --font-display: "Baloo 2", ui-rounded, "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Nunito", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    color: #4b3421; /* wood-800 */
+    /* Warm sun-bleached parchment with a faint barn-wood grain. */
+    background-color: #fbf6ec;
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        rgba(156, 107, 56, 0.05) 0px,
+        rgba(156, 107, 56, 0.05) 2px,
+        transparent 2px,
+        transparent 26px
+      ),
+      radial-gradient(circle at 20% 10%, rgba(230, 181, 51, 0.08), transparent 40%),
+      radial-gradient(circle at 85% 30%, rgba(58, 149, 214, 0.06), transparent 45%);
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+  }
+}

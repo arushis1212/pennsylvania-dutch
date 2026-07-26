@@ -1,0 +1,96 @@
+{
+  "unit": "greetings",
+  "lesson_id": "greetings-1",
+  "title": "Hallo & Ade (Hello & Goodbye)",
+  "subtitle": "Hello and goodbye",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "introduce",
+      "word": "Hallo",
+      "meaning": "Hello",
+      "phonetic": "HAH-loh",
+      "vocab": ["hallo"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"Hello\"",
+      "options": ["Hallo", "Danki", "Nee", "Ya"],
+      "answer": "Hallo",
+      "vocab": ["hallo"]
+    },
+    {
+      "type": "introduce",
+      "word": "Ya",
+      "meaning": "Yes",
+      "phonetic": "yah",
+      "vocab": ["ya"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"Yes\"?",
+      "options": ["Nee", "Ya", "Ade", "Hallo"],
+      "answer": "Ya",
+      "vocab": ["ya"]
+    },
+    {
+      "type": "introduce",
+      "word": "Nee",
+      "meaning": "No",
+      "phonetic": "nay",
+      "vocab": ["nee"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"No\"?",
+      "options": ["Ya", "Danki", "Nee", "Hallo"],
+      "answer": "Nee",
+      "vocab": ["nee"]
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Nee\"",
+      "answer": "No",
+      "acceptedAnswers": ["nope"],
+      "vocab": ["nee"]
+    },
+    {
+      "type": "introduce",
+      "word": "Ade",
+      "meaning": "Goodbye",
+      "phonetic": "ah-DAY",
+      "vocab": ["ade"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"Goodbye\"",
+      "options": ["Ade", "Hallo", "Ya", "Wilkumm"],
+      "answer": "Ade",
+      "vocab": ["ade"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Hallo\"",
+      "answer": "Hello",
+      "acceptedAnswers": ["hi"],
+      "vocab": ["hallo"]
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"Hello, goodbye\"",
+      "answer": ["Hallo", "ade"],
+      "bank": ["Hallo", "ade", "Ya", "Nee"],
+      "vocab": ["hallo", "ade"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to Pennsylvania Dutch: \"Yes\"",
+      "answer": "Ya",
+      "acceptedAnswers": ["Ja"],
+      "vocab": ["ya"]
+    }
+  ]
+}

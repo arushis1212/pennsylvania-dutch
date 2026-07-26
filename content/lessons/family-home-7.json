@@ -1,0 +1,65 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-7",
+  "title": "House Chores",
+  "subUnit": "Chores & Home Life",
+  "subtitle": "To cook, to clean, to wash",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "koche", "meaning": "to cook", "phonetic": "KOKH-eh", "vocab": ["fh-koche"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to cook\"",
+      "options": ["koche", "Haus", "Disch", "Danki"],
+      "answer": "koche",
+      "vocab": ["fh-koche"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "butze", "meaning": "to clean", "phonetic": "BUT-seh", "vocab": ["fh-butze"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to clean\"",
+      "options": ["butze", "koche", "Bett", "Ya"],
+      "answer": "butze",
+      "vocab": ["fh-butze"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "wesche", "meaning": "to wash", "phonetic": "VESH-eh", "vocab": ["fh-wesche"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"to wash\"?",
+      "options": ["wesche", "butze", "koche", "Hallo"],
+      "answer": "wesche",
+      "vocab": ["fh-wesche"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"koche\"",
+      "answer": "to cook",
+      "acceptedAnswers": ["cook"],
+      "vocab": ["fh-koche"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"butze\"",
+      "answer": "to clean",
+      "acceptedAnswers": ["clean"],
+      "vocab": ["fh-butze"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "koche", "english": "to cook" },
+        { "deitsh": "butze", "english": "to clean" },
+        { "deitsh": "wesche", "english": "to wash" },
+        { "deitsh": "Kich", "english": "kitchen" }
+      ],
+      "vocab": ["fh-koche", "fh-butze", "fh-wesche", "fh-kich"],
+      "needsReview": true
+    }
+  ]
+}

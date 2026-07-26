@@ -1,0 +1,74 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-1",
+  "title": "Meet the Family",
+  "subUnit": "Immediate Family",
+  "subtitle": "Mother, father, brother, sister",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Mudder", "meaning": "mother", "phonetic": "MUD-der", "vocab": ["fh-mudder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"mother\"",
+      "options": ["Mudder", "Danki", "Hallo", "Nee"],
+      "answer": "Mudder",
+      "vocab": ["fh-mudder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Vadder", "meaning": "father", "phonetic": "FAH-der", "vocab": ["fh-vadder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"father\"",
+      "options": ["Vadder", "Mudder", "Ade", "Ya"],
+      "answer": "Vadder",
+      "vocab": ["fh-vadder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Bruder", "meaning": "brother", "phonetic": "BROO-der", "vocab": ["fh-bruder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"brother\"?",
+      "options": ["Bruder", "Vadder", "Mudder", "Danki"],
+      "answer": "Bruder",
+      "vocab": ["fh-bruder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Mudder\"",
+      "answer": "mother",
+      "acceptedAnswers": ["mom", "mum"],
+      "vocab": ["fh-mudder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Schweschder", "meaning": "sister", "phonetic": "SHVESH-der", "vocab": ["fh-schweschder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"sister\"",
+      "options": ["Schweschder", "Bruder", "Mudder", "Vadder"],
+      "answer": "Schweschder",
+      "vocab": ["fh-schweschder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Vadder\"",
+      "answer": "father",
+      "acceptedAnswers": ["dad", "pop"],
+      "vocab": ["fh-vadder"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Mudder", "english": "mother" },
+        { "deitsh": "Vadder", "english": "father" },
+        { "deitsh": "Bruder", "english": "brother" },
+        { "deitsh": "Schweschder", "english": "sister" }
+      ],
+      "vocab": ["fh-mudder", "fh-vadder", "fh-bruder", "fh-schweschder"],
+      "needsReview": true
+    }
+  ]
+}

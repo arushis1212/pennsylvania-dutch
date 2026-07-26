@@ -1,0 +1,75 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-2",
+  "title": "My Family",
+  "subUnit": "Immediate Family",
+  "subtitle": "Family, baby, child, and saying \"my\"",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Familye", "meaning": "family", "phonetic": "fah-MEEL-yeh", "vocab": ["fh-familye"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"family\"",
+      "options": ["Familye", "Mudder", "Bruder", "Hallo"],
+      "answer": "Familye",
+      "vocab": ["fh-familye"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Boppli", "meaning": "baby", "phonetic": "BOP-lee", "vocab": ["fh-boppli"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"baby\"",
+      "options": ["Boppli", "Familye", "Schweschder", "Danki"],
+      "answer": "Boppli",
+      "vocab": ["fh-boppli"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Kind", "meaning": "child", "phonetic": "kint", "vocab": ["fh-kind"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"child\"?",
+      "options": ["Kind", "Boppli", "Bruder", "Ya"],
+      "answer": "Kind",
+      "vocab": ["fh-kind"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "mei", "meaning": "my", "phonetic": "migh", "vocab": ["fh-mei"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Mei\" means \"my.\"",
+      "answer": true,
+      "explanation": "Ya! \"Mei Mudder\" means \"my mother.\"",
+      "vocab": ["fh-mei"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my mother\"",
+      "answer": ["mei", "Mudder"],
+      "bank": ["mei", "Mudder", "Vadder", "Boppli"],
+      "vocab": ["fh-mei", "fh-mudder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"mei Vadder\"",
+      "answer": "my father",
+      "acceptedAnswers": ["my dad"],
+      "vocab": ["fh-mei", "fh-vadder"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Familye", "english": "family" },
+        { "deitsh": "Boppli", "english": "baby" },
+        { "deitsh": "Kind", "english": "child" },
+        { "deitsh": "mei", "english": "my" }
+      ],
+      "vocab": ["fh-familye", "fh-boppli", "fh-kind", "fh-mei"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "unit": "greetings",
+  "lesson_id": "greetings-2",
+  "title": "Times of Day",
+  "subtitle": "Morning, day, evening, night",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "introduce",
+      "word": "Guder Mariye",
+      "meaning": "Good morning",
+      "phonetic": "GOO-der mah-REE-yeh",
+      "vocab": ["guder-mariye"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"Good morning\"",
+      "options": ["Guder Mariye", "Guder Owed", "Gut Nacht", "Guder Daag"],
+      "answer": "Guder Mariye",
+      "vocab": ["guder-mariye"]
+    },
+    {
+      "type": "introduce",
+      "word": "Gut Nacht",
+      "meaning": "Good night",
+      "phonetic": "goot nahkt",
+      "vocab": ["gut-nacht"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"Good night\"",
+      "options": ["Guder Daag", "Gut Nacht", "Guder Mariye", "Hallo"],
+      "answer": "Gut Nacht",
+      "vocab": ["gut-nacht"]
+    },
+    {
+      "type": "introduce",
+      "word": "Guder Daag",
+      "meaning": "Good day",
+      "phonetic": "GOO-der dahg",
+      "vocab": ["guder-daag"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Match the meaning: which one means \"Good day\"?",
+      "options": ["Guder Daag", "Guder Mariye", "Guder Owed", "Gut Nacht"],
+      "answer": "Guder Daag",
+      "vocab": ["guder-daag"]
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Guder Mariye\"",
+      "answer": "Good morning",
+      "vocab": ["guder-mariye"]
+    },
+    {
+      "type": "introduce",
+      "word": "Guder Owed",
+      "meaning": "Good evening",
+      "phonetic": "GOO-der OW-ed",
+      "vocab": ["guder-owed"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"Good evening\"",
+      "options": ["Guder Owed", "Guder Mariye", "Gut Nacht", "Ade"],
+      "answer": "Guder Owed",
+      "vocab": ["guder-owed"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build: \"Good morning\"",
+      "answer": ["Guder", "Mariye"],
+      "bank": ["Guder", "Mariye", "Owed", "Gut"],
+      "vocab": ["guder-mariye"]
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to Pennsylvania Dutch: \"Good night\"",
+      "answer": "Gut Nacht",
+      "acceptedAnswers": ["Guder Nacht"],
+      "vocab": ["gut-nacht"]
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build: \"Good day\"",
+      "answer": ["Guder", "Daag"],
+      "bank": ["Guder", "Daag", "Owed", "Nacht"],
+      "vocab": ["guder-daag"]
+    }
+  ]
+}

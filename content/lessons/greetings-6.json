@@ -1,0 +1,107 @@
+{
+  "unit": "greetings",
+  "lesson_id": "greetings-6",
+  "title": "Milestone: Am Weg (On the Way)",
+  "subUnit": "Milestone",
+  "milestone": true,
+  "subtitle": "A greetings review: meeting on the way",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "Two neighbors meet in the morning. The first says:",
+      "options": ["Guder Mariye!", "Gut Nacht!", "Bis schpeeder!", "Es dutt mer leed"],
+      "answer": "Guder Mariye!",
+      "vocab": ["guder-mariye"]
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate the reply to English: \"Guder Mariye! Wie bischt du?\"",
+      "answer": "Good morning! How are you?",
+      "acceptedAnswers": ["good morning how are you"],
+      "vocab": ["guder-mariye", "wie-bischt"]
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the answer: \"Good, thank you.\"",
+      "answer": ["Gut", "danki"],
+      "bank": ["Gut", "danki", "Nee", "Ade", "Hallo"],
+      "vocab": ["gut-danki"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "One neighbor asks the other's name. Which line is that?",
+      "options": ["Wie heescht du?", "Wie bischt du?", "Guder Owed", "Wilkumm"],
+      "answer": "Wie heescht du?",
+      "vocab": ["wie-heescht-du"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the reply: \"My name is Dobbin. Pleased to meet you.\"",
+      "answer": ["Ich", "heess", "Dobbin", "Es", "freet", "mich"],
+      "bank": ["Ich", "heess", "Dobbin", "Es", "freet", "mich", "du", "Nee"],
+      "vocab": ["ich-heess", "es-freet-mich"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Danki. Ade!\"",
+      "answer": "Thank you. Goodbye!",
+      "acceptedAnswers": ["thanks goodbye", "thank you goodbye"],
+      "vocab": ["danki", "ade"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "As they part for the day, one says \"Bis schpeeder!\" This means:",
+      "options": ["See you later!", "Good night!", "I'm sorry", "Welcome"],
+      "answer": "See you later!",
+      "vocab": ["bis-schpeeder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate the evening farewell to Pennsylvania Dutch: \"Good night\"",
+      "answer": "Gut Nacht",
+      "acceptedAnswers": ["Guder Nacht"],
+      "vocab": ["gut-nacht"]
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the whole exchange: \"Hello! How are you?\"",
+      "answer": ["Hallo", "Wie", "bischt", "du"],
+      "bank": ["Hallo", "Wie", "bischt", "du", "heescht", "Ade"],
+      "vocab": ["hallo", "wie-bischt"]
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which greeting fits the evening?",
+      "options": ["Guder Owed", "Guder Mariye", "Wie heescht du?", "Danki"],
+      "answer": "Guder Owed",
+      "vocab": ["guder-owed"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each greeting to its meaning",
+      "pairs": [
+        { "deitsh": "Guder Mariye", "english": "Good morning" },
+        { "deitsh": "Gut Nacht", "english": "Good night" },
+        { "deitsh": "Danki", "english": "Thank you" },
+        { "deitsh": "Ade", "english": "Goodbye" }
+      ],
+      "vocab": ["guder-mariye", "gut-nacht", "danki", "ade"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Wie bischt du?\" asks how someone is doing.",
+      "answer": true,
+      "explanation": "Right! It's a friendly \"how are you?\"",
+      "vocab": ["wie-bischt"],
+      "needsReview": true
+    }
+  ]
+}

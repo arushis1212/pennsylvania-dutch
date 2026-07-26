@@ -1,0 +1,73 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-6",
+  "title": "That is my Table",
+  "subUnit": "Around the House",
+  "subtitle": "Table, chair, bed, window, and \"that is...\"",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Disch", "meaning": "table", "phonetic": "dish", "vocab": ["fh-disch"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"table\"",
+      "options": ["Disch", "Haus", "Kich", "Danki"],
+      "answer": "Disch",
+      "vocab": ["fh-disch"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Schtuhl", "meaning": "chair", "phonetic": "shtool", "vocab": ["fh-schtuhl"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"chair\"",
+      "options": ["Schtuhl", "Disch", "Kammer", "Ya"],
+      "answer": "Schtuhl",
+      "vocab": ["fh-schtuhl"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Bett", "meaning": "bed", "phonetic": "bet", "vocab": ["fh-bett"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"bed\"?",
+      "options": ["Bett", "Schtuhl", "Disch", "Haus"],
+      "answer": "Bett",
+      "vocab": ["fh-bett"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Fenschder", "meaning": "window", "phonetic": "FEN-shter", "vocab": ["fh-fenschder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"window\"",
+      "options": ["Fenschder", "Dier", "Bett", "Schtuhl"],
+      "answer": "Fenschder",
+      "vocab": ["fh-fenschder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "sell", "meaning": "that", "phonetic": "sell", "vocab": ["fh-sell"], "needsReview": true },
+    { "type": "introduce", "word": "was", "meaning": "what", "phonetic": "vahs", "vocab": ["fh-was"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Was is sell?\" means \"What is that?\"",
+      "answer": true,
+      "explanation": "Ya! \"was\" is \"what\" and \"sell\" is \"that.\"",
+      "vocab": ["fh-was", "fh-sell"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"That is my table.\"",
+      "answer": ["Sell", "is", "mei", "Disch"],
+      "bank": ["Sell", "is", "mei", "Disch", "Bett", "was"],
+      "vocab": ["fh-sell", "fh-mei", "fh-disch"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Sell is mei Bett\"",
+      "answer": "that is my bed",
+      "acceptedAnswers": ["that's my bed"],
+      "vocab": ["fh-sell", "fh-mei", "fh-bett"],
+      "needsReview": true
+    }
+  ]
+}

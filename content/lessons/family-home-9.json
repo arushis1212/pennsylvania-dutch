@@ -1,0 +1,100 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-9",
+  "title": "Milestone: Bei uns Deheem (At our house)",
+  "subUnit": "Milestone",
+  "subtitle": "A family review, tying the house together",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "A child points at a photo and says \"Sell is mei Familye.\" This means:",
+      "options": ["That is my family.", "This is my house.", "Where is my father?", "Good morning, family."],
+      "answer": "That is my family.",
+      "vocab": ["fh-sell", "fh-mei", "fh-familye"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Sell is mei Mudder.\"",
+      "answer": "that is my mother",
+      "acceptedAnswers": ["that's my mother", "that is my mom"],
+      "vocab": ["fh-sell", "fh-mei", "fh-mudder"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"That is my house.\"",
+      "answer": ["Sell", "is", "mei", "Haus"],
+      "bank": ["Sell", "is", "mei", "Haus", "Kich", "Bett"],
+      "vocab": ["fh-sell", "fh-mei", "fh-haus"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Mudder", "english": "mother" },
+        { "deitsh": "Vadder", "english": "father" },
+        { "deitsh": "Haus", "english": "house" },
+        { "deitsh": "Kich", "english": "kitchen" }
+      ],
+      "vocab": ["fh-mudder", "fh-vadder", "fh-haus", "fh-kich"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "In the Kich, Mudder is cooking. Which word means \"kitchen\"?",
+      "options": ["Kich", "Schtupp", "Kammer", "Disch"],
+      "answer": "Kich",
+      "vocab": ["fh-kich"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Grossmammi\" means \"grandmother.\"",
+      "answer": true,
+      "explanation": "Ya! Grossmammi is grandmother, Grossdaadi is grandfather.",
+      "vocab": ["fh-grossmammi"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"mei Kinner\"",
+      "answer": "my children",
+      "acceptedAnswers": ["my kids"],
+      "vocab": ["fh-mei", "fh-kinner"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Everyone pitches in to clean the Haus. Which word means \"to help\"?",
+      "options": ["helfe", "koche", "butze", "wesche"],
+      "answer": "helfe",
+      "vocab": ["fh-helfe"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Grossmammi", "english": "grandmother" },
+        { "deitsh": "Grossdaadi", "english": "grandfather" },
+        { "deitsh": "Onkel", "english": "uncle" },
+        { "deitsh": "Aendi", "english": "aunt" }
+      ],
+      "vocab": ["fh-grossmammi", "fh-grossdaadi", "fh-onkel", "fh-aendi"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "As the family sits at the Disch for supper, which greeting fits the evening?",
+      "options": ["Guder Owed", "Guder Mariye", "Wie heescht du?", "koche"],
+      "answer": "Guder Owed",
+      "vocab": ["guder-owed"],
+      "needsReview": true
+    }
+  ]
+}

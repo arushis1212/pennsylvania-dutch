@@ -1,0 +1,96 @@
+{
+  "unit": "greetings",
+  "lesson_id": "greetings-5",
+  "title": "Wie heescht du? (What's your name?)",
+  "subtitle": "Introducing yourself",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "introduce",
+      "word": "Wie heescht du?",
+      "meaning": "What is your name?",
+      "phonetic": "vee HAYSHT doo",
+      "vocab": ["wie-heescht-du"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"What is your name?\"",
+      "options": ["Wie heescht du?", "Wie bischt du?", "Guder Daag", "Danki"],
+      "answer": "Wie heescht du?",
+      "vocab": ["wie-heescht-du"],
+      "needsReview": true
+    },
+    {
+      "type": "introduce",
+      "word": "Ich heess",
+      "meaning": "My name is (I am called)",
+      "phonetic": "ikh hayss",
+      "vocab": ["ich-heess"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Ich heess Dobbin\"",
+      "answer": "My name is Dobbin",
+      "acceptedAnswers": ["i am called dobbin", "i'm called dobbin"],
+      "vocab": ["ich-heess"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build: \"What is your name?\"",
+      "answer": ["Wie", "heescht", "du"],
+      "bank": ["Wie", "heescht", "du", "bischt", "geht's"],
+      "vocab": ["wie-heescht-du"],
+      "needsReview": true
+    },
+    {
+      "type": "introduce",
+      "word": "Es freet mich",
+      "meaning": "Pleased to meet you",
+      "phonetic": "es FRAYT mikh",
+      "vocab": ["es-freet-mich"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"Pleased to meet you\"",
+      "options": ["Es freet mich", "Es dutt mer leed", "Gut, danki", "Ade"],
+      "answer": "Es freet mich",
+      "vocab": ["es-freet-mich"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build: \"My name is Dobbin\"",
+      "answer": ["Ich", "heess", "Dobbin"],
+      "bank": ["Ich", "heess", "Dobbin", "bischt", "du"],
+      "vocab": ["ich-heess"],
+      "needsReview": true
+    },
+    {
+      "type": "introduce",
+      "word": "Bis schpeeder",
+      "meaning": "See you later",
+      "phonetic": "bis SHPAY-der",
+      "vocab": ["bis-schpeeder"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which means \"See you later\"?",
+      "options": ["Bis schpeeder", "Es freet mich", "Wilkumm", "Nee"],
+      "answer": "Bis schpeeder",
+      "vocab": ["bis-schpeeder"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to Pennsylvania Dutch: \"See you later\"",
+      "answer": "Bis schpeeder",
+      "vocab": ["bis-schpeeder"],
+      "needsReview": true
+    }
+  ]
+}

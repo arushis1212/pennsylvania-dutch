@@ -1,0 +1,74 @@
+{
+  "unit": "family-home",
+  "lesson_id": "family-home-8",
+  "title": "Helping Out",
+  "subUnit": "Chores & Home Life",
+  "subtitle": "To help, work, and asking \"who?\"",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "helfe", "meaning": "to help", "phonetic": "HEL-feh", "vocab": ["fh-helfe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to help\"",
+      "options": ["helfe", "koche", "butze", "Danki"],
+      "answer": "helfe",
+      "vocab": ["fh-helfe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Arwet", "meaning": "work", "phonetic": "AR-vet", "vocab": ["fh-arwet"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"work\"?",
+      "options": ["Arwet", "helfe", "wesche", "Ya"],
+      "answer": "Arwet",
+      "vocab": ["fh-arwet"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "wer", "meaning": "who", "phonetic": "vair", "vocab": ["fh-wer"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Wer is sell?\" means \"Who is that?\"",
+      "answer": true,
+      "explanation": "Ya! \"wer\" is \"who.\"",
+      "vocab": ["fh-wer", "fh-sell"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Someone points at a person and asks \"Wer is sell?\" They want to know:",
+      "options": ["who that is", "what that is", "where the house is", "how you are"],
+      "answer": "who that is",
+      "vocab": ["fh-wer"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the phrase: \"my work\"",
+      "answer": ["mei", "Arwet"],
+      "bank": ["mei", "Arwet", "helfe", "wer"],
+      "vocab": ["fh-mei", "fh-arwet"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"helfe\"",
+      "answer": "to help",
+      "acceptedAnswers": ["help"],
+      "vocab": ["fh-helfe"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "helfe", "english": "to help" },
+        { "deitsh": "Arwet", "english": "work" },
+        { "deitsh": "wer", "english": "who" },
+        { "deitsh": "koche", "english": "to cook" }
+      ],
+      "vocab": ["fh-helfe", "fh-arwet", "fh-wer", "fh-koche"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "unit": "greetings",
+  "lesson_id": "greetings-4",
+  "title": "Danki & Wilkumm (Thanks & Welcome)",
+  "subtitle": "Please, thank you, welcome",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "introduce",
+      "word": "Wilkumm",
+      "meaning": "Welcome",
+      "phonetic": "VIL-kum",
+      "vocab": ["wilkumm"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"Welcome\"",
+      "options": ["Wilkumm", "Danki", "Ade", "Nee"],
+      "answer": "Wilkumm",
+      "vocab": ["wilkumm"],
+      "needsReview": true
+    },
+    {
+      "type": "introduce",
+      "word": "Sei so gut",
+      "meaning": "Please",
+      "phonetic": "sigh soh goot",
+      "vocab": ["sei-so-gut"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select \"Please\"",
+      "options": ["Sei so gut", "Gern gschehne", "Ade", "Ya"],
+      "answer": "Sei so gut",
+      "vocab": ["sei-so-gut"],
+      "needsReview": true
+    },
+    {
+      "type": "introduce",
+      "word": "Gern gschehne",
+      "meaning": "You're welcome",
+      "phonetic": "gairn g'SHAY-neh",
+      "vocab": ["gern-gschehne"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Someone says \"Danki.\" You reply:",
+      "options": ["Gern gschehne", "Wie bischt du?", "Nee", "Guder Owed"],
+      "answer": "Gern gschehne",
+      "vocab": ["gern-gschehne"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Danki\"",
+      "answer": "Thank you",
+      "acceptedAnswers": ["thanks"],
+      "vocab": ["danki"]
+    },
+    {
+      "type": "introduce",
+      "word": "Es dutt mer leed",
+      "meaning": "I'm sorry",
+      "phonetic": "es doot mer layd",
+      "vocab": ["es-dutt-mer-leed"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which means \"I'm sorry\"?",
+      "options": ["Es dutt mer leed", "Es freet mich", "Gut, danki", "Gut Nacht"],
+      "answer": "Es dutt mer leed",
+      "vocab": ["es-dutt-mer-leed"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build: \"You're welcome\"",
+      "answer": ["Gern", "gschehne"],
+      "bank": ["Gern", "gschehne", "Danki", "Wilkumm"],
+      "vocab": ["gern-gschehne"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to Pennsylvania Dutch: \"Welcome\"",
+      "answer": "Wilkumm",
+      "acceptedAnswers": ["Willkumm"],
+      "vocab": ["wilkumm"],
+      "needsReview": true
+    }
+  ]
+}
