@@ -1,0 +1,67 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-8",
+  "title": "What We Did Today",
+  "subUnit": "After the Work",
+  "subtitle": "Telling what happened: built, worked, helped",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "gebaut", "meaning": "built", "phonetic": "geh-BAUT", "vocab": ["br-gebaut"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Mir hen die Scheier gebaut\" means \"We built the barn.\"",
+      "answer": true,
+      "explanation": "Ya — to say the past, use hen (have) + a form like gebaut (built): mir hen ... gebaut = we built. (baue → gebaut)",
+      "vocab": ["br-gebaut", "fa-hawwe", "fa-scheier"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"baue\" is \"to build.\" The past form, \"built,\" is:",
+      "options": ["gebaut", "gschafft", "gholfe", "faddich"],
+      "answer": "gebaut",
+      "vocab": ["br-gebaut", "br-baue"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "gschafft", "meaning": "worked", "phonetic": "g'SHAHFT", "vocab": ["br-gschafft"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Mir hen hart gschafft\" means:",
+      "options": ["We worked hard", "We work hard", "Let's work hard", "We will work hard"],
+      "answer": "We worked hard",
+      "vocab": ["br-gschafft", "fa-hawwe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "gholfe", "meaning": "helped", "phonetic": "g'HOL-feh", "vocab": ["br-gholfe"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Alli Nochbere hen gholfe\" means \"All the neighbors helped.\"",
+      "answer": true,
+      "explanation": "Ya — helfe (to help) → gholfe (helped): hen gholfe = helped.",
+      "vocab": ["br-gholfe", "fc-nochber", "fa-hawwe"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We built the barn.\"",
+      "answer": ["Mir", "hen", "die", "Scheier", "gebaut"],
+      "bank": ["Mir", "hen", "die", "Scheier", "gebaut", "gschafft"],
+      "vocab": ["fc-mir", "fa-hawwe", "fa-scheier", "br-gebaut"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each past-tense word to its meaning",
+      "pairs": [
+        { "deitsh": "gebaut", "english": "built" },
+        { "deitsh": "gschafft", "english": "worked" },
+        { "deitsh": "gholfe", "english": "helped" },
+        { "deitsh": "faddich", "english": "finished" }
+      ],
+      "vocab": ["br-gebaut", "br-gschafft", "br-gholfe", "br-faddich"],
+      "needsReview": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-2",
+  "title": "Wood and Beams",
+  "subUnit": "Tools & Building",
+  "subtitle": "Board, beam, ladder, roof",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Bord", "meaning": "board", "phonetic": "bort", "vocab": ["br-bord"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "The Saag cuts a piece of wood called a:",
+      "options": ["Bord", "Hammer", "Naggel", "Werkzeig"],
+      "answer": "Bord",
+      "vocab": ["br-bord", "br-saag"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Balke", "meaning": "beam", "phonetic": "BAHL-keh", "vocab": ["br-balke"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which word means \"beam\" (a big supporting timber)?",
+      "options": ["Balke", "Bord", "Naggel", "Saag"],
+      "answer": "Balke",
+      "vocab": ["br-balke"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Ledder", "meaning": "ladder", "phonetic": "LED-der", "vocab": ["br-ledder"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "What do you climb to reach up high?",
+      "options": ["Ledder", "Balke", "Bord", "Hammer"],
+      "answer": "Ledder",
+      "vocab": ["br-ledder"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Dach", "meaning": "roof", "phonetic": "dahkh", "vocab": ["br-dach"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "You climb a Ledder to reach the Dach.",
+      "answer": true,
+      "explanation": "Ya — the ladder (Ledder) gets you up to the roof (Dach) of the Scheier.",
+      "vocab": ["br-ledder", "br-dach"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Balke\"",
+      "answer": "beam",
+      "vocab": ["br-balke"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Bord", "english": "board" },
+        { "deitsh": "Balke", "english": "beam" },
+        { "deitsh": "Ledder", "english": "ladder" },
+        { "deitsh": "Dach", "english": "roof" }
+      ],
+      "vocab": ["br-bord", "br-balke", "br-ledder", "br-dach"],
+      "needsReview": true
+    }
+  ]
+}

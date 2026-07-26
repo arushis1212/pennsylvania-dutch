@@ -1,0 +1,67 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-1",
+  "title": "Tools of the Trade",
+  "subUnit": "Tools & Building",
+  "subtitle": "Tool, hammer, nail, saw",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Werkzeig", "meaning": "tool", "phonetic": "VERK-tsyg", "vocab": ["br-werkzeig"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"tool\"",
+      "options": ["Werkzeig", "Scheier", "Kaffi", "Nochber"],
+      "answer": "Werkzeig",
+      "vocab": ["br-werkzeig"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Hammer", "meaning": "hammer", "phonetic": "HAH-mer", "vocab": ["br-hammer"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"hammer\"",
+      "options": ["Hammer", "Werkzeig", "Gaul", "Brot"],
+      "answer": "Hammer",
+      "vocab": ["br-hammer"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Naggel", "meaning": "nail", "phonetic": "NAH-gel", "vocab": ["br-naggel"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which do you strike with a Hammer?",
+      "options": ["Naggel", "Werkzeig", "Uhr", "Kuh"],
+      "answer": "Naggel",
+      "vocab": ["br-naggel", "br-hammer"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "Saag", "meaning": "saw", "phonetic": "sahg", "vocab": ["br-saag"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which tool cuts a board?",
+      "options": ["Saag", "Naggel", "Hammer", "Werkzeig"],
+      "answer": "Saag",
+      "vocab": ["br-saag"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "A Hammer and a Saag are both a kind of Werkzeig.",
+      "answer": true,
+      "explanation": "Ya — a hammer (Hammer) and a saw (Saag) are both tools (Werkzeig).",
+      "vocab": ["br-hammer", "br-saag", "br-werkzeig"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Werkzeig", "english": "tool" },
+        { "deitsh": "Hammer", "english": "hammer" },
+        { "deitsh": "Naggel", "english": "nail" },
+        { "deitsh": "Saag", "english": "saw" }
+      ],
+      "vocab": ["br-werkzeig", "br-hammer", "br-naggel", "br-saag"],
+      "needsReview": true
+    }
+  ]
+}

@@ -92,6 +92,17 @@ import faithCommunity8 from "@/content/lessons/faith-community-8.json";
 import faithCommunity9 from "@/content/lessons/faith-community-9.json";
 import faithCommunityVocab from "@/content/vocab/faith-community.json";
 
+import barnRaising1 from "@/content/lessons/barn-raising-1.json";
+import barnRaising2 from "@/content/lessons/barn-raising-2.json";
+import barnRaising3 from "@/content/lessons/barn-raising-3.json";
+import barnRaising4 from "@/content/lessons/barn-raising-4.json";
+import barnRaising5 from "@/content/lessons/barn-raising-5.json";
+import barnRaising6 from "@/content/lessons/barn-raising-6.json";
+import barnRaising7 from "@/content/lessons/barn-raising-7.json";
+import barnRaising8 from "@/content/lessons/barn-raising-8.json";
+import barnRaising9 from "@/content/lessons/barn-raising-9.json";
+import barnRaisingVocab from "@/content/vocab/barn-raising.json";
+
 const LESSONS: Lesson[] = [
   greetings1,
   greetings2,
@@ -162,6 +173,15 @@ const LESSONS: Lesson[] = [
   faithCommunity7,
   faithCommunity8,
   faithCommunity9,
+  barnRaising1,
+  barnRaising2,
+  barnRaising3,
+  barnRaising4,
+  barnRaising5,
+  barnRaising6,
+  barnRaising7,
+  barnRaising8,
+  barnRaising9,
 ] as Lesson[];
 
 const VOCAB: VocabEntry[] = [

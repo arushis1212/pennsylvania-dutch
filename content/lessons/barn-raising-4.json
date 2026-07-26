@@ -1,0 +1,67 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-4",
+  "title": "Strong and Sturdy",
+  "subUnit": "Raising the Frame",
+  "subtitle": "Make, nail, strong, finished",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "mache", "meaning": "to make", "phonetic": "MAH-kheh", "vocab": ["br-mache"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "Select the word for \"to make\"",
+      "options": ["mache", "baue", "messe", "hewe"],
+      "answer": "mache",
+      "vocab": ["br-mache"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "naggle", "meaning": "to nail", "phonetic": "NAH-gleh", "vocab": ["br-naggle"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "You use a Hammer and a Naggel to naggle a Bord in place.",
+      "answer": true,
+      "explanation": "Ya — to nail (naggle) a board (Bord), you drive a nail (Naggel) with a hammer (Hammer).",
+      "vocab": ["br-naggle", "br-hammer", "br-naggel", "br-bord"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "schtarrick", "meaning": "strong", "phonetic": "SHTAH-rik", "vocab": ["br-schtarrick"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "A good Balke must be:",
+      "options": ["schtarrick", "meed", "kalt", "billich"],
+      "answer": "schtarrick",
+      "vocab": ["br-schtarrick", "br-balke"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "faddich", "meaning": "finished", "phonetic": "FAH-dikh", "vocab": ["br-faddich"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Die Scheier is faddich\" means:",
+      "options": ["The barn is finished", "The barn is big", "The barn is strong", "The barn is cold"],
+      "answer": "The barn is finished",
+      "vocab": ["br-faddich", "fa-scheier"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"The wall is strong.\"",
+      "answer": ["Die", "Wand", "is", "schtarrick"],
+      "bank": ["Die", "Wand", "is", "schtarrick", "faddich", "Dach"],
+      "vocab": ["br-wand", "br-schtarrick"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "mache", "english": "to make" },
+        { "deitsh": "naggle", "english": "to nail" },
+        { "deitsh": "schtarrick", "english": "strong" },
+        { "deitsh": "faddich", "english": "finished" }
+      ],
+      "vocab": ["br-mache", "br-naggle", "br-schtarrick", "br-faddich"],
+      "needsReview": true
+    }
+  ]
+}

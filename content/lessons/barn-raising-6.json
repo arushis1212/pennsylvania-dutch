@@ -1,0 +1,67 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-6",
+  "title": "Joining the Story",
+  "subUnit": "Working Together",
+  "subtitle": "And, but, because — joining ideas",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "un", "meaning": "and", "phonetic": "oon", "vocab": ["br-un"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Mir schaffe un singe\" means:",
+      "options": ["We work and sing", "We work but sing", "We work because we sing", "We do not sing"],
+      "answer": "We work and sing",
+      "vocab": ["br-un", "fa-schaffe", "fc-singe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "awwer", "meaning": "but", "phonetic": "AH-ver", "vocab": ["br-awwer"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Mir schaffe hart, awwer mir sin froh\" means \"We work hard, but we are glad.\"",
+      "answer": true,
+      "explanation": "Ya — awwer (but) joins two ideas that contrast: hard work, awwer a glad heart.",
+      "vocab": ["br-awwer", "fa-schaffe", "fc-froh"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "weil", "meaning": "because", "phonetic": "vyle", "vocab": ["br-weil"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Mir helfe weil mir Nochbere sin\" means:",
+      "options": ["We help because we are neighbors", "We help and we are neighbors", "We help but we are neighbors", "We are not neighbors"],
+      "answer": "We help because we are neighbors",
+      "vocab": ["br-weil", "fh-helfe", "fc-nochber"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"un\" joins ideas, \"awwer\" contrasts them, and \"weil\" gives a reason.",
+      "answer": true,
+      "explanation": "Ya — and (un), but (awwer), because (weil) let you build longer sentences.",
+      "vocab": ["br-un", "br-awwer", "br-weil"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We build and we help.\"",
+      "answer": ["Mir", "baue", "un", "mir", "helfe"],
+      "bank": ["Mir", "baue", "un", "mir", "helfe", "awwer"],
+      "vocab": ["br-baue", "br-un", "fh-helfe"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "un", "english": "and" },
+        { "deitsh": "awwer", "english": "but" },
+        { "deitsh": "weil", "english": "because" },
+        { "deitsh": "Loss uns", "english": "let's" }
+      ],
+      "vocab": ["br-un", "br-awwer", "br-weil", "br-loss-uns"],
+      "needsReview": true
+    }
+  ]
+}

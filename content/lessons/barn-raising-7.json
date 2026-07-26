@@ -1,0 +1,68 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-7",
+  "title": "When the Work Is Done",
+  "subUnit": "After the Work",
+  "subtitle": "Celebration, rest, tired, full",
+  "reviewStatus": "pending",
+  "exercises": [
+    { "type": "introduce", "word": "Fescht", "meaning": "celebration", "phonetic": "fesht", "vocab": ["br-fescht"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "When the Scheier is faddich, the Leit hold a:",
+      "options": ["Fescht", "Werkzeig", "Ledder", "Naggel"],
+      "answer": "Fescht",
+      "vocab": ["br-fescht", "br-faddich"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "ruhe", "meaning": "to rest", "phonetic": "ROO-eh", "vocab": ["br-ruhe"], "needsReview": true },
+    {
+      "type": "multiple_choice",
+      "prompt": "After hard work, it is good to:",
+      "options": ["ruhe", "hewe", "messe", "naggle"],
+      "answer": "ruhe",
+      "vocab": ["br-ruhe"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "meed", "meaning": "tired", "phonetic": "mayd", "vocab": ["br-meed"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "After lifting beams all day, the Leit are meed (tired) awwer froh (but glad).",
+      "answer": true,
+      "explanation": "Ya — tired (meed) but glad (froh); a good day's work reusing awwer (but).",
+      "vocab": ["br-meed", "br-awwer", "fc-froh"],
+      "needsReview": true
+    },
+    { "type": "introduce", "word": "satt", "meaning": "full", "phonetic": "zaht", "vocab": ["br-satt"], "needsReview": true },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "After a big Middaagesse, everyone is satt (full), not hungrich (hungry).",
+      "answer": true,
+      "explanation": "Ya — a hearty lunch (Middaagesse) leaves you satt (full), the opposite of hungrich (hungry).",
+      "vocab": ["br-satt", "fd-middaagesse", "fd-hungrich"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Build the sentence: \"We are tired but glad.\"",
+      "answer": ["Mir", "sin", "meed", "awwer", "froh"],
+      "bank": ["Mir", "sin", "meed", "awwer", "froh", "satt"],
+      "vocab": ["br-meed", "br-awwer", "fc-froh"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Fescht", "english": "celebration" },
+        { "deitsh": "ruhe", "english": "to rest" },
+        { "deitsh": "meed", "english": "tired" },
+        { "deitsh": "satt", "english": "full" }
+      ],
+      "vocab": ["br-fescht", "br-ruhe", "br-meed", "br-satt"],
+      "needsReview": true
+    }
+  ]
+}

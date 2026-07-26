@@ -1,0 +1,113 @@
+{
+  "unit": "barn-raising",
+  "lesson_id": "barn-raising-9",
+  "title": "Milestone: Der Scheier-Daag (The barn-raising day)",
+  "subUnit": "Milestone",
+  "subtitle": "A capstone passage — the whole journey, from morning greeting to the evening blessing",
+  "milestone": true,
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "prompt": "It is a sunnich Summer morning. As the Nochbere arrive, they greet one another:",
+      "options": ["Guder Mariye", "Gut Nacht", "Ade", "Wie viel"],
+      "answer": "Guder Mariye",
+      "vocab": ["guder-mariye", "ws-sunnich", "ws-summer"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "\"Die Nochbere kumme zamme fer helfe\" means \"The neighbors come together to help.\"",
+      "answer": true,
+      "explanation": "Ya — neighbors (Nochbere) come (kumme) together (zamme) to help (helfe): the heart of a barn raising.",
+      "vocab": ["fc-nochber", "fc-kumme", "md-zamme", "fh-helfe"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "Someone calls out: \"Let's build the barn!\"",
+      "answer": ["Loss", "uns", "die", "Scheier", "baue"],
+      "bank": ["Loss", "uns", "die", "Scheier", "baue", "gebaut"],
+      "vocab": ["br-loss-uns", "fa-scheier", "br-baue"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "To drive a Naggel into a Bord, you reach for the:",
+      "options": ["Hammer", "Saag", "Ledder", "Kaffi"],
+      "answer": "Hammer",
+      "vocab": ["br-hammer", "br-naggel", "br-bord"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "\"Es is acht Uhr, un zwanzich Nochbere schaffe zamme.\" How many neighbors are working?",
+      "options": ["zwanzich", "acht", "zwee", "hunnert"],
+      "answer": "zwanzich",
+      "vocab": ["nt-zwanzich", "nt-acht", "nt-uhr", "fa-schaffe"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate to English: \"Mir schaffe hart, awwer mir sin froh.\"",
+      "answer": "we work hard, but we are glad",
+      "acceptedAnswers": ["we work hard but we are glad", "we work hard, but we are happy"],
+      "vocab": ["fa-schaffe", "br-awwer", "fc-froh"],
+      "needsReview": true
+    },
+    {
+      "type": "word_bank",
+      "prompt": "At the midday break: \"I would like coffee and cake.\"",
+      "answer": ["Ich", "hätt", "gern", "Kaffi", "un", "Kuche"],
+      "bank": ["Ich", "hätt", "gern", "Kaffi", "un", "Kuche", "Boi"],
+      "vocab": ["fd-haett-gern", "fd-kaffi", "br-un", "fd-kuche"],
+      "needsReview": true
+    },
+    {
+      "type": "true_false",
+      "prompt": "True or False?",
+      "statement": "After a big Middaagesse, everyone is satt, not hungrich.",
+      "answer": true,
+      "explanation": "Ya — the shared lunch (Middaagesse) leaves the workers full (satt), not hungry (hungrich).",
+      "vocab": ["fd-middaagesse", "br-satt", "fd-hungrich"],
+      "needsReview": true
+    },
+    {
+      "type": "translate",
+      "prompt": "Telling it later: \"Mir hen die Scheier gebaut.\"",
+      "answer": "we built the barn",
+      "acceptedAnswers": ["we have built the barn"],
+      "vocab": ["fa-hawwe", "fa-scheier", "br-gebaut"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Am Owed (in the evening), the Scheier is ___.",
+      "options": ["faddich", "meed", "billich", "nass"],
+      "answer": "faddich",
+      "vocab": ["br-faddich", "fa-scheier"],
+      "needsReview": true
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Tired but glad, the Familye gives thanks and a Sege. To part warmly, they say:",
+      "options": ["Sei gsund", "Wie viel", "Loss uns", "Guder Mariye"],
+      "answer": "Sei gsund",
+      "vocab": ["fc-sei-gsund", "fc-sege", "fh-familye"],
+      "needsReview": true
+    },
+    {
+      "type": "matching",
+      "prompt": "Match each word to its meaning",
+      "pairs": [
+        { "deitsh": "Scheier", "english": "barn" },
+        { "deitsh": "Nochber", "english": "neighbor" },
+        { "deitsh": "gebaut", "english": "built" },
+        { "deitsh": "Fescht", "english": "celebration" }
+      ],
+      "vocab": ["fa-scheier", "fc-nochber", "br-gebaut", "br-fescht"],
+      "needsReview": true
+    }
+  ]
+}
